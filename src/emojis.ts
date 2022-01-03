@@ -1,4 +1,3 @@
-import { ld as _ } from "https://deno.land/x/deno_lodash/mod.ts";
 import emojisList from "./emojis.json" assert { type: "json" };
 
 interface Emoji {

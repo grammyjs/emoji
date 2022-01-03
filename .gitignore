@@ -22,3 +22,6 @@ package-lock.json
 
 # Build output
 out/
+
+# Test output
+bot.ts
