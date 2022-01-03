@@ -18,12 +18,9 @@ function withEmoji(string: TemplateStringsArray, ...emojis: string[]) {
     }, "");
 }
 
-console.log(withEmoji`This is a test! ${'joy'}`);
-console.log(withEmoji`${'1234'} Emoji first?`);
-
 export function emojiParser<C extends EmojiFlavor<Context>>(options?: ModuleOptions): Middleware<C> {
   return async (ctx, next) => {
-    // WHAT SHOULD I DO HERE?
+    ctx.withEmoji = withEmoji;
     await next();
   }
 }
