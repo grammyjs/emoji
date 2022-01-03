@@ -1,6 +1,7 @@
 # Emoji Parser
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation]() for this plugin.
+**While this draft is working, we still do not recommend using it in production.**
 
 # Installation
 
@@ -19,7 +20,7 @@ yarn add @grammyjs/emoji // TBD
 Using Deno:
 
 ```ts
-import {} from "https://deno.land/x/grammy/emoji/mod.ts"; // TBD
+import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 ```
 
 # Example usage
@@ -28,12 +29,15 @@ import {} from "https://deno.land/x/grammy/emoji/mod.ts"; // TBD
 import { Bot, Context } from "grammy";
 import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
 
-type FlavoredContext = EmojiFlavor<Context>;
+type FlavoredContext = Context & EmojiFlavor;
 const bot = new Bot<FlavoredContext>(process.env.TOKEN);
 
 bot.use(emojiParser());
 
 bot.command("ping", async (ctx) => {
+    // Don't know emoji names? No problem!
+    // Press Ctrl + Space on supported editors to
+    // see IntelliSense auto-completion magic.
     await ctx.reply(ctx.emoji`Pong! ${"table_tennis"}`); // Pong! 🏓
 });
 
