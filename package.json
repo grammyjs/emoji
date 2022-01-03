@@ -1,7 +1,7 @@
 {
-  "name": "@grammyjs/plugin-template",
+  "name": "@grammyjs/grammy-emoji",
   "version": "1.0.0",
-  "description": "A Simple Pluging Template For grammY",
+  "description": "A Simple Plugin that parses emoji names into actual emojis",
   "homepage": "https://grammy.dev/plugins/MYPLUGIN",
   "main": "./out/index.js",
   "type": "commonjs",
