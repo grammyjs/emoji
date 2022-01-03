@@ -7,13 +7,13 @@ Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out t
 Using NPM:
 
 ```bash
-npm install @grammyjs/emoji
+npm install @grammyjs/emoji // TBD
 ```
 
 Using Yarn:
 
 ```bash
-yarn add @grammyjs/emoji
+yarn add @grammyjs/emoji // TBD
 ```
 
 Using Deno:
@@ -30,6 +30,8 @@ import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
 
 type FlavoredContext = EmojiFlavor<Context>;
 const bot = new Bot<FlavoredContext>(process.env.TOKEN);
+
+bot.use(emojiParser());
 
 bot.command("ping", async (ctx) => {
     await ctx.reply(ctx.emoji`Pong! ${"table_tennis"}`); // Pong! 🏓
@@ -52,4 +54,4 @@ Contributions are more than welcome! Just make sure if there is already a simila
 - [ ] Add support for new Unicode 14 emojis
 - [ ] Rename emojis to be more concise and small
 - [ ] Add support for skin-toned emojis
-- [x] Remove unused code
+- [ ] Fix async/await issues with `replyWithEmoji` method
