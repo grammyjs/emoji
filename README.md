@@ -54,9 +54,6 @@ Contributions are more than welcome! Just make sure if there is already a simila
 
 # TODO
 
-- [x] Add emoji completion for TypeScript
 - [ ] Add support for new Unicode 14 emojis
 - [ ] Rename emojis to be more concise and small
 - [ ] Add support for skin-toned emojis
-- [x] Fix async/await issues with `replyWithEmoji` method
-- [ ] Add emoji parsing outside context
