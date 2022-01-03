@@ -51,3 +51,7 @@ export function emojiParser<C extends Context & EmojiFlavor>(): Middleware<C> {
         await next();
     };
 }
+
+export function emoji(name: EmojiName): string {
+    return getEmoji(name)?.emoji ?? "";
+}
