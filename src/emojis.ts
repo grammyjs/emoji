@@ -1,24 +1,17 @@
-import emojisList from "./emojis.json" assert { type: "json" };
+import emojis from "./emojis.json" assert { type: "json" };
 
 interface Emoji {
-  name: string;
-  emoji: string;
+    name: string;
+    emoji: string;
 }
 
-interface EmojisList {
-  [key: string]: string;
-}
+type EmojiList = typeof emojis;
+type EmojiName = keyof EmojiList;
 
-const emojis: EmojisList = JSON.parse(JSON.stringify(emojisList));
-
-function getEmoji(name: string): Emoji | undefined {
-  const emojiName = Object.keys(emojis).find((key) => emojis[key] === emojis[name]);
-  const emojiValue = emojis[name];
-  return emojiName ? { name: emojiName, emoji: emojiValue } : undefined;
+function getEmoji(name: EmojiName): Emoji | undefined {
+    const emoji = emojis[name];
+    return emoji ? { name, emoji } : undefined;
 }
 
 export default getEmoji;
-export type {
-  Emoji,
-  EmojisList
-}
+export type { Emoji, EmojiList, EmojiName };
