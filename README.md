@@ -1,4 +1,4 @@
-# Emoji Parser
+# Grammy Emoji
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation]() for this plugin.
 **While this draft is working, we still do not recommend using it in production.**

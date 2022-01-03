@@ -29,7 +29,7 @@ export interface EmojiFlavor {
     replyWithEmoji: (
         string: TemplateStringsArray,
         ...emojis: EmojiName[]
-    ) => void;
+    ) => Promise<Message.TextMessage>;
 }
 
 function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
