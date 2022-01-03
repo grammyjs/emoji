@@ -8,4 +8,5 @@
  */
 
  export * from "https://deno.land/x/grammy/mod.ts";
+ export type { Message } from "https://cdn.skypack.dev/@grammyjs/types@v2?dts";
 
