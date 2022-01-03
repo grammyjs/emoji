@@ -50,7 +50,7 @@ Contributions are more than welcome! Just make sure if there is already a simila
 
 # TODO
 
-- [ ] Add emoji completion for TypeScript
+- [x] Add emoji completion for TypeScript
 - [ ] Add support for new Unicode 14 emojis
 - [ ] Rename emojis to be more concise and small
 - [ ] Add support for skin-toned emojis
