@@ -52,6 +52,14 @@ export function emojiParser<C extends Context & EmojiFlavor>(): Middleware<C> {
     };
 }
 
+/**
+ * You can use this method to get an emoji by its name. If no emoji is found, it will return a empty string.
+ *
+ * Example:
+ * ```ts
+ * const emoji = getEmoji("innocent"); // => { name: "smiling face with halo", emoji: "😇" }
+ * ```
+ */
 export function emoji(name: EmojiName): string {
     return getEmoji(name)?.emoji ?? "";
 }
