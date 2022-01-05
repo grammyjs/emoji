@@ -1,4 +1,4 @@
-import emojis from "./emojis/emojis.json" assert { type: "json" };
+import emojis from "./emojis/tg-emojis.json" assert { type: "json" };
 
 interface Emoji {
     name: string;
@@ -10,7 +10,7 @@ type EmojiName = keyof EmojiList;
 
 function getEmoji(name: EmojiName): Emoji | undefined {
     const emoji = emojis[name];
-    return emoji ? { name: emoji.description, emoji: emoji.emoji } : undefined;
+    return emoji ? { name: emoji.name, emoji: emoji.emoji } : undefined;
 }
 
 export default getEmoji;
