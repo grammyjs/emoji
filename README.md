@@ -1,7 +1,8 @@
 # Grammy Emoji
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation]() for this plugin.
-**While this draft is working, we still do not recommend using it in production.**
+
+This plugin uses [CLDR Short Name](https://unicode.org/emoji/format.html#col-name) to name emojis. You can check a list with respective names [here](https://unicode.org/emoji/charts/full-emoji-list.html).
 
 # Installation
 
@@ -38,11 +39,13 @@ bot.command("ping", async (ctx) => {
     // Don't know emoji names? No problem!
     // Press Ctrl + Space on supported editors to
     // see IntelliSense auto-completion magic.
-    await ctx.reply(ctx.emoji`Pong! ${"table_tennis"}`); // Pong! 🏓
+    await ctx.reply(ctx.emoji`Pong! ${"ping_pong"}`); // Pong! 🏓
 });
 
 bot.command("start", async (ctx) => {
-    await ctx.replyWithEmoji`Welcome to my bot! ${"smiley"}`; // Welcome to my bot! 😃
+    await ctx.replyWithEmoji
+        `Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
+    // Welcome to my bot! 😃
 });
 
 bot.start();
