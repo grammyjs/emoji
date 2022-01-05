@@ -2,8 +2,6 @@
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation]() for this plugin.
 
-This plugin uses [CLDR Short Name](https://unicode.org/emoji/format.html#col-name) to name emojis. You can check a list with respective names [here](https://unicode.org/emoji/charts/full-emoji-list.html).
-
 # Installation
 
 Using NPM:
