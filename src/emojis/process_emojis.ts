@@ -77,7 +77,7 @@ function toUTF16Pair(x: number) {
 
 function parseEmojiList() {
     // Split by new line
-    const lines = Deno.readTextFileSync(`${fromFileUrl(dirname(import.meta.url))}/emojis.json`).split("\n");
+    const lines = Deno.readTextFileSync(`${fromFileUrl(dirname(import.meta.url))}/emojis.txt`).split("\n");
     // Remove comments but keep group names
     const withoutComm = lines
         /* .filter(line => line.startsWith("#"))
