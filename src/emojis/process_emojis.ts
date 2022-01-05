@@ -48,17 +48,15 @@
 
 import { fromFileUrl, dirname } from "https://deno.land/std@0.119.0/path/mod.ts";
 
-interface Emoji {
+export interface Emoji {
     code: string;
     description: string;
     emoji: string;
 }
 
-/* interface EmojiList {
-    [key: string]: Emoji[];
-} */
-
-type EmojiList = Array<Emoji>;
+interface EmojiList {
+    [key: string]: Emoji;
+}
 
 /**
  * Converts a hexadecimal string to UTF-16 surrogate pair
@@ -129,18 +127,22 @@ function parseEmojiList() {
         .replace(/\s+/g, "_")));
 
     // Add emoji to the list
-    const emojiList: EmojiList = [];
+    const emojiList: EmojiList = {};
 
     withDetails.forEach(line => {
-        // const group = line[1] === 'fully-qualified' ? 'emojis' : 'components';
+        const group = line[2];
         const code = line[0];
         const description = line[2];
 
-        emojiList.push({
+        if (!emojiList[group]) {
+            emojiList[group] = { code: '', description: '', emoji: '' };
+        }
+
+        emojiList[group] = {
             code,
             description,
             emoji: String.fromCharCode(...code.split(' ').map(item => parseInt(item, 16)))
-        });
+        }
     });
 
     return emojiList;
