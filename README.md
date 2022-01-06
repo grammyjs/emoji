@@ -1,4 +1,4 @@
-# Grammy Emoji
+# grammY Emoji
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) for this plugin.
 **While this draft is working, we still do not recommend using it in production.**
@@ -23,7 +23,7 @@ Using Deno:
 import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 ```
 
-## Example usage
+## Example Usage
 
 ```ts
 import { Bot, Context } from "grammy";
@@ -48,6 +48,6 @@ bot.command("start", async (ctx) => {
 bot.start();
 ```
 
-## Pull requests
+## Pull Requests
 
 Contributions are more than welcome! Just make sure if there is already a similar PR, so you can contribute from there.
