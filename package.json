@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A Simple Plugin that parses emoji names into actual emojis",
     "homepage": "https://grammy.dev/plugins/emoji",
-    "main": "./out/index.js",
+    "main": "./out/mod.js",
     "type": "commonjs",
     "scripts": {
         "build": "deno2node tsconfig.json"
@@ -13,7 +13,7 @@
         "url": "git+https://github.com/grammyjs/emoji.git"
     },
     "exports": {
-        ".": "./out/index.js"
+        ".": "./out/mod.js"
     },
     "files": [
         "out/"
