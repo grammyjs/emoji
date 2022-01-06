@@ -9,12 +9,12 @@
         "rootDir": "./src/",
         "strict": true,
         "declaration": true,
+        "moduleResolution": "node",
         "module": "commonjs",
         "outDir": "./out/",
         "skipLibCheck": true,
-        "target": "es2019"
+        "target": "es2019",
+        "resolveJsonModule": true
     },
-    "include": [
-        "src/"
-    ]
+    "include": ["src/"]
 }
