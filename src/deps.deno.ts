@@ -7,6 +7,5 @@
  *  That is if you use deno2node
  */
 
- export * from "https://deno.land/x/grammy/mod.ts";
- export type { Message } from "https://cdn.skypack.dev/@grammyjs/types@v2?dts";
-
+export * from "https://deno.land/x/grammy@v1/mod.ts";
+export type { Message } from "https://cdn.skypack.dev/@grammyjs/types@v2?dts";

@@ -1,40 +1,40 @@
 {
-  "name": "@grammyjs/emoji",
-  "version": "1.0.0",
-  "description": "A Simple Plugin that parses emoji names into actual emojis",
-  "homepage": "https://grammy.dev/plugins/emoji",
-  "main": "./out/index.js",
-  "type": "commonjs",
-  "scripts": {
-    "build": "deno2node tsconfig.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/grammyjs/emoji.git"
-  },
-  "exports": {
-    ".": "./out/index.js"
-  },
-  "files": [
-    "out/"
-  ],
-  "author": "Amir Zouerami",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/grammyjs/emoji/issues"
-  },
-  "peerDependencies": {
-    "grammy": "^1.5.1"
-  },
-  "devDependencies": {
-    "deno2node": "~1.0.0"
-  },
-  "keywords": [
-    "grammY",
-    "Telegram bot framework",
-    "plugin",
-    "emoji",
-    "unicode",
-    "alpha name"
-  ]
+    "name": "@grammyjs/emoji",
+    "version": "1.0.0",
+    "description": "A Simple Plugin that parses emoji names into actual emojis",
+    "homepage": "https://grammy.dev/plugins/emoji",
+    "main": "./out/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "build": "deno2node tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grammyjs/emoji.git"
+    },
+    "exports": {
+        ".": "./out/index.js"
+    },
+    "files": [
+        "out/"
+    ],
+    "author": "Amir Zouerami",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/grammyjs/emoji/issues"
+    },
+    "peerDependencies": {
+        "grammy": "^1.5.1"
+    },
+    "devDependencies": {
+        "deno2node": "~1.0.0"
+    },
+    "keywords": [
+        "grammY",
+        "Telegram bot framework",
+        "plugin",
+        "emoji",
+        "unicode",
+        "alpha name"
+    ]
 }
