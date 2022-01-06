@@ -1,6 +1,6 @@
 import { Context, Message, Middleware } from "./deps.deno.ts";
-import getEmoji from "./emojis.ts";
-import type { EmojiName } from "./emojis.ts";
+import getEmoji from "./emoji.ts";
+import type { EmojiName } from "./emoji.ts";
 
 export interface EmojiFlavor {
     /**
