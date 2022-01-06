@@ -30,7 +30,7 @@ import { Bot, Context } from "grammy";
 import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
 
 type FlavoredContext = Context & EmojiFlavor;
-const bot = new Bot<FlavoredContext>(process.env.TOKEN);
+const bot = new Bot<FlavoredContext>(""); // <-- put your bot token between the ""
 
 bot.use(emojiParser());
 
@@ -38,11 +38,11 @@ bot.command("ping", async (ctx) => {
     // Don't know emoji names? No problem!
     // Press Ctrl + Space on supported editors to
     // see IntelliSense auto-completion magic.
-    await ctx.reply(ctx.emoji`Pong! ${"table_tennis"}`); // Pong! 🏓
+    await ctx.reply(ctx.emoji`Pong! ${"ping_pong"}`); // Pong! 🏓
 });
 
 bot.command("start", async (ctx) => {
-    await ctx.replyWithEmoji`Welcome to my bot! ${"smiley"}`; // Welcome to my bot! 😃
+    await ctx.replyWithEmoji`Welcome to my bot! ${"grinning_face"}`; // Welcome to my bot! 😀
 });
 
 bot.start();
