@@ -11,7 +11,7 @@ export interface EmojiFlavor {
      * Examples:
      * ```ts
      * const text = ctx.emoji`LOL ${'joy'}!`; // => "LOL 😂!"
-     * ctx.reply(ctx.emoji`This is an example! ${'innocent'}`); // => "This is an example! 😇"
+     * await ctx.reply(ctx.emoji`This is an example! ${'innocent'}`); // => "This is an example! 😇"
      * ```
      */
     emoji: (name: TemplateStringsArray, ...emojis: EmojiName[]) => string;
@@ -23,7 +23,7 @@ export interface EmojiFlavor {
      *
      * Examples:
      * ```ts
-     * ctx.replyWithEmoji`This is an example! ${'innocent'}`; // => "This is an example! 😇"
+     * await ctx.replyWithEmoji`This is an example! ${'innocent'}`; // => "This is an example! 😇"
      * ```
      */
     replyWithEmoji: (
