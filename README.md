@@ -1,20 +1,19 @@
 # grammY Emoji
 
-Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) for this plugin.
-**While this draft is working, we still do not recommend using it in production.**
+Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
 
 ## Installation
 
 Using NPM:
 
 ```bash
-npm install @grammyjs/emoji // TBD
+npm install @grammyjs/emoji
 ```
 
 Using Yarn:
 
 ```bash
-yarn add @grammyjs/emoji // TBD
+yarn add @grammyjs/emoji
 ```
 
 Using Deno:
