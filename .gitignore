@@ -25,3 +25,6 @@ out/
 
 # Test output
 bot.ts
+
+# Doc file
+DOC.md

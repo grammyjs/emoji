@@ -1,37 +1,48 @@
 {
-  "name": "@grammyjs/grammy-emoji",
-  "version": "1.0.0",
-  "description": "A Simple Plugin that parses emoji names into actual emojis",
-  "homepage": "https://grammy.dev/plugins/MYPLUGIN",
-  "main": "./out/index.js",
-  "type": "commonjs",
-  "scripts": {
-    "build": "deno2node tsconfig.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Amir-Zouerami/plugin-template.git"
-  },
-  "exports": {
-    ".": "./out/index.js"
-  },
-  "files": [
-    "out/"
-  ],
-  "author": "Amir Zouerami",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Amir-Zouerami/plugin-template/issues"
-  },
-  "peerDependencies": {
-    "grammy": "^1.5.1"
-  },
-  "devDependencies": {
-    "deno2node": "~1.0.0"
-  },
-  "keywords": [
-    "grammY",
-    "Telegram bot framework",
-    "plugin"
-  ]
+    "name": "@grammyjs/emoji",
+    "version": "1.0.0",
+    "description": "Use emoji names instead of Unicode strings. Copy-pasting emoji sucks.",
+    "homepage": "https://grammy.dev/plugins/emoji",
+    "main": "./out/mod.js",
+    "type": "commonjs",
+    "scripts": {
+        "build": "deno2node tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grammyjs/emoji.git"
+    },
+    "exports": {
+        ".": "./out/mod.js"
+    },
+    "files": [
+        "out/"
+    ],
+    "author": {
+        "name": "André Silveira",
+        "email": "andremarcia4@gmail.com",
+        "url": "https://github.com/AndreoliBR"
+    },
+    "contributors": [
+        "KnorpelSelf (https://github.com/KnorpelSenf)",
+        "Dunkan (https://github.com/dcdunkan)"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/grammyjs/emoji/issues"
+    },
+    "peerDependencies": {
+        "grammy": "^1.5.1"
+    },
+    "devDependencies": {
+        "deno2node": "~1.0.0"
+    },
+    "keywords": [
+        "grammY",
+        "Telegram bot framework",
+        "plugin",
+        "emoji",
+        "unicode",
+        "alpha name"
+    ]
 }

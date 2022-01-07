@@ -1,5 +1,4 @@
-import emojis from "./emojis.json" assert { type: "json" };
-// import emojis from "./emojis.ts";
+import emojis from "./emojidata.ts";
 
 interface Emoji {
     name: string;

@@ -1,9 +1,9 @@
-# Grammy Emoji
+# grammY Emoji
 
-Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation]() for this plugin.
+Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) for this plugin.
 **While this draft is working, we still do not recommend using it in production.**
 
-# Installation
+## Installation
 
 Using NPM:
 
@@ -23,14 +23,14 @@ Using Deno:
 import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 ```
 
-# Example usage
+## Example Usage
 
 ```ts
 import { Bot, Context } from "grammy";
 import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
 
 type FlavoredContext = Context & EmojiFlavor;
-const bot = new Bot<FlavoredContext>(process.env.TOKEN);
+const bot = new Bot<FlavoredContext>(""); // <-- put your bot token between the ""
 
 bot.use(emojiParser());
 
@@ -38,16 +38,16 @@ bot.command("ping", async (ctx) => {
     // Don't know emoji names? No problem!
     // Press Ctrl + Space on supported editors to
     // see IntelliSense auto-completion magic.
-    await ctx.reply(ctx.emoji`Pong! ${"table_tennis"}`); // Pong! 🏓
+    await ctx.reply(ctx.emoji`Pong! ${"ping_pong"}`); // Pong! 🏓
 });
 
 bot.command("start", async (ctx) => {
-    await ctx.replyWithEmoji`Welcome to my bot! ${"smiley"}`; // Welcome to my bot! 😃
+    await ctx.replyWithEmoji`Welcome to my bot! ${"grinning_face"}`; // Welcome to my bot! 😀
 });
 
 bot.start();
 ```
 
-# Pull requests
+## Pull Requests
 
 Contributions are more than welcome! Just make sure if there is already a similar PR, so you can contribute from there.
