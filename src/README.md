@@ -4,20 +4,6 @@ Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out t
 
 ## Installation
 
-Using NPM:
-
-```bash
-npm install @grammyjs/emoji
-```
-
-Using Yarn:
-
-```bash
-yarn add @grammyjs/emoji
-```
-
-Using Deno:
-
 ```ts
 import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 ```
@@ -25,14 +11,6 @@ import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 ## Example Usage
 
 ```ts
-import { Bot, Context } from "grammy";
-import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
-
-type MyContext = Context & EmojiFlavor;
-const bot = new Bot<MyContext>(""); // <-- put your bot token between the ""
-
-bot.use(emojiParser());
-
 bot.command("ping", async (ctx) => {
     // Don't know emoji names? No problem!
     // Press Ctrl + Space on supported editors to
@@ -45,8 +23,6 @@ bot.command("start", async (ctx) => {
     await ctx.replyWithEmoji`Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
     // > Welcome to my bot! 😀
 });
-
-bot.start();
 ```
 
 ## Pull Requests
