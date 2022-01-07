@@ -1,7 +1,7 @@
 {
     "name": "@grammyjs/emoji",
     "version": "1.0.0",
-    "description": "A Simple Plugin that parses emoji names into actual emojis",
+    "description": "Use emoji names instead of Unicode strings. Copy-pasting emoji sucks.",
     "homepage": "https://grammy.dev/plugins/emoji",
     "main": "./out/mod.js",
     "type": "commonjs",
@@ -18,7 +18,15 @@
     "files": [
         "out/"
     ],
-    "author": "Amir Zouerami",
+    "author": {
+        "name": "André Silveira",
+        "email": "andremarcia4@gmail.com",
+        "url": "https://github.com/AndreoliBR"
+    },
+    "contributors": [
+        "KnorpelSelf (https://github.com/KnorpelSenf)",
+        "Dunkan (https://github.com/dcdunkan)"
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/grammyjs/emoji/issues"
