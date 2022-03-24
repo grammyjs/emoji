@@ -2,7 +2,7 @@ import { Context, Message, Middleware } from "./deps.deno.ts";
 import getEmoji from "./emoji.ts";
 import type { EmojiName } from "./emoji.ts";
 
-export interface EmojiFlavor {
+export interface EmojiFlavour {
     /**
      * You can use this method to parse a string with emojis.
      *
@@ -39,7 +39,7 @@ function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
     }, "");
 }
 
-export function emojiParser<C extends Context & EmojiFlavor>(): Middleware<C> {
+export function emojiParser<C extends Context & EmojiFlavour>(): Middleware<C> {
     return async (ctx, next) => {
         ctx.emoji = withEmoji;
         ctx.replyWithEmoji = (
