@@ -46,7 +46,7 @@ export function emojiParser<C extends Context & Flavor>(): Middleware<C> {
         ctx.replyWithEmoji = (
             text: TemplateStringsArray,
             ...emojis: EmojiName[]
-        ): Promise<Message.TextMessage> => {
+        ): ReturnType<typeof ctx.reply> => {
             return ctx.reply(withEmoji(text, ...emojis));
         };
         await next();
