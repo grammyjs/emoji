@@ -28,7 +28,7 @@ import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
 import { Bot, Context } from "grammy";
 import { EmojiFlavor, emojiParser } from "@grammyjs/emoji";
 
-type MyContext = Context & EmojiFlavor;
+type MyContext = EmojiFlavor<Context>;
 const bot = new Bot<MyContext>(""); // <-- put your bot token between the ""
 
 bot.use(emojiParser());
