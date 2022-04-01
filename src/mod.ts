@@ -1,9 +1,8 @@
-import { Context, Message, Middleware } from "./deps.deno.ts";
+import { Context, Message, Middleware, NextFunction } from "./deps.deno.ts";
 import getEmoji from "./emoji.ts";
 import type { EmojiName } from "./emoji.ts";
 
-export type EmojiFlavor<C extends Context> = Flavor & C;
-interface Flavor {
+export type EmojiFlavor<C extends Context = Context> = C & {
     /**
      * You can use this method to parse a string with emojis.
      *
@@ -30,8 +29,8 @@ interface Flavor {
     replyWithEmoji: (
         string: TemplateStringsArray,
         ...emojis: EmojiName[]
-    ) => Promise<Message.TextMessage>;
-}
+    ) => ReturnType<C['reply']>;
+};
 
 function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
     return string.reduce((acc, str, index) => {
@@ -40,15 +39,13 @@ function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
     }, "");
 }
 
-export function emojiParser<C extends Context & Flavor>(): Middleware<C> {
-    return async (ctx, next) => {
+export function emojiParser<C extends EmojiFlavor>() {
+    return async (ctx: C, next: NextFunction) => {
         ctx.emoji = withEmoji;
         ctx.replyWithEmoji = (
             text: TemplateStringsArray,
             ...emojis: EmojiName[]
-        ): ReturnType<typeof ctx.reply> => {
-            return ctx.reply(withEmoji(text, ...emojis));
-        };
+        ) => ctx.reply(withEmoji(text, ...emojis));
         await next();
     };
 }
