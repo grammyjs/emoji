@@ -1,4 +1,4 @@
-import { Context, Message, Middleware, NextFunction } from "./deps.deno.ts";
+import { Context, NextFunction } from "./deps.deno.ts";
 import getEmoji from "./emoji.ts";
 import type { EmojiName } from "./emoji.ts";
 
