@@ -5,7 +5,7 @@ Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out t
 ## Installation
 
 ```ts
-import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
+import {...} from "https://deno.land/x/grammy_emoji/mod.ts";
 ```
 
 ## Example Usage
