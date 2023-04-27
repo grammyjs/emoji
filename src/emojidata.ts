@@ -4627,6 +4627,24 @@ export default {
     "people_hugging": "🫂",
     /** 👣 Footprints */
     "footprints": "👣",
+    /** 🏻 Light Skin Tone */
+    "light_skin_tone": "🏻",
+    /** 🏼 Medium Light Skin Tone */
+    "medium_light_skin_tone": "🏼",
+    /** 🏽 Medium Skin Tone */
+    "medium_skin_tone": "🏽",
+    /** 🏾 Medium Dark Skin Tone */
+    "medium_dark_skin_tone": "🏾",
+    /** 🏿 Dark Skin Tone */
+    "dark_skin_tone": "🏿",
+    /** 🦰 Red Hair */
+    "red_hair": "🦰",
+    /** 🦱 Curly Hair */
+    "curly_hair": "🦱",
+    /** 🦳 White Hair */
+    "white_hair": "🦳",
+    /** 🦲 Bald */
+    "bald": "🦲",
     /** 🐵 Monkey Face */
     "monkey_face": "🐵",
     /** 🐒 Monkey */
