@@ -19,6 +19,8 @@ export default {
     "slightly_smiling_face": "🙂",
     /** 🙃 Upside Down Face */
     "upside_down_face": "🙃",
+    /** 🫠 Melting Face */
+    "melting_face": "🫠",
     /** 😉 Winking Face */
     "winking_face": "😉",
     /** 😊 Smiling Face With Smiling Eyes */
@@ -55,14 +57,20 @@ export default {
     "squinting_face_with_tongue": "😝",
     /** 🤑 Money Mouth Face */
     "money_mouth_face": "🤑",
-    /** 🤗 Hugging Face */
-    "hugging_face": "🤗",
+    /** 🤗 Smiling Face With Open Hands */
+    "smiling_face_with_open_hands": "🤗",
     /** 🤭 Face With Hand Over Mouth */
     "face_with_hand_over_mouth": "🤭",
+    /** 🫢 Face With Open Eyes And Hand Over Mouth */
+    "face_with_open_eyes_and_hand_over_mouth": "🫢",
+    /** 🫣 Face With Peeking Eye */
+    "face_with_peeking_eye": "🫣",
     /** 🤫 Shushing Face */
     "shushing_face": "🤫",
     /** 🤔 Thinking Face */
     "thinking_face": "🤔",
+    /** 🫡 Saluting Face */
+    "saluting_face": "🫡",
     /** 🤐 Zipper Mouth Face */
     "zipper_mouth_face": "🤐",
     /** 🤨 Face With Raised Eyebrow */
@@ -73,6 +81,8 @@ export default {
     "expressionless_face": "😑",
     /** 😶 Face Without Mouth */
     "face_without_mouth": "😶",
+    /** 🫥 Dotted Line Face */
+    "dotted_line_face": "🫥",
     /** 😶‍🌫️ Face In Clouds */
     "face_in_clouds": "😶‍🌫️",
     /** 😏 Smirking Face */
@@ -87,6 +97,8 @@ export default {
     "face_exhaling": "😮‍💨",
     /** 🤥 Lying Face */
     "lying_face": "🤥",
+    /** 🫨 Shaking Face */
+    "shaking_face": "🫨",
     /** 😌 Relieved Face */
     "relieved_face": "😌",
     /** 😔 Pensive Face */
@@ -115,8 +127,8 @@ export default {
     "cold_face": "🥶",
     /** 🥴 Woozy Face */
     "woozy_face": "🥴",
-    /** 😵 Dizzy Face */
-    "dizzy_face": "😵",
+    /** 😵 Face With Crossed Out Eyes */
+    "face_with_crossed_out_eyes": "😵",
     /** 😵‍💫 Face With Spiral Eyes */
     "face_with_spiral_eyes": "😵‍💫",
     /** 🤯 Exploding Head */
@@ -135,6 +147,8 @@ export default {
     "face_with_monocle": "🧐",
     /** 😕 Confused Face */
     "confused_face": "😕",
+    /** 🫤 Face With Diagonal Mouth */
+    "face_with_diagonal_mouth": "🫤",
     /** 😟 Worried Face */
     "worried_face": "😟",
     /** 🙁 Slightly Frowning Face */
@@ -151,6 +165,8 @@ export default {
     "flushed_face": "😳",
     /** 🥺 Pleading Face */
     "pleading_face": "🥺",
+    /** 🥹 Face Holding Back Tears */
+    "face_holding_back_tears": "🥹",
     /** 😦 Frowning Face With Open Mouth */
     "frowning_face_with_open_mouth": "😦",
     /** 😧 Anguished Face */
@@ -183,8 +199,8 @@ export default {
     "yawning_face": "🥱",
     /** 😤 Face With Steam From Nose */
     "face_with_steam_from_nose": "😤",
-    /** 😡 Pouting Face */
-    "pouting_face": "😡",
+    /** 😡 Enraged Face */
+    "enraged_face": "😡",
     /** 😠 Angry Face */
     "angry_face": "😠",
     /** 🤬 Face With Symbols On Mouth */
@@ -237,8 +253,6 @@ export default {
     "hear_no_evil_monkey": "🙉",
     /** 🙊 Speak No Evil Monkey */
     "speak_no_evil_monkey": "🙊",
-    /** 💋 Kiss Mark */
-    "kiss_mark": "💋",
     /** 💌 Love Letter */
     "love_letter": "💌",
     /** 💘 Heart With Arrow */
@@ -267,6 +281,8 @@ export default {
     "mending_heart": "❤️‍🩹",
     /** ❤️ Red Heart */
     "red_heart": "❤️",
+    /** 🩷 Pink Heart */
+    "pink_heart": "🩷",
     /** 🧡 Orange Heart */
     "orange_heart": "🧡",
     /** 💛 Yellow Heart */
@@ -275,14 +291,20 @@ export default {
     "green_heart": "💚",
     /** 💙 Blue Heart */
     "blue_heart": "💙",
+    /** 🩵 Light Blue Heart */
+    "light_blue_heart": "🩵",
     /** 💜 Purple Heart */
     "purple_heart": "💜",
     /** 🤎 Brown Heart */
     "brown_heart": "🤎",
     /** 🖤 Black Heart */
     "black_heart": "🖤",
+    /** 🩶 Grey Heart */
+    "grey_heart": "🩶",
     /** 🤍 White Heart */
     "white_heart": "🤍",
+    /** 💋 Kiss Mark */
+    "kiss_mark": "💋",
     /** 💯 Hundred Points */
     "hundred_points": "💯",
     /** 💢 Anger Symbol */
@@ -297,8 +319,6 @@ export default {
     "dashing_away": "💨",
     /** 🕳️ Hole */
     "hole": "🕳️",
-    /** 💣 Bomb */
-    "bomb": "💣",
     /** 💬 Speech Balloon */
     "speech_balloon": "💬",
     /** 👁️‍🗨️ Eye In Speech Bubble */
@@ -371,6 +391,78 @@ export default {
     "vulcan_salute_medium_dark_skin_tone": "🖖🏾",
     /** 🖖🏿 Vulcan Salute Dark Skin Tone */
     "vulcan_salute_dark_skin_tone": "🖖🏿",
+    /** 🫱 Rightwards Hand */
+    "rightwards_hand": "🫱",
+    /** 🫱🏻 Rightwards Hand Light Skin Tone */
+    "rightwards_hand_light_skin_tone": "🫱🏻",
+    /** 🫱🏼 Rightwards Hand Medium Light Skin Tone */
+    "rightwards_hand_medium_light_skin_tone": "🫱🏼",
+    /** 🫱🏽 Rightwards Hand Medium Skin Tone */
+    "rightwards_hand_medium_skin_tone": "🫱🏽",
+    /** 🫱🏾 Rightwards Hand Medium Dark Skin Tone */
+    "rightwards_hand_medium_dark_skin_tone": "🫱🏾",
+    /** 🫱🏿 Rightwards Hand Dark Skin Tone */
+    "rightwards_hand_dark_skin_tone": "🫱🏿",
+    /** 🫲 Leftwards Hand */
+    "leftwards_hand": "🫲",
+    /** 🫲🏻 Leftwards Hand Light Skin Tone */
+    "leftwards_hand_light_skin_tone": "🫲🏻",
+    /** 🫲🏼 Leftwards Hand Medium Light Skin Tone */
+    "leftwards_hand_medium_light_skin_tone": "🫲🏼",
+    /** 🫲🏽 Leftwards Hand Medium Skin Tone */
+    "leftwards_hand_medium_skin_tone": "🫲🏽",
+    /** 🫲🏾 Leftwards Hand Medium Dark Skin Tone */
+    "leftwards_hand_medium_dark_skin_tone": "🫲🏾",
+    /** 🫲🏿 Leftwards Hand Dark Skin Tone */
+    "leftwards_hand_dark_skin_tone": "🫲🏿",
+    /** 🫳 Palm Down Hand */
+    "palm_down_hand": "🫳",
+    /** 🫳🏻 Palm Down Hand Light Skin Tone */
+    "palm_down_hand_light_skin_tone": "🫳🏻",
+    /** 🫳🏼 Palm Down Hand Medium Light Skin Tone */
+    "palm_down_hand_medium_light_skin_tone": "🫳🏼",
+    /** 🫳🏽 Palm Down Hand Medium Skin Tone */
+    "palm_down_hand_medium_skin_tone": "🫳🏽",
+    /** 🫳🏾 Palm Down Hand Medium Dark Skin Tone */
+    "palm_down_hand_medium_dark_skin_tone": "🫳🏾",
+    /** 🫳🏿 Palm Down Hand Dark Skin Tone */
+    "palm_down_hand_dark_skin_tone": "🫳🏿",
+    /** 🫴 Palm Up Hand */
+    "palm_up_hand": "🫴",
+    /** 🫴🏻 Palm Up Hand Light Skin Tone */
+    "palm_up_hand_light_skin_tone": "🫴🏻",
+    /** 🫴🏼 Palm Up Hand Medium Light Skin Tone */
+    "palm_up_hand_medium_light_skin_tone": "🫴🏼",
+    /** 🫴🏽 Palm Up Hand Medium Skin Tone */
+    "palm_up_hand_medium_skin_tone": "🫴🏽",
+    /** 🫴🏾 Palm Up Hand Medium Dark Skin Tone */
+    "palm_up_hand_medium_dark_skin_tone": "🫴🏾",
+    /** 🫴🏿 Palm Up Hand Dark Skin Tone */
+    "palm_up_hand_dark_skin_tone": "🫴🏿",
+    /** 🫷 Leftwards Pushing Hand */
+    "leftwards_pushing_hand": "🫷",
+    /** 🫷🏻 Leftwards Pushing Hand Light Skin Tone */
+    "leftwards_pushing_hand_light_skin_tone": "🫷🏻",
+    /** 🫷🏼 Leftwards Pushing Hand Medium Light Skin Tone */
+    "leftwards_pushing_hand_medium_light_skin_tone": "🫷🏼",
+    /** 🫷🏽 Leftwards Pushing Hand Medium Skin Tone */
+    "leftwards_pushing_hand_medium_skin_tone": "🫷🏽",
+    /** 🫷🏾 Leftwards Pushing Hand Medium Dark Skin Tone */
+    "leftwards_pushing_hand_medium_dark_skin_tone": "🫷🏾",
+    /** 🫷🏿 Leftwards Pushing Hand Dark Skin Tone */
+    "leftwards_pushing_hand_dark_skin_tone": "🫷🏿",
+    /** 🫸 Rightwards Pushing Hand */
+    "rightwards_pushing_hand": "🫸",
+    /** 🫸🏻 Rightwards Pushing Hand Light Skin Tone */
+    "rightwards_pushing_hand_light_skin_tone": "🫸🏻",
+    /** 🫸🏼 Rightwards Pushing Hand Medium Light Skin Tone */
+    "rightwards_pushing_hand_medium_light_skin_tone": "🫸🏼",
+    /** 🫸🏽 Rightwards Pushing Hand Medium Skin Tone */
+    "rightwards_pushing_hand_medium_skin_tone": "🫸🏽",
+    /** 🫸🏾 Rightwards Pushing Hand Medium Dark Skin Tone */
+    "rightwards_pushing_hand_medium_dark_skin_tone": "🫸🏾",
+    /** 🫸🏿 Rightwards Pushing Hand Dark Skin Tone */
+    "rightwards_pushing_hand_dark_skin_tone": "🫸🏿",
     /** 👌 Ok Hand */
     "ok_hand": "👌",
     /** 👌🏻 Ok Hand Light Skin Tone */
@@ -431,6 +523,18 @@ export default {
     "crossed_fingers_medium_dark_skin_tone": "🤞🏾",
     /** 🤞🏿 Crossed Fingers Dark Skin Tone */
     "crossed_fingers_dark_skin_tone": "🤞🏿",
+    /** 🫰 Hand With Index Finger And Thumb Crossed */
+    "hand_with_index_finger_and_thumb_crossed": "🫰",
+    /** 🫰🏻 Hand With Index Finger And Thumb Crossed Light Skin Tone */
+    "hand_with_index_finger_and_thumb_crossed_light_skin_tone": "🫰🏻",
+    /** 🫰🏼 Hand With Index Finger And Thumb Crossed Medium Light Skin Tone */
+    "hand_with_index_finger_and_thumb_crossed_medium_light_skin_tone": "🫰🏼",
+    /** 🫰🏽 Hand With Index Finger And Thumb Crossed Medium Skin Tone */
+    "hand_with_index_finger_and_thumb_crossed_medium_skin_tone": "🫰🏽",
+    /** 🫰🏾 Hand With Index Finger And Thumb Crossed Medium Dark Skin Tone */
+    "hand_with_index_finger_and_thumb_crossed_medium_dark_skin_tone": "🫰🏾",
+    /** 🫰🏿 Hand With Index Finger And Thumb Crossed Dark Skin Tone */
+    "hand_with_index_finger_and_thumb_crossed_dark_skin_tone": "🫰🏿",
     /** 🤟 Love You Gesture */
     "love_you_gesture": "🤟",
     /** 🤟🏻 Love You Gesture Light Skin Tone */
@@ -539,6 +643,18 @@ export default {
     "index_pointing_up_medium_dark_skin_tone": "☝🏾",
     /** ☝🏿 Index Pointing Up Dark Skin Tone */
     "index_pointing_up_dark_skin_tone": "☝🏿",
+    /** 🫵 Index Pointing At The Viewer */
+    "index_pointing_at_the_viewer": "🫵",
+    /** 🫵🏻 Index Pointing At The Viewer Light Skin Tone */
+    "index_pointing_at_the_viewer_light_skin_tone": "🫵🏻",
+    /** 🫵🏼 Index Pointing At The Viewer Medium Light Skin Tone */
+    "index_pointing_at_the_viewer_medium_light_skin_tone": "🫵🏼",
+    /** 🫵🏽 Index Pointing At The Viewer Medium Skin Tone */
+    "index_pointing_at_the_viewer_medium_skin_tone": "🫵🏽",
+    /** 🫵🏾 Index Pointing At The Viewer Medium Dark Skin Tone */
+    "index_pointing_at_the_viewer_medium_dark_skin_tone": "🫵🏾",
+    /** 🫵🏿 Index Pointing At The Viewer Dark Skin Tone */
+    "index_pointing_at_the_viewer_dark_skin_tone": "🫵🏿",
     /** 👍 Thumbs Up */
     "thumbs_up": "👍",
     /** 👍🏻 Thumbs Up Light Skin Tone */
@@ -635,6 +751,18 @@ export default {
     "raising_hands_medium_dark_skin_tone": "🙌🏾",
     /** 🙌🏿 Raising Hands Dark Skin Tone */
     "raising_hands_dark_skin_tone": "🙌🏿",
+    /** 🫶 Heart Hands */
+    "heart_hands": "🫶",
+    /** 🫶🏻 Heart Hands Light Skin Tone */
+    "heart_hands_light_skin_tone": "🫶🏻",
+    /** 🫶🏼 Heart Hands Medium Light Skin Tone */
+    "heart_hands_medium_light_skin_tone": "🫶🏼",
+    /** 🫶🏽 Heart Hands Medium Skin Tone */
+    "heart_hands_medium_skin_tone": "🫶🏽",
+    /** 🫶🏾 Heart Hands Medium Dark Skin Tone */
+    "heart_hands_medium_dark_skin_tone": "🫶🏾",
+    /** 🫶🏿 Heart Hands Dark Skin Tone */
+    "heart_hands_dark_skin_tone": "🫶🏿",
     /** 👐 Open Hands */
     "open_hands": "👐",
     /** 👐🏻 Open Hands Light Skin Tone */
@@ -661,6 +789,56 @@ export default {
     "palms_up_together_dark_skin_tone": "🤲🏿",
     /** 🤝 Handshake */
     "handshake": "🤝",
+    /** 🤝🏻 Handshake Light Skin Tone */
+    "handshake_light_skin_tone": "🤝🏻",
+    /** 🤝🏼 Handshake Medium Light Skin Tone */
+    "handshake_medium_light_skin_tone": "🤝🏼",
+    /** 🤝🏽 Handshake Medium Skin Tone */
+    "handshake_medium_skin_tone": "🤝🏽",
+    /** 🤝🏾 Handshake Medium Dark Skin Tone */
+    "handshake_medium_dark_skin_tone": "🤝🏾",
+    /** 🤝🏿 Handshake Dark Skin Tone */
+    "handshake_dark_skin_tone": "🤝🏿",
+    /** 🫱🏻‍🫲🏼 Handshake Light Skin Tone Medium Light Skin Tone */
+    "handshake_light_skin_tone_medium_light_skin_tone": "🫱🏻‍🫲🏼",
+    /** 🫱🏻‍🫲🏽 Handshake Light Skin Tone Medium Skin Tone */
+    "handshake_light_skin_tone_medium_skin_tone": "🫱🏻‍🫲🏽",
+    /** 🫱🏻‍🫲🏾 Handshake Light Skin Tone Medium Dark Skin Tone */
+    "handshake_light_skin_tone_medium_dark_skin_tone": "🫱🏻‍🫲🏾",
+    /** 🫱🏻‍🫲🏿 Handshake Light Skin Tone Dark Skin Tone */
+    "handshake_light_skin_tone_dark_skin_tone": "🫱🏻‍🫲🏿",
+    /** 🫱🏼‍🫲🏻 Handshake Medium Light Skin Tone Light Skin Tone */
+    "handshake_medium_light_skin_tone_light_skin_tone": "🫱🏼‍🫲🏻",
+    /** 🫱🏼‍🫲🏽 Handshake Medium Light Skin Tone Medium Skin Tone */
+    "handshake_medium_light_skin_tone_medium_skin_tone": "🫱🏼‍🫲🏽",
+    /** 🫱🏼‍🫲🏾 Handshake Medium Light Skin Tone Medium Dark Skin Tone */
+    "handshake_medium_light_skin_tone_medium_dark_skin_tone": "🫱🏼‍🫲🏾",
+    /** 🫱🏼‍🫲🏿 Handshake Medium Light Skin Tone Dark Skin Tone */
+    "handshake_medium_light_skin_tone_dark_skin_tone": "🫱🏼‍🫲🏿",
+    /** 🫱🏽‍🫲🏻 Handshake Medium Skin Tone Light Skin Tone */
+    "handshake_medium_skin_tone_light_skin_tone": "🫱🏽‍🫲🏻",
+    /** 🫱🏽‍🫲🏼 Handshake Medium Skin Tone Medium Light Skin Tone */
+    "handshake_medium_skin_tone_medium_light_skin_tone": "🫱🏽‍🫲🏼",
+    /** 🫱🏽‍🫲🏾 Handshake Medium Skin Tone Medium Dark Skin Tone */
+    "handshake_medium_skin_tone_medium_dark_skin_tone": "🫱🏽‍🫲🏾",
+    /** 🫱🏽‍🫲🏿 Handshake Medium Skin Tone Dark Skin Tone */
+    "handshake_medium_skin_tone_dark_skin_tone": "🫱🏽‍🫲🏿",
+    /** 🫱🏾‍🫲🏻 Handshake Medium Dark Skin Tone Light Skin Tone */
+    "handshake_medium_dark_skin_tone_light_skin_tone": "🫱🏾‍🫲🏻",
+    /** 🫱🏾‍🫲🏼 Handshake Medium Dark Skin Tone Medium Light Skin Tone */
+    "handshake_medium_dark_skin_tone_medium_light_skin_tone": "🫱🏾‍🫲🏼",
+    /** 🫱🏾‍🫲🏽 Handshake Medium Dark Skin Tone Medium Skin Tone */
+    "handshake_medium_dark_skin_tone_medium_skin_tone": "🫱🏾‍🫲🏽",
+    /** 🫱🏾‍🫲🏿 Handshake Medium Dark Skin Tone Dark Skin Tone */
+    "handshake_medium_dark_skin_tone_dark_skin_tone": "🫱🏾‍🫲🏿",
+    /** 🫱🏿‍🫲🏻 Handshake Dark Skin Tone Light Skin Tone */
+    "handshake_dark_skin_tone_light_skin_tone": "🫱🏿‍🫲🏻",
+    /** 🫱🏿‍🫲🏼 Handshake Dark Skin Tone Medium Light Skin Tone */
+    "handshake_dark_skin_tone_medium_light_skin_tone": "🫱🏿‍🫲🏼",
+    /** 🫱🏿‍🫲🏽 Handshake Dark Skin Tone Medium Skin Tone */
+    "handshake_dark_skin_tone_medium_skin_tone": "🫱🏿‍🫲🏽",
+    /** 🫱🏿‍🫲🏾 Handshake Dark Skin Tone Medium Dark Skin Tone */
+    "handshake_dark_skin_tone_medium_dark_skin_tone": "🫱🏿‍🫲🏾",
     /** 🙏 Folded Hands */
     "folded_hands": "🙏",
     /** 🙏🏻 Folded Hands Light Skin Tone */
@@ -803,6 +981,8 @@ export default {
     "tongue": "👅",
     /** 👄 Mouth */
     "mouth": "👄",
+    /** 🫦 Biting Lip */
+    "biting_lip": "🫦",
     /** 👶 Baby */
     "baby": "👶",
     /** 👶🏻 Baby Light Skin Tone */
@@ -2231,6 +2411,18 @@ export default {
     "woman_construction_worker_medium_dark_skin_tone": "👷🏾‍♀️",
     /** 👷🏿‍♀️ Woman Construction Worker Dark Skin Tone */
     "woman_construction_worker_dark_skin_tone": "👷🏿‍♀️",
+    /** 🫅 Person With Crown */
+    "person_with_crown": "🫅",
+    /** 🫅🏻 Person With Crown Light Skin Tone */
+    "person_with_crown_light_skin_tone": "🫅🏻",
+    /** 🫅🏼 Person With Crown Medium Light Skin Tone */
+    "person_with_crown_medium_light_skin_tone": "🫅🏼",
+    /** 🫅🏽 Person With Crown Medium Skin Tone */
+    "person_with_crown_medium_skin_tone": "🫅🏽",
+    /** 🫅🏾 Person With Crown Medium Dark Skin Tone */
+    "person_with_crown_medium_dark_skin_tone": "🫅🏾",
+    /** 🫅🏿 Person With Crown Dark Skin Tone */
+    "person_with_crown_dark_skin_tone": "🫅🏿",
     /** 🤴 Prince */
     "prince": "🤴",
     /** 🤴🏻 Prince Light Skin Tone */
@@ -2303,18 +2495,18 @@ export default {
     "person_with_skullcap_medium_dark_skin_tone": "👲🏾",
     /** 👲🏿 Person With Skullcap Dark Skin Tone */
     "person_with_skullcap_dark_skin_tone": "👲🏿",
-    /** 🧕 Person With Headscarf */
-    "person_with_headscarf": "🧕",
-    /** 🧕🏻 Person With Headscarf Light Skin Tone */
-    "person_with_headscarf_light_skin_tone": "🧕🏻",
-    /** 🧕🏼 Person With Headscarf Medium Light Skin Tone */
-    "person_with_headscarf_medium_light_skin_tone": "🧕🏼",
-    /** 🧕🏽 Person With Headscarf Medium Skin Tone */
-    "person_with_headscarf_medium_skin_tone": "🧕🏽",
-    /** 🧕🏾 Person With Headscarf Medium Dark Skin Tone */
-    "person_with_headscarf_medium_dark_skin_tone": "🧕🏾",
-    /** 🧕🏿 Person With Headscarf Dark Skin Tone */
-    "person_with_headscarf_dark_skin_tone": "🧕🏿",
+    /** 🧕 Woman With Headscarf */
+    "woman_with_headscarf": "🧕",
+    /** 🧕🏻 Woman With Headscarf Light Skin Tone */
+    "woman_with_headscarf_light_skin_tone": "🧕🏻",
+    /** 🧕🏼 Woman With Headscarf Medium Light Skin Tone */
+    "woman_with_headscarf_medium_light_skin_tone": "🧕🏼",
+    /** 🧕🏽 Woman With Headscarf Medium Skin Tone */
+    "woman_with_headscarf_medium_skin_tone": "🧕🏽",
+    /** 🧕🏾 Woman With Headscarf Medium Dark Skin Tone */
+    "woman_with_headscarf_medium_dark_skin_tone": "🧕🏾",
+    /** 🧕🏿 Woman With Headscarf Dark Skin Tone */
+    "woman_with_headscarf_dark_skin_tone": "🧕🏿",
     /** 🤵 Person In Tuxedo */
     "person_in_tuxedo": "🤵",
     /** 🤵🏻 Person In Tuxedo Light Skin Tone */
@@ -2399,6 +2591,30 @@ export default {
     "pregnant_woman_medium_dark_skin_tone": "🤰🏾",
     /** 🤰🏿 Pregnant Woman Dark Skin Tone */
     "pregnant_woman_dark_skin_tone": "🤰🏿",
+    /** 🫃 Pregnant Man */
+    "pregnant_man": "🫃",
+    /** 🫃🏻 Pregnant Man Light Skin Tone */
+    "pregnant_man_light_skin_tone": "🫃🏻",
+    /** 🫃🏼 Pregnant Man Medium Light Skin Tone */
+    "pregnant_man_medium_light_skin_tone": "🫃🏼",
+    /** 🫃🏽 Pregnant Man Medium Skin Tone */
+    "pregnant_man_medium_skin_tone": "🫃🏽",
+    /** 🫃🏾 Pregnant Man Medium Dark Skin Tone */
+    "pregnant_man_medium_dark_skin_tone": "🫃🏾",
+    /** 🫃🏿 Pregnant Man Dark Skin Tone */
+    "pregnant_man_dark_skin_tone": "🫃🏿",
+    /** 🫄 Pregnant Person */
+    "pregnant_person": "🫄",
+    /** 🫄🏻 Pregnant Person Light Skin Tone */
+    "pregnant_person_light_skin_tone": "🫄🏻",
+    /** 🫄🏼 Pregnant Person Medium Light Skin Tone */
+    "pregnant_person_medium_light_skin_tone": "🫄🏼",
+    /** 🫄🏽 Pregnant Person Medium Skin Tone */
+    "pregnant_person_medium_skin_tone": "🫄🏽",
+    /** 🫄🏾 Pregnant Person Medium Dark Skin Tone */
+    "pregnant_person_medium_dark_skin_tone": "🫄🏾",
+    /** 🫄🏿 Pregnant Person Dark Skin Tone */
+    "pregnant_person_dark_skin_tone": "🫄🏿",
     /** 🤱 Breast Feeding */
     "breast_feeding": "🤱",
     /** 🤱🏻 Breast Feeding Light Skin Tone */
@@ -2759,6 +2975,8 @@ export default {
     "man_zombie": "🧟‍♂️",
     /** 🧟‍♀️ Woman Zombie */
     "woman_zombie": "🧟‍♀️",
+    /** 🧌 Troll */
+    "troll": "🧌",
     /** 💆 Person Getting Massage */
     "person_getting_massage": "💆",
     /** 💆🏻 Person Getting Massage Light Skin Tone */
@@ -3215,6 +3433,16 @@ export default {
     "skier": "⛷️",
     /** 🏂 Snowboarder */
     "snowboarder": "🏂",
+    /** 🏂🏻 Snowboarder Light Skin Tone */
+    "snowboarder_light_skin_tone": "🏂🏻",
+    /** 🏂🏼 Snowboarder Medium Light Skin Tone */
+    "snowboarder_medium_light_skin_tone": "🏂🏼",
+    /** 🏂🏽 Snowboarder Medium Skin Tone */
+    "snowboarder_medium_skin_tone": "🏂🏽",
+    /** 🏂🏾 Snowboarder Medium Dark Skin Tone */
+    "snowboarder_medium_dark_skin_tone": "🏂🏾",
+    /** 🏂🏿 Snowboarder Dark Skin Tone */
+    "snowboarder_dark_skin_tone": "🏂🏿",
     /** 🏌️ Person Golfing */
     "person_golfing": "🏌️",
     /** 🏌🏻 Person Golfing Light Skin Tone */
@@ -3703,6 +3931,16 @@ export default {
     "person_taking_bath_dark_skin_tone": "🛀🏿",
     /** 🛌 Person In Bed */
     "person_in_bed": "🛌",
+    /** 🛌🏻 Person In Bed Light Skin Tone */
+    "person_in_bed_light_skin_tone": "🛌🏻",
+    /** 🛌🏼 Person In Bed Medium Light Skin Tone */
+    "person_in_bed_medium_light_skin_tone": "🛌🏼",
+    /** 🛌🏽 Person In Bed Medium Skin Tone */
+    "person_in_bed_medium_skin_tone": "🛌🏽",
+    /** 🛌🏾 Person In Bed Medium Dark Skin Tone */
+    "person_in_bed_medium_dark_skin_tone": "🛌🏾",
+    /** 🛌🏿 Person In Bed Dark Skin Tone */
+    "person_in_bed_dark_skin_tone": "🛌🏿",
     /** 🧑‍🤝‍🧑 People Holding Hands */
     "people_holding_hands": "🧑‍🤝‍🧑",
     /** 🧑🏻‍🤝‍🧑🏻 People Holding Hands Light Skin Tone */
@@ -3722,8 +3960,7 @@ export default {
     /** 🧑🏼‍🤝‍🧑🏽 People Holding Hands Medium Light Skin Tone Medium Skin Tone */
     "people_holding_hands_medium_light_skin_tone_medium_skin_tone": "🧑🏼‍🤝‍🧑🏽",
     /** 🧑🏼‍🤝‍🧑🏾 People Holding Hands Medium Light Skin Tone Medium Dark Skin Tone */
-    "people_holding_hands_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍🤝‍🧑🏾",
+    "people_holding_hands_medium_light_skin_tone_medium_dark_skin_tone": "🧑🏼‍🤝‍🧑🏾",
     /** 🧑🏼‍🤝‍🧑🏿 People Holding Hands Medium Light Skin Tone Dark Skin Tone */
     "people_holding_hands_medium_light_skin_tone_dark_skin_tone": "🧑🏼‍🤝‍🧑🏿",
     /** 🧑🏽‍🤝‍🧑🏻 People Holding Hands Medium Skin Tone Light Skin Tone */
@@ -3739,8 +3976,7 @@ export default {
     /** 🧑🏾‍🤝‍🧑🏻 People Holding Hands Medium Dark Skin Tone Light Skin Tone */
     "people_holding_hands_medium_dark_skin_tone_light_skin_tone": "🧑🏾‍🤝‍🧑🏻",
     /** 🧑🏾‍🤝‍🧑🏼 People Holding Hands Medium Dark Skin Tone Medium Light Skin Tone */
-    "people_holding_hands_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍🤝‍🧑🏼",
+    "people_holding_hands_medium_dark_skin_tone_medium_light_skin_tone": "🧑🏾‍🤝‍🧑🏼",
     /** 🧑🏾‍🤝‍🧑🏽 People Holding Hands Medium Dark Skin Tone Medium Skin Tone */
     "people_holding_hands_medium_dark_skin_tone_medium_skin_tone": "🧑🏾‍🤝‍🧑🏽",
     /** 🧑🏾‍🤝‍🧑🏾 People Holding Hands Medium Dark Skin Tone */
@@ -3776,8 +4012,7 @@ export default {
     /** 👩🏼‍🤝‍👩🏽 Women Holding Hands Medium Light Skin Tone Medium Skin Tone */
     "women_holding_hands_medium_light_skin_tone_medium_skin_tone": "👩🏼‍🤝‍👩🏽",
     /** 👩🏼‍🤝‍👩🏾 Women Holding Hands Medium Light Skin Tone Medium Dark Skin Tone */
-    "women_holding_hands_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍🤝‍👩🏾",
+    "women_holding_hands_medium_light_skin_tone_medium_dark_skin_tone": "👩🏼‍🤝‍👩🏾",
     /** 👩🏼‍🤝‍👩🏿 Women Holding Hands Medium Light Skin Tone Dark Skin Tone */
     "women_holding_hands_medium_light_skin_tone_dark_skin_tone": "👩🏼‍🤝‍👩🏿",
     /** 👩🏽‍🤝‍👩🏻 Women Holding Hands Medium Skin Tone Light Skin Tone */
@@ -3793,8 +4028,7 @@ export default {
     /** 👩🏾‍🤝‍👩🏻 Women Holding Hands Medium Dark Skin Tone Light Skin Tone */
     "women_holding_hands_medium_dark_skin_tone_light_skin_tone": "👩🏾‍🤝‍👩🏻",
     /** 👩🏾‍🤝‍👩🏼 Women Holding Hands Medium Dark Skin Tone Medium Light Skin Tone */
-    "women_holding_hands_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍🤝‍👩🏼",
+    "women_holding_hands_medium_dark_skin_tone_medium_light_skin_tone": "👩🏾‍🤝‍👩🏼",
     /** 👩🏾‍🤝‍👩🏽 Women Holding Hands Medium Dark Skin Tone Medium Skin Tone */
     "women_holding_hands_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍🤝‍👩🏽",
     /** 👭🏾 Women Holding Hands Medium Dark Skin Tone */
@@ -3816,65 +4050,51 @@ export default {
     /** 👫🏻 Woman And Man Holding Hands Light Skin Tone */
     "woman_and_man_holding_hands_light_skin_tone": "👫🏻",
     /** 👩🏻‍🤝‍👨🏼 Woman And Man Holding Hands Light Skin Tone Medium Light Skin Tone */
-    "woman_and_man_holding_hands_light_skin_tone_medium_light_skin_tone":
-        "👩🏻‍🤝‍👨🏼",
+    "woman_and_man_holding_hands_light_skin_tone_medium_light_skin_tone": "👩🏻‍🤝‍👨🏼",
     /** 👩🏻‍🤝‍👨🏽 Woman And Man Holding Hands Light Skin Tone Medium Skin Tone */
     "woman_and_man_holding_hands_light_skin_tone_medium_skin_tone": "👩🏻‍🤝‍👨🏽",
     /** 👩🏻‍🤝‍👨🏾 Woman And Man Holding Hands Light Skin Tone Medium Dark Skin Tone */
-    "woman_and_man_holding_hands_light_skin_tone_medium_dark_skin_tone":
-        "👩🏻‍🤝‍👨🏾",
+    "woman_and_man_holding_hands_light_skin_tone_medium_dark_skin_tone": "👩🏻‍🤝‍👨🏾",
     /** 👩🏻‍🤝‍👨🏿 Woman And Man Holding Hands Light Skin Tone Dark Skin Tone */
     "woman_and_man_holding_hands_light_skin_tone_dark_skin_tone": "👩🏻‍🤝‍👨🏿",
     /** 👩🏼‍🤝‍👨🏻 Woman And Man Holding Hands Medium Light Skin Tone Light Skin Tone */
-    "woman_and_man_holding_hands_medium_light_skin_tone_light_skin_tone":
-        "👩🏼‍🤝‍👨🏻",
+    "woman_and_man_holding_hands_medium_light_skin_tone_light_skin_tone": "👩🏼‍🤝‍👨🏻",
     /** 👫🏼 Woman And Man Holding Hands Medium Light Skin Tone */
     "woman_and_man_holding_hands_medium_light_skin_tone": "👫🏼",
     /** 👩🏼‍🤝‍👨🏽 Woman And Man Holding Hands Medium Light Skin Tone Medium Skin Tone */
-    "woman_and_man_holding_hands_medium_light_skin_tone_medium_skin_tone":
-        "👩🏼‍🤝‍👨🏽",
+    "woman_and_man_holding_hands_medium_light_skin_tone_medium_skin_tone": "👩🏼‍🤝‍👨🏽",
     /** 👩🏼‍🤝‍👨🏾 Woman And Man Holding Hands Medium Light Skin Tone Medium Dark Skin Tone */
-    "woman_and_man_holding_hands_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍🤝‍👨🏾",
+    "woman_and_man_holding_hands_medium_light_skin_tone_medium_dark_skin_tone": "👩🏼‍🤝‍👨🏾",
     /** 👩🏼‍🤝‍👨🏿 Woman And Man Holding Hands Medium Light Skin Tone Dark Skin Tone */
-    "woman_and_man_holding_hands_medium_light_skin_tone_dark_skin_tone":
-        "👩🏼‍🤝‍👨🏿",
+    "woman_and_man_holding_hands_medium_light_skin_tone_dark_skin_tone": "👩🏼‍🤝‍👨🏿",
     /** 👩🏽‍🤝‍👨🏻 Woman And Man Holding Hands Medium Skin Tone Light Skin Tone */
     "woman_and_man_holding_hands_medium_skin_tone_light_skin_tone": "👩🏽‍🤝‍👨🏻",
     /** 👩🏽‍🤝‍👨🏼 Woman And Man Holding Hands Medium Skin Tone Medium Light Skin Tone */
-    "woman_and_man_holding_hands_medium_skin_tone_medium_light_skin_tone":
-        "👩🏽‍🤝‍👨🏼",
+    "woman_and_man_holding_hands_medium_skin_tone_medium_light_skin_tone": "👩🏽‍🤝‍👨🏼",
     /** 👫🏽 Woman And Man Holding Hands Medium Skin Tone */
     "woman_and_man_holding_hands_medium_skin_tone": "👫🏽",
     /** 👩🏽‍🤝‍👨🏾 Woman And Man Holding Hands Medium Skin Tone Medium Dark Skin Tone */
-    "woman_and_man_holding_hands_medium_skin_tone_medium_dark_skin_tone":
-        "👩🏽‍🤝‍👨🏾",
+    "woman_and_man_holding_hands_medium_skin_tone_medium_dark_skin_tone": "👩🏽‍🤝‍👨🏾",
     /** 👩🏽‍🤝‍👨🏿 Woman And Man Holding Hands Medium Skin Tone Dark Skin Tone */
     "woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone": "👩🏽‍🤝‍👨🏿",
     /** 👩🏾‍🤝‍👨🏻 Woman And Man Holding Hands Medium Dark Skin Tone Light Skin Tone */
-    "woman_and_man_holding_hands_medium_dark_skin_tone_light_skin_tone":
-        "👩🏾‍🤝‍👨🏻",
+    "woman_and_man_holding_hands_medium_dark_skin_tone_light_skin_tone": "👩🏾‍🤝‍👨🏻",
     /** 👩🏾‍🤝‍👨🏼 Woman And Man Holding Hands Medium Dark Skin Tone Medium Light Skin Tone */
-    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍🤝‍👨🏼",
+    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_light_skin_tone": "👩🏾‍🤝‍👨🏼",
     /** 👩🏾‍🤝‍👨🏽 Woman And Man Holding Hands Medium Dark Skin Tone Medium Skin Tone */
-    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_skin_tone":
-        "👩🏾‍🤝‍👨🏽",
+    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍🤝‍👨🏽",
     /** 👫🏾 Woman And Man Holding Hands Medium Dark Skin Tone */
     "woman_and_man_holding_hands_medium_dark_skin_tone": "👫🏾",
     /** 👩🏾‍🤝‍👨🏿 Woman And Man Holding Hands Medium Dark Skin Tone Dark Skin Tone */
-    "woman_and_man_holding_hands_medium_dark_skin_tone_dark_skin_tone":
-        "👩🏾‍🤝‍👨🏿",
+    "woman_and_man_holding_hands_medium_dark_skin_tone_dark_skin_tone": "👩🏾‍🤝‍👨🏿",
     /** 👩🏿‍🤝‍👨🏻 Woman And Man Holding Hands Dark Skin Tone Light Skin Tone */
     "woman_and_man_holding_hands_dark_skin_tone_light_skin_tone": "👩🏿‍🤝‍👨🏻",
     /** 👩🏿‍🤝‍👨🏼 Woman And Man Holding Hands Dark Skin Tone Medium Light Skin Tone */
-    "woman_and_man_holding_hands_dark_skin_tone_medium_light_skin_tone":
-        "👩🏿‍🤝‍👨🏼",
+    "woman_and_man_holding_hands_dark_skin_tone_medium_light_skin_tone": "👩🏿‍🤝‍👨🏼",
     /** 👩🏿‍🤝‍👨🏽 Woman And Man Holding Hands Dark Skin Tone Medium Skin Tone */
     "woman_and_man_holding_hands_dark_skin_tone_medium_skin_tone": "👩🏿‍🤝‍👨🏽",
     /** 👩🏿‍🤝‍👨🏾 Woman And Man Holding Hands Dark Skin Tone Medium Dark Skin Tone */
-    "woman_and_man_holding_hands_dark_skin_tone_medium_dark_skin_tone":
-        "👩🏿‍🤝‍👨🏾",
+    "woman_and_man_holding_hands_dark_skin_tone_medium_dark_skin_tone": "👩🏿‍🤝‍👨🏾",
     /** 👫🏿 Woman And Man Holding Hands Dark Skin Tone */
     "woman_and_man_holding_hands_dark_skin_tone": "👫🏿",
     /** 👬 Men Holding Hands */
@@ -3954,8 +4174,7 @@ export default {
     /** 🧑🏼‍❤️‍💋‍🧑🏽 Kiss Person Person Medium Light Skin Tone Medium Skin Tone */
     "kiss_person_person_medium_light_skin_tone_medium_skin_tone": "🧑🏼‍❤️‍💋‍🧑🏽",
     /** 🧑🏼‍❤️‍💋‍🧑🏾 Kiss Person Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_person_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍💋‍🧑🏾",
+    "kiss_person_person_medium_light_skin_tone_medium_dark_skin_tone": "🧑🏼‍❤️‍💋‍🧑🏾",
     /** 🧑🏼‍❤️‍💋‍🧑🏿 Kiss Person Person Medium Light Skin Tone Dark Skin Tone */
     "kiss_person_person_medium_light_skin_tone_dark_skin_tone": "🧑🏼‍❤️‍💋‍🧑🏿",
     /** 🧑🏽‍❤️‍💋‍🧑🏻 Kiss Person Person Medium Skin Tone Light Skin Tone */
@@ -3969,8 +4188,7 @@ export default {
     /** 🧑🏾‍❤️‍💋‍🧑🏻 Kiss Person Person Medium Dark Skin Tone Light Skin Tone */
     "kiss_person_person_medium_dark_skin_tone_light_skin_tone": "🧑🏾‍❤️‍💋‍🧑🏻",
     /** 🧑🏾‍❤️‍💋‍🧑🏼 Kiss Person Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_person_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍💋‍🧑🏼",
+    "kiss_person_person_medium_dark_skin_tone_medium_light_skin_tone": "🧑🏾‍❤️‍💋‍🧑🏼",
     /** 🧑🏾‍❤️‍💋‍🧑🏽 Kiss Person Person Medium Dark Skin Tone Medium Skin Tone */
     "kiss_person_person_medium_dark_skin_tone_medium_skin_tone": "🧑🏾‍❤️‍💋‍🧑🏽",
     /** 🧑🏾‍❤️‍💋‍🧑🏿 Kiss Person Person Medium Dark Skin Tone Dark Skin Tone */
@@ -3985,26 +4203,6 @@ export default {
     "kiss_person_person_dark_skin_tone_medium_dark_skin_tone": "🧑🏿‍❤️‍💋‍🧑🏾",
     /** 👩‍❤️‍💋‍👨 Kiss Woman Man */
     "kiss_woman_man": "👩‍❤️‍💋‍👨",
-    /** 👩🏻‍❤️‍💋‍👨 Kiss Woman Light Skin Tone Man No Skin Tone */
-    "kiss_woman_light_skin_tone_man_no_skin_tone": "👩🏻‍❤️‍💋‍👨",
-    /** 👩‍❤️‍💋‍👨🏻 Kiss Woman No Skin Tone Man Light Skin Tone */
-    "kiss_woman_no_skin_tone_man_light_skin_tone": "👩‍❤️‍💋‍👨🏻",
-    /** 👩🏼‍❤️‍💋‍👨 Kiss Woman Medium Light Skin Tone Man No Skin Tone */
-    "kiss_woman_medium_light_skin_tone_man_no_skin_tone": "👩🏼‍❤️‍💋‍👨",
-    /** 👩‍❤️‍💋‍👨🏼 Kiss Woman No Skin Tone Man Medium Light Skin Tone */
-    "kiss_woman_no_skin_tone_man_medium_light_skin_tone": "👩‍❤️‍💋‍👨🏼",
-    /** 👩🏽‍❤️‍💋‍👨 Kiss Woman Medium Skin Tone Man No Skin Tone */
-    "kiss_woman_medium_skin_tone_man_no_skin_tone": "👩🏽‍❤️‍💋‍👨",
-    /** 👩‍❤️‍💋‍👨🏽 Kiss Woman No Skin Tone Man Medium Skin Tone */
-    "kiss_woman_no_skin_tone_man_medium_skin_tone": "👩‍❤️‍💋‍👨🏽",
-    /** 👩‍❤️‍💋‍👨🏾 Kiss Woman No Skin Tone Man Medium Dark Skin Tone */
-    "kiss_woman_no_skin_tone_man_medium_dark_skin_tone": "👩‍❤️‍💋‍👨🏾",
-    /** 👩🏾‍❤️‍💋‍👨 Kiss Woman Medium Dark Skin Tone Man No Skin Tone */
-    "kiss_woman_medium_dark_skin_tone_man_no_skin_tone": "👩🏾‍❤️‍💋‍👨",
-    /** 👩‍❤️‍💋‍👨🏿 Kiss Woman No Skin Tone Man Dark Skin Tone */
-    "kiss_woman_no_skin_tone_man_dark_skin_tone": "👩‍❤️‍💋‍👨🏿",
-    /** 👩🏿‍❤️‍💋‍👨 Kiss Woman Dark Skin Tone Man No Skin Tone */
-    "kiss_woman_dark_skin_tone_man_no_skin_tone": "👩🏿‍❤️‍💋‍👨",
     /** 👩🏻‍❤️‍💋‍👨🏻 Kiss Woman Man Light Skin Tone */
     "kiss_woman_man_light_skin_tone": "👩🏻‍❤️‍💋‍👨🏻",
     /** 👩🏻‍❤️‍💋‍👨🏼 Kiss Woman Man Light Skin Tone Medium Light Skin Tone */
@@ -4057,26 +4255,6 @@ export default {
     "kiss_woman_man_dark_skin_tone": "👩🏿‍❤️‍💋‍👨🏿",
     /** 👨‍❤️‍💋‍👨 Kiss Man Man */
     "kiss_man_man": "👨‍❤️‍💋‍👨",
-    /** 👨🏻‍❤️‍💋‍👨 Kiss Man Light Skin Tone Man No Skin Tone */
-    "kiss_man_light_skin_tone_man_no_skin_tone": "👨🏻‍❤️‍💋‍👨",
-    /** 👨‍❤️‍💋‍👨🏻 Kiss Man No Skin Tone Man Light Skin Tone */
-    "kiss_man_no_skin_tone_man_light_skin_tone": "👨‍❤️‍💋‍👨🏻",
-    /** 👨‍❤️‍💋‍👨🏼 Kiss Man No Skin Tone Man Medium Light Skin Tone */
-    "kiss_man_no_skin_tone_man_medium_light_skin_tone": "👨‍❤️‍💋‍👨🏼",
-    /** 👨🏼‍❤️‍💋‍👨 Kiss Man Medium Light Skin Tone Man No Skin Tone */
-    "kiss_man_medium_light_skin_tone_man_no_skin_tone": "👨🏼‍❤️‍💋‍👨",
-    /** 👨🏽‍❤️‍💋‍👨 Kiss Man Medium Skin Tone Man No Skin Tone */
-    "kiss_man_medium_skin_tone_man_no_skin_tone": "👨🏽‍❤️‍💋‍👨",
-    /** 👨‍❤️‍💋‍👨🏽 Kiss Man No Skin Tone Man Medium Skin Tone */
-    "kiss_man_no_skin_tone_man_medium_skin_tone": "👨‍❤️‍💋‍👨🏽",
-    /** 👨‍❤️‍💋‍👨🏾 Kiss Man No Skin Tone Man Medium Dark Skin Tone */
-    "kiss_man_no_skin_tone_man_medium_dark_skin_tone": "👨‍❤️‍💋‍👨🏾",
-    /** 👨🏾‍❤️‍💋‍👨 Kiss Man Medium Dark Skin Tone Man No Skin Tone */
-    "kiss_man_medium_dark_skin_tone_man_no_skin_tone": "👨🏾‍❤️‍💋‍👨",
-    /** 👨‍❤️‍💋‍👨🏿 Kiss Man No Skin Tone Man Dark Skin Tone */
-    "kiss_man_no_skin_tone_man_dark_skin_tone": "👨‍❤️‍💋‍👨🏿",
-    /** 👨🏿‍❤️‍💋‍👨 Kiss Man Dark Skin Tone Man No Skin Tone */
-    "kiss_man_dark_skin_tone_man_no_skin_tone": "👨🏿‍❤️‍💋‍👨",
     /** 👨🏻‍❤️‍💋‍👨🏻 Kiss Man Man Light Skin Tone */
     "kiss_man_man_light_skin_tone": "👨🏻‍❤️‍💋‍👨🏻",
     /** 👨🏻‍❤️‍💋‍👨🏼 Kiss Man Man Light Skin Tone Medium Light Skin Tone */
@@ -4129,26 +4307,6 @@ export default {
     "kiss_man_man_dark_skin_tone": "👨🏿‍❤️‍💋‍👨🏿",
     /** 👩‍❤️‍💋‍👩 Kiss Woman Woman */
     "kiss_woman_woman": "👩‍❤️‍💋‍👩",
-    /** 👩🏻‍❤️‍💋‍👩 Kiss Woman Light Skin Tone Woman No Skin Tone */
-    "kiss_woman_light_skin_tone_woman_no_skin_tone": "👩🏻‍❤️‍💋‍👩",
-    /** 👩‍❤️‍💋‍👩🏻 Kiss Woman No Skin Tone Woman Light Skin Tone */
-    "kiss_woman_no_skin_tone_woman_light_skin_tone": "👩‍❤️‍💋‍👩🏻",
-    /** 👩‍❤️‍💋‍👩🏼 Kiss Woman No Skin Tone Woman Medium Light Skin Tone */
-    "kiss_woman_no_skin_tone_woman_medium_light_skin_tone": "👩‍❤️‍💋‍👩🏼",
-    /** 👩🏼‍❤️‍💋‍👩 Kiss Woman Medium Light Skin Tone Woman No Skin Tone */
-    "kiss_woman_medium_light_skin_tone_woman_no_skin_tone": "👩🏼‍❤️‍💋‍👩",
-    /** 👩‍❤️‍💋‍👩🏽 Kiss Woman No Skin Tone Woman Medium Skin Tone */
-    "kiss_woman_no_skin_tone_woman_medium_skin_tone": "👩‍❤️‍💋‍👩🏽",
-    /** 👩🏽‍❤️‍💋‍👩 Kiss Woman Medium Skin Tone Woman No Skin Tone */
-    "kiss_woman_medium_skin_tone_woman_no_skin_tone": "👩🏽‍❤️‍💋‍👩",
-    /** 👩‍❤️‍💋‍👩🏾 Kiss Woman No Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_woman_no_skin_tone_woman_medium_dark_skin_tone": "👩‍❤️‍💋‍👩🏾",
-    /** 👩🏾‍❤️‍💋‍👩 Kiss Woman Medium Dark Skin Tone Woman No Skin Tone */
-    "kiss_woman_medium_dark_skin_tone_woman_no_skin_tone": "👩🏾‍❤️‍💋‍👩",
-    /** 👩‍❤️‍💋‍👩🏿 Kiss Woman No Skin Tone Woman Dark Skin Tone */
-    "kiss_woman_no_skin_tone_woman_dark_skin_tone": "👩‍❤️‍💋‍👩🏿",
-    /** 👩🏿‍❤️‍💋‍👩 Kiss Woman Dark Skin Tone Woman No Skin Tone */
-    "kiss_woman_dark_skin_tone_woman_no_skin_tone": "👩🏿‍❤️‍💋‍👩",
     /** 👩🏻‍❤️‍💋‍👩🏻 Kiss Woman Woman Light Skin Tone */
     "kiss_woman_woman_light_skin_tone": "👩🏻‍❤️‍💋‍👩🏻",
     /** 👩🏻‍❤️‍💋‍👩🏼 Kiss Woman Woman Light Skin Tone Medium Light Skin Tone */
@@ -4166,8 +4324,7 @@ export default {
     /** 👩🏼‍❤️‍💋‍👩🏽 Kiss Woman Woman Medium Light Skin Tone Medium Skin Tone */
     "kiss_woman_woman_medium_light_skin_tone_medium_skin_tone": "👩🏼‍❤️‍💋‍👩🏽",
     /** 👩🏼‍❤️‍💋‍👩🏾 Kiss Woman Woman Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_woman_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍❤️‍💋‍👩🏾",
+    "kiss_woman_woman_medium_light_skin_tone_medium_dark_skin_tone": "👩🏼‍❤️‍💋‍👩🏾",
     /** 👩🏼‍❤️‍💋‍👩🏿 Kiss Woman Woman Medium Light Skin Tone Dark Skin Tone */
     "kiss_woman_woman_medium_light_skin_tone_dark_skin_tone": "👩🏼‍❤️‍💋‍👩🏿",
     /** 👩🏽‍❤️‍💋‍👩🏻 Kiss Woman Woman Medium Skin Tone Light Skin Tone */
@@ -4183,8 +4340,7 @@ export default {
     /** 👩🏾‍❤️‍💋‍👩🏻 Kiss Woman Woman Medium Dark Skin Tone Light Skin Tone */
     "kiss_woman_woman_medium_dark_skin_tone_light_skin_tone": "👩🏾‍❤️‍💋‍👩🏻",
     /** 👩🏾‍❤️‍💋‍👩🏼 Kiss Woman Woman Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_woman_woman_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍❤️‍💋‍👩🏼",
+    "kiss_woman_woman_medium_dark_skin_tone_medium_light_skin_tone": "👩🏾‍❤️‍💋‍👩🏼",
     /** 👩🏾‍❤️‍💋‍👩🏽 Kiss Woman Woman Medium Dark Skin Tone Medium Skin Tone */
     "kiss_woman_woman_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍❤️‍💋‍👩🏽",
     /** 👩🏾‍❤️‍💋‍👩🏾 Kiss Woman Woman Medium Dark Skin Tone */
@@ -4214,329 +4370,199 @@ export default {
     /** 💑🏿 Couple With Heart Dark Skin Tone */
     "couple_with_heart_dark_skin_tone": "💑🏿",
     /** 🧑🏻‍❤️‍🧑🏼 Couple With Heart Person Person Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone_medium_light_skin_tone":
-        "🧑🏻‍❤️‍🧑🏼",
+    "couple_with_heart_person_person_light_skin_tone_medium_light_skin_tone": "🧑🏻‍❤️‍🧑🏼",
     /** 🧑🏻‍❤️‍🧑🏽 Couple With Heart Person Person Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone_medium_skin_tone":
-        "🧑🏻‍❤️‍🧑🏽",
+    "couple_with_heart_person_person_light_skin_tone_medium_skin_tone": "🧑🏻‍❤️‍🧑🏽",
     /** 🧑🏻‍❤️‍🧑🏾 Couple With Heart Person Person Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏻‍❤️‍🧑🏾",
+    "couple_with_heart_person_person_light_skin_tone_medium_dark_skin_tone": "🧑🏻‍❤️‍🧑🏾",
     /** 🧑🏻‍❤️‍🧑🏿 Couple With Heart Person Person Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone_dark_skin_tone":
-        "🧑🏻‍❤️‍🧑🏿",
+    "couple_with_heart_person_person_light_skin_tone_dark_skin_tone": "🧑🏻‍❤️‍🧑🏿",
     /** 🧑🏼‍❤️‍🧑🏻 Couple With Heart Person Person Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone_light_skin_tone":
-        "🧑🏼‍❤️‍🧑🏻",
+    "couple_with_heart_person_person_medium_light_skin_tone_light_skin_tone": "🧑🏼‍❤️‍🧑🏻",
     /** 🧑🏼‍❤️‍🧑🏽 Couple With Heart Person Person Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone_medium_skin_tone":
-        "🧑🏼‍❤️‍🧑🏽",
+    "couple_with_heart_person_person_medium_light_skin_tone_medium_skin_tone": "🧑🏼‍❤️‍🧑🏽",
     /** 🧑🏼‍❤️‍🧑🏾 Couple With Heart Person Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍🧑🏾",
+    "couple_with_heart_person_person_medium_light_skin_tone_medium_dark_skin_tone": "🧑🏼‍❤️‍🧑🏾",
     /** 🧑🏼‍❤️‍🧑🏿 Couple With Heart Person Person Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone_dark_skin_tone":
-        "🧑🏼‍❤️‍🧑🏿",
+    "couple_with_heart_person_person_medium_light_skin_tone_dark_skin_tone": "🧑🏼‍❤️‍🧑🏿",
     /** 🧑🏽‍❤️‍🧑🏻 Couple With Heart Person Person Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone_light_skin_tone":
-        "🧑🏽‍❤️‍🧑🏻",
+    "couple_with_heart_person_person_medium_skin_tone_light_skin_tone": "🧑🏽‍❤️‍🧑🏻",
     /** 🧑🏽‍❤️‍🧑🏼 Couple With Heart Person Person Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone_medium_light_skin_tone":
-        "🧑🏽‍❤️‍🧑🏼",
+    "couple_with_heart_person_person_medium_skin_tone_medium_light_skin_tone": "🧑🏽‍❤️‍🧑🏼",
     /** 🧑🏽‍❤️‍🧑🏾 Couple With Heart Person Person Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone_medium_dark_skin_tone":
-        "🧑🏽‍❤️‍🧑🏾",
+    "couple_with_heart_person_person_medium_skin_tone_medium_dark_skin_tone": "🧑🏽‍❤️‍🧑🏾",
     /** 🧑🏽‍❤️‍🧑🏿 Couple With Heart Person Person Medium Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone_dark_skin_tone":
-        "🧑🏽‍❤️‍🧑🏿",
+    "couple_with_heart_person_person_medium_skin_tone_dark_skin_tone": "🧑🏽‍❤️‍🧑🏿",
     /** 🧑🏾‍❤️‍🧑🏻 Couple With Heart Person Person Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone_light_skin_tone":
-        "🧑🏾‍❤️‍🧑🏻",
+    "couple_with_heart_person_person_medium_dark_skin_tone_light_skin_tone": "🧑🏾‍❤️‍🧑🏻",
     /** 🧑🏾‍❤️‍🧑🏼 Couple With Heart Person Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍🧑🏼",
+    "couple_with_heart_person_person_medium_dark_skin_tone_medium_light_skin_tone": "🧑🏾‍❤️‍🧑🏼",
     /** 🧑🏾‍❤️‍🧑🏽 Couple With Heart Person Person Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone_medium_skin_tone":
-        "🧑🏾‍❤️‍🧑🏽",
+    "couple_with_heart_person_person_medium_dark_skin_tone_medium_skin_tone": "🧑🏾‍❤️‍🧑🏽",
     /** 🧑🏾‍❤️‍🧑🏿 Couple With Heart Person Person Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone_dark_skin_tone":
-        "🧑🏾‍❤️‍🧑🏿",
+    "couple_with_heart_person_person_medium_dark_skin_tone_dark_skin_tone": "🧑🏾‍❤️‍🧑🏿",
     /** 🧑🏿‍❤️‍🧑🏻 Couple With Heart Person Person Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone_light_skin_tone":
-        "🧑🏿‍❤️‍🧑🏻",
+    "couple_with_heart_person_person_dark_skin_tone_light_skin_tone": "🧑🏿‍❤️‍🧑🏻",
     /** 🧑🏿‍❤️‍🧑🏼 Couple With Heart Person Person Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏿‍❤️‍🧑🏼",
+    "couple_with_heart_person_person_dark_skin_tone_medium_light_skin_tone": "🧑🏿‍❤️‍🧑🏼",
     /** 🧑🏿‍❤️‍🧑🏽 Couple With Heart Person Person Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone_medium_skin_tone":
-        "🧑🏿‍❤️‍🧑🏽",
+    "couple_with_heart_person_person_dark_skin_tone_medium_skin_tone": "🧑🏿‍❤️‍🧑🏽",
     /** 🧑🏿‍❤️‍🧑🏾 Couple With Heart Person Person Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone_medium_dark_skin_tone":
-        "🧑🏿‍❤️‍🧑🏾",
+    "couple_with_heart_person_person_dark_skin_tone_medium_dark_skin_tone": "🧑🏿‍❤️‍🧑🏾",
     /** 👩‍❤️‍👨 Couple With Heart Woman Man */
     "couple_with_heart_woman_man": "👩‍❤️‍👨",
-    /** 👩‍❤️‍👨🏻 Couple With Heart Woman No Skin Tone Man Light Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_man_light_skin_tone": "👩‍❤️‍👨🏻",
-    /** 👩🏻‍❤️‍👨 Couple With Heart Woman Light Skin Tone Man No Skin Tone */
-    "couple_with_heart_woman_light_skin_tone_man_no_skin_tone": "👩🏻‍❤️‍👨",
-    /** 👩🏼‍❤️‍👨 Couple With Heart Woman Medium Light Skin Tone Man No Skin Tone */
-    "couple_with_heart_woman_medium_light_skin_tone_man_no_skin_tone":
-        "👩🏼‍❤️‍👨",
-    /** 👩‍❤️‍👨🏼 Couple With Heart Woman No Skin Tone Man Medium Light Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_man_medium_light_skin_tone":
-        "👩‍❤️‍👨🏼",
-    /** 👩‍❤️‍👨🏽 Couple With Heart Woman No Skin Tone Man Medium Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_man_medium_skin_tone": "👩‍❤️‍👨🏽",
-    /** 👩🏽‍❤️‍👨 Couple With Heart Woman Medium Skin Tone Man No Skin Tone */
-    "couple_with_heart_woman_medium_skin_tone_man_no_skin_tone": "👩🏽‍❤️‍👨",
-    /** 👩🏾‍❤️‍👨 Couple With Heart Woman Medium Dark Skin Tone Man No Skin Tone */
-    "couple_with_heart_woman_medium_dark_skin_tone_man_no_skin_tone": "👩🏾‍❤️‍👨",
-    /** 👩‍❤️‍👨🏾 Couple With Heart Woman No Skin Tone Man Medium Dark Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_man_medium_dark_skin_tone": "👩‍❤️‍👨🏾",
-    /** 👩‍❤️‍👨🏿 Couple With Heart Woman No Skin Tone Man Dark Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_man_dark_skin_tone": "👩‍❤️‍👨🏿",
-    /** 👩🏿‍❤️‍👨 Couple With Heart Woman Dark Skin Tone Man No Skin Tone */
-    "couple_with_heart_woman_dark_skin_tone_man_no_skin_tone": "👩🏿‍❤️‍👨",
     /** 👩🏻‍❤️‍👨🏻 Couple With Heart Woman Man Light Skin Tone */
     "couple_with_heart_woman_man_light_skin_tone": "👩🏻‍❤️‍👨🏻",
     /** 👩🏻‍❤️‍👨🏼 Couple With Heart Woman Man Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_man_light_skin_tone_medium_light_skin_tone":
-        "👩🏻‍❤️‍👨🏼",
+    "couple_with_heart_woman_man_light_skin_tone_medium_light_skin_tone": "👩🏻‍❤️‍👨🏼",
     /** 👩🏻‍❤️‍👨🏽 Couple With Heart Woman Man Light Skin Tone Medium Skin Tone */
     "couple_with_heart_woman_man_light_skin_tone_medium_skin_tone": "👩🏻‍❤️‍👨🏽",
     /** 👩🏻‍❤️‍👨🏾 Couple With Heart Woman Man Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_man_light_skin_tone_medium_dark_skin_tone":
-        "👩🏻‍❤️‍👨🏾",
+    "couple_with_heart_woman_man_light_skin_tone_medium_dark_skin_tone": "👩🏻‍❤️‍👨🏾",
     /** 👩🏻‍❤️‍👨🏿 Couple With Heart Woman Man Light Skin Tone Dark Skin Tone */
     "couple_with_heart_woman_man_light_skin_tone_dark_skin_tone": "👩🏻‍❤️‍👨🏿",
     /** 👩🏼‍❤️‍👨🏻 Couple With Heart Woman Man Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_man_medium_light_skin_tone_light_skin_tone":
-        "👩🏼‍❤️‍👨🏻",
+    "couple_with_heart_woman_man_medium_light_skin_tone_light_skin_tone": "👩🏼‍❤️‍👨🏻",
     /** 👩🏼‍❤️‍👨🏼 Couple With Heart Woman Man Medium Light Skin Tone */
     "couple_with_heart_woman_man_medium_light_skin_tone": "👩🏼‍❤️‍👨🏼",
     /** 👩🏼‍❤️‍👨🏽 Couple With Heart Woman Man Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_man_medium_light_skin_tone_medium_skin_tone":
-        "👩🏼‍❤️‍👨🏽",
+    "couple_with_heart_woman_man_medium_light_skin_tone_medium_skin_tone": "👩🏼‍❤️‍👨🏽",
     /** 👩🏼‍❤️‍👨🏾 Couple With Heart Woman Man Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_man_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍❤️‍👨🏾",
+    "couple_with_heart_woman_man_medium_light_skin_tone_medium_dark_skin_tone": "👩🏼‍❤️‍👨🏾",
     /** 👩🏼‍❤️‍👨🏿 Couple With Heart Woman Man Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_man_medium_light_skin_tone_dark_skin_tone":
-        "👩🏼‍❤️‍👨🏿",
+    "couple_with_heart_woman_man_medium_light_skin_tone_dark_skin_tone": "👩🏼‍❤️‍👨🏿",
     /** 👩🏽‍❤️‍👨🏻 Couple With Heart Woman Man Medium Skin Tone Light Skin Tone */
     "couple_with_heart_woman_man_medium_skin_tone_light_skin_tone": "👩🏽‍❤️‍👨🏻",
     /** 👩🏽‍❤️‍👨🏼 Couple With Heart Woman Man Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_man_medium_skin_tone_medium_light_skin_tone":
-        "👩🏽‍❤️‍👨🏼",
+    "couple_with_heart_woman_man_medium_skin_tone_medium_light_skin_tone": "👩🏽‍❤️‍👨🏼",
     /** 👩🏽‍❤️‍👨🏽 Couple With Heart Woman Man Medium Skin Tone */
     "couple_with_heart_woman_man_medium_skin_tone": "👩🏽‍❤️‍👨🏽",
     /** 👩🏽‍❤️‍👨🏾 Couple With Heart Woman Man Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_man_medium_skin_tone_medium_dark_skin_tone":
-        "👩🏽‍❤️‍👨🏾",
+    "couple_with_heart_woman_man_medium_skin_tone_medium_dark_skin_tone": "👩🏽‍❤️‍👨🏾",
     /** 👩🏽‍❤️‍👨🏿 Couple With Heart Woman Man Medium Skin Tone Dark Skin Tone */
     "couple_with_heart_woman_man_medium_skin_tone_dark_skin_tone": "👩🏽‍❤️‍👨🏿",
     /** 👩🏾‍❤️‍👨🏻 Couple With Heart Woman Man Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_man_medium_dark_skin_tone_light_skin_tone":
-        "👩🏾‍❤️‍👨🏻",
+    "couple_with_heart_woman_man_medium_dark_skin_tone_light_skin_tone": "👩🏾‍❤️‍👨🏻",
     /** 👩🏾‍❤️‍👨🏼 Couple With Heart Woman Man Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_man_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍❤️‍👨🏼",
+    "couple_with_heart_woman_man_medium_dark_skin_tone_medium_light_skin_tone": "👩🏾‍❤️‍👨🏼",
     /** 👩🏾‍❤️‍👨🏽 Couple With Heart Woman Man Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_man_medium_dark_skin_tone_medium_skin_tone":
-        "👩🏾‍❤️‍👨🏽",
+    "couple_with_heart_woman_man_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍❤️‍👨🏽",
     /** 👩🏾‍❤️‍👨🏾 Couple With Heart Woman Man Medium Dark Skin Tone */
     "couple_with_heart_woman_man_medium_dark_skin_tone": "👩🏾‍❤️‍👨🏾",
     /** 👩🏾‍❤️‍👨🏿 Couple With Heart Woman Man Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_man_medium_dark_skin_tone_dark_skin_tone":
-        "👩🏾‍❤️‍👨🏿",
+    "couple_with_heart_woman_man_medium_dark_skin_tone_dark_skin_tone": "👩🏾‍❤️‍👨🏿",
     /** 👩🏿‍❤️‍👨🏻 Couple With Heart Woman Man Dark Skin Tone Light Skin Tone */
     "couple_with_heart_woman_man_dark_skin_tone_light_skin_tone": "👩🏿‍❤️‍👨🏻",
     /** 👩🏿‍❤️‍👨🏼 Couple With Heart Woman Man Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_man_dark_skin_tone_medium_light_skin_tone":
-        "👩🏿‍❤️‍👨🏼",
+    "couple_with_heart_woman_man_dark_skin_tone_medium_light_skin_tone": "👩🏿‍❤️‍👨🏼",
     /** 👩🏿‍❤️‍👨🏽 Couple With Heart Woman Man Dark Skin Tone Medium Skin Tone */
     "couple_with_heart_woman_man_dark_skin_tone_medium_skin_tone": "👩🏿‍❤️‍👨🏽",
     /** 👩🏿‍❤️‍👨🏾 Couple With Heart Woman Man Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_man_dark_skin_tone_medium_dark_skin_tone":
-        "👩🏿‍❤️‍👨🏾",
+    "couple_with_heart_woman_man_dark_skin_tone_medium_dark_skin_tone": "👩🏿‍❤️‍👨🏾",
     /** 👩🏿‍❤️‍👨🏿 Couple With Heart Woman Man Dark Skin Tone */
     "couple_with_heart_woman_man_dark_skin_tone": "👩🏿‍❤️‍👨🏿",
     /** 👨‍❤️‍👨 Couple With Heart Man Man */
     "couple_with_heart_man_man": "👨‍❤️‍👨",
-    /** 👨‍❤️‍👨🏻 Couple With Heart Man No Skin Tone Man Light Skin Tone */
-    "couple_with_heart_man_no_skin_tone_man_light_skin_tone": "👨‍❤️‍👨🏻",
-    /** 👨🏻‍❤️‍👨 Couple With Heart Man Light Skin Tone Man No Skin Tone */
-    "couple_with_heart_man_light_skin_tone_man_no_skin_tone": "👨🏻‍❤️‍👨",
-    /** 👨🏼‍❤️‍👨 Couple With Heart Man Medium Light Skin Tone Man No Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_man_no_skin_tone": "👨🏼‍❤️‍👨",
-    /** 👨‍❤️‍👨🏼 Couple With Heart Man No Skin Tone Man Medium Light Skin Tone */
-    "couple_with_heart_man_no_skin_tone_man_medium_light_skin_tone": "👨‍❤️‍👨🏼",
-    /** 👨‍❤️‍👨🏽 Couple With Heart Man No Skin Tone Man Medium Skin Tone */
-    "couple_with_heart_man_no_skin_tone_man_medium_skin_tone": "👨‍❤️‍👨🏽",
-    /** 👨🏽‍❤️‍👨 Couple With Heart Man Medium Skin Tone Man No Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_man_no_skin_tone": "👨🏽‍❤️‍👨",
-    /** 👨‍❤️‍👨🏾 Couple With Heart Man No Skin Tone Man Medium Dark Skin Tone */
-    "couple_with_heart_man_no_skin_tone_man_medium_dark_skin_tone": "👨‍❤️‍👨🏾",
-    /** 👨🏾‍❤️‍👨 Couple With Heart Man Medium Dark Skin Tone Man No Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_man_no_skin_tone": "👨🏾‍❤️‍👨",
-    /** 👨🏿‍❤️‍👨 Couple With Heart Man Dark Skin Tone Man No Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_man_no_skin_tone": "👨🏿‍❤️‍👨",
-    /** 👨‍❤️‍👨🏿 Couple With Heart Man No Skin Tone Man Dark Skin Tone */
-    "couple_with_heart_man_no_skin_tone_man_dark_skin_tone": "👨‍❤️‍👨🏿",
     /** 👨🏻‍❤️‍👨🏻 Couple With Heart Man Man Light Skin Tone */
     "couple_with_heart_man_man_light_skin_tone": "👨🏻‍❤️‍👨🏻",
     /** 👨🏻‍❤️‍👨🏼 Couple With Heart Man Man Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_man_light_skin_tone_medium_light_skin_tone":
-        "👨🏻‍❤️‍👨🏼",
+    "couple_with_heart_man_man_light_skin_tone_medium_light_skin_tone": "👨🏻‍❤️‍👨🏼",
     /** 👨🏻‍❤️‍👨🏽 Couple With Heart Man Man Light Skin Tone Medium Skin Tone */
     "couple_with_heart_man_man_light_skin_tone_medium_skin_tone": "👨🏻‍❤️‍👨🏽",
     /** 👨🏻‍❤️‍👨🏾 Couple With Heart Man Man Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_man_light_skin_tone_medium_dark_skin_tone":
-        "👨🏻‍❤️‍👨🏾",
+    "couple_with_heart_man_man_light_skin_tone_medium_dark_skin_tone": "👨🏻‍❤️‍👨🏾",
     /** 👨🏻‍❤️‍👨🏿 Couple With Heart Man Man Light Skin Tone Dark Skin Tone */
     "couple_with_heart_man_man_light_skin_tone_dark_skin_tone": "👨🏻‍❤️‍👨🏿",
     /** 👨🏼‍❤️‍👨🏻 Couple With Heart Man Man Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_man_man_medium_light_skin_tone_light_skin_tone":
-        "👨🏼‍❤️‍👨🏻",
+    "couple_with_heart_man_man_medium_light_skin_tone_light_skin_tone": "👨🏼‍❤️‍👨🏻",
     /** 👨🏼‍❤️‍👨🏼 Couple With Heart Man Man Medium Light Skin Tone */
     "couple_with_heart_man_man_medium_light_skin_tone": "👨🏼‍❤️‍👨🏼",
     /** 👨🏼‍❤️‍👨🏽 Couple With Heart Man Man Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_man_medium_light_skin_tone_medium_skin_tone":
-        "👨🏼‍❤️‍👨🏽",
+    "couple_with_heart_man_man_medium_light_skin_tone_medium_skin_tone": "👨🏼‍❤️‍👨🏽",
     /** 👨🏼‍❤️‍👨🏾 Couple With Heart Man Man Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_man_medium_light_skin_tone_medium_dark_skin_tone":
-        "👨🏼‍❤️‍👨🏾",
+    "couple_with_heart_man_man_medium_light_skin_tone_medium_dark_skin_tone": "👨🏼‍❤️‍👨🏾",
     /** 👨🏼‍❤️‍👨🏿 Couple With Heart Man Man Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_man_medium_light_skin_tone_dark_skin_tone":
-        "👨🏼‍❤️‍👨🏿",
+    "couple_with_heart_man_man_medium_light_skin_tone_dark_skin_tone": "👨🏼‍❤️‍👨🏿",
     /** 👨🏽‍❤️‍👨🏻 Couple With Heart Man Man Medium Skin Tone Light Skin Tone */
     "couple_with_heart_man_man_medium_skin_tone_light_skin_tone": "👨🏽‍❤️‍👨🏻",
     /** 👨🏽‍❤️‍👨🏼 Couple With Heart Man Man Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_man_medium_skin_tone_medium_light_skin_tone":
-        "👨🏽‍❤️‍👨🏼",
+    "couple_with_heart_man_man_medium_skin_tone_medium_light_skin_tone": "👨🏽‍❤️‍👨🏼",
     /** 👨🏽‍❤️‍👨🏽 Couple With Heart Man Man Medium Skin Tone */
     "couple_with_heart_man_man_medium_skin_tone": "👨🏽‍❤️‍👨🏽",
     /** 👨🏽‍❤️‍👨🏾 Couple With Heart Man Man Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_man_medium_skin_tone_medium_dark_skin_tone":
-        "👨🏽‍❤️‍👨🏾",
+    "couple_with_heart_man_man_medium_skin_tone_medium_dark_skin_tone": "👨🏽‍❤️‍👨🏾",
     /** 👨🏽‍❤️‍👨🏿 Couple With Heart Man Man Medium Skin Tone Dark Skin Tone */
     "couple_with_heart_man_man_medium_skin_tone_dark_skin_tone": "👨🏽‍❤️‍👨🏿",
     /** 👨🏾‍❤️‍👨🏻 Couple With Heart Man Man Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_man_man_medium_dark_skin_tone_light_skin_tone":
-        "👨🏾‍❤️‍👨🏻",
+    "couple_with_heart_man_man_medium_dark_skin_tone_light_skin_tone": "👨🏾‍❤️‍👨🏻",
     /** 👨🏾‍❤️‍👨🏼 Couple With Heart Man Man Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_man_medium_dark_skin_tone_medium_light_skin_tone":
-        "👨🏾‍❤️‍👨🏼",
+    "couple_with_heart_man_man_medium_dark_skin_tone_medium_light_skin_tone": "👨🏾‍❤️‍👨🏼",
     /** 👨🏾‍❤️‍👨🏽 Couple With Heart Man Man Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_man_medium_dark_skin_tone_medium_skin_tone":
-        "👨🏾‍❤️‍👨🏽",
+    "couple_with_heart_man_man_medium_dark_skin_tone_medium_skin_tone": "👨🏾‍❤️‍👨🏽",
     /** 👨🏾‍❤️‍👨🏾 Couple With Heart Man Man Medium Dark Skin Tone */
     "couple_with_heart_man_man_medium_dark_skin_tone": "👨🏾‍❤️‍👨🏾",
     /** 👨🏾‍❤️‍👨🏿 Couple With Heart Man Man Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_man_medium_dark_skin_tone_dark_skin_tone":
-        "👨🏾‍❤️‍👨🏿",
+    "couple_with_heart_man_man_medium_dark_skin_tone_dark_skin_tone": "👨🏾‍❤️‍👨🏿",
     /** 👨🏿‍❤️‍👨🏻 Couple With Heart Man Man Dark Skin Tone Light Skin Tone */
     "couple_with_heart_man_man_dark_skin_tone_light_skin_tone": "👨🏿‍❤️‍👨🏻",
     /** 👨🏿‍❤️‍👨🏼 Couple With Heart Man Man Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_man_dark_skin_tone_medium_light_skin_tone":
-        "👨🏿‍❤️‍👨🏼",
+    "couple_with_heart_man_man_dark_skin_tone_medium_light_skin_tone": "👨🏿‍❤️‍👨🏼",
     /** 👨🏿‍❤️‍👨🏽 Couple With Heart Man Man Dark Skin Tone Medium Skin Tone */
     "couple_with_heart_man_man_dark_skin_tone_medium_skin_tone": "👨🏿‍❤️‍👨🏽",
     /** 👨🏿‍❤️‍👨🏾 Couple With Heart Man Man Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_man_dark_skin_tone_medium_dark_skin_tone":
-        "👨🏿‍❤️‍👨🏾",
+    "couple_with_heart_man_man_dark_skin_tone_medium_dark_skin_tone": "👨🏿‍❤️‍👨🏾",
     /** 👨🏿‍❤️‍👨🏿 Couple With Heart Man Man Dark Skin Tone */
     "couple_with_heart_man_man_dark_skin_tone": "👨🏿‍❤️‍👨🏿",
     /** 👩‍❤️‍👩 Couple With Heart Woman Woman */
     "couple_with_heart_woman_woman": "👩‍❤️‍👩",
-    /** 👩🏻‍❤️‍👩 Couple With Heart Woman Light Skin Tone Woman No Skin Tone */
-    "couple_with_heart_woman_light_skin_tone_woman_no_skin_tone": "👩🏻‍❤️‍👩",
-    /** 👩‍❤️‍👩🏻 Couple With Heart Woman No Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_woman_light_skin_tone": "👩‍❤️‍👩🏻",
-    /** 👩🏼‍❤️‍👩 Couple With Heart Woman Medium Light Skin Tone Woman No Skin Tone */
-    "couple_with_heart_woman_medium_light_skin_tone_woman_no_skin_tone":
-        "👩🏼‍❤️‍👩",
-    /** 👩‍❤️‍👩🏼 Couple With Heart Woman No Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_woman_medium_light_skin_tone":
-        "👩‍❤️‍👩🏼",
-    /** 👩🏽‍❤️‍👩 Couple With Heart Woman Medium Skin Tone Woman No Skin Tone */
-    "couple_with_heart_woman_medium_skin_tone_woman_no_skin_tone": "👩🏽‍❤️‍👩",
-    /** 👩‍❤️‍👩🏽 Couple With Heart Woman No Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_woman_medium_skin_tone": "👩‍❤️‍👩🏽",
-    /** 👩‍❤️‍👩🏾 Couple With Heart Woman No Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_woman_medium_dark_skin_tone":
-        "👩‍❤️‍👩🏾",
-    /** 👩🏾‍❤️‍👩 Couple With Heart Woman Medium Dark Skin Tone Woman No Skin Tone */
-    "couple_with_heart_woman_medium_dark_skin_tone_woman_no_skin_tone":
-        "👩🏾‍❤️‍👩",
-    /** 👩‍❤️‍👩🏿 Couple With Heart Woman No Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_woman_no_skin_tone_woman_dark_skin_tone": "👩‍❤️‍👩🏿",
-    /** 👩🏿‍❤️‍👩 Couple With Heart Woman Dark Skin Tone Woman No Skin Tone */
-    "couple_with_heart_woman_dark_skin_tone_woman_no_skin_tone": "👩🏿‍❤️‍👩",
     /** 👩🏻‍❤️‍👩🏻 Couple With Heart Woman Woman Light Skin Tone */
     "couple_with_heart_woman_woman_light_skin_tone": "👩🏻‍❤️‍👩🏻",
     /** 👩🏻‍❤️‍👩🏼 Couple With Heart Woman Woman Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_woman_light_skin_tone_medium_light_skin_tone":
-        "👩🏻‍❤️‍👩🏼",
+    "couple_with_heart_woman_woman_light_skin_tone_medium_light_skin_tone": "👩🏻‍❤️‍👩🏼",
     /** 👩🏻‍❤️‍👩🏽 Couple With Heart Woman Woman Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_woman_light_skin_tone_medium_skin_tone":
-        "👩🏻‍❤️‍👩🏽",
+    "couple_with_heart_woman_woman_light_skin_tone_medium_skin_tone": "👩🏻‍❤️‍👩🏽",
     /** 👩🏻‍❤️‍👩🏾 Couple With Heart Woman Woman Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_woman_light_skin_tone_medium_dark_skin_tone":
-        "👩🏻‍❤️‍👩🏾",
+    "couple_with_heart_woman_woman_light_skin_tone_medium_dark_skin_tone": "👩🏻‍❤️‍👩🏾",
     /** 👩🏻‍❤️‍👩🏿 Couple With Heart Woman Woman Light Skin Tone Dark Skin Tone */
     "couple_with_heart_woman_woman_light_skin_tone_dark_skin_tone": "👩🏻‍❤️‍👩🏿",
     /** 👩🏼‍❤️‍👩🏻 Couple With Heart Woman Woman Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_woman_medium_light_skin_tone_light_skin_tone":
-        "👩🏼‍❤️‍👩🏻",
+    "couple_with_heart_woman_woman_medium_light_skin_tone_light_skin_tone": "👩🏼‍❤️‍👩🏻",
     /** 👩🏼‍❤️‍👩🏼 Couple With Heart Woman Woman Medium Light Skin Tone */
     "couple_with_heart_woman_woman_medium_light_skin_tone": "👩🏼‍❤️‍👩🏼",
     /** 👩🏼‍❤️‍👩🏽 Couple With Heart Woman Woman Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_woman_medium_light_skin_tone_medium_skin_tone":
-        "👩🏼‍❤️‍👩🏽",
+    "couple_with_heart_woman_woman_medium_light_skin_tone_medium_skin_tone": "👩🏼‍❤️‍👩🏽",
     /** 👩🏼‍❤️‍👩🏾 Couple With Heart Woman Woman Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_woman_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍❤️‍👩🏾",
+    "couple_with_heart_woman_woman_medium_light_skin_tone_medium_dark_skin_tone": "👩🏼‍❤️‍👩🏾",
     /** 👩🏼‍❤️‍👩🏿 Couple With Heart Woman Woman Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_woman_medium_light_skin_tone_dark_skin_tone":
-        "👩🏼‍❤️‍👩🏿",
+    "couple_with_heart_woman_woman_medium_light_skin_tone_dark_skin_tone": "👩🏼‍❤️‍👩🏿",
     /** 👩🏽‍❤️‍👩🏻 Couple With Heart Woman Woman Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_woman_medium_skin_tone_light_skin_tone":
-        "👩🏽‍❤️‍👩🏻",
+    "couple_with_heart_woman_woman_medium_skin_tone_light_skin_tone": "👩🏽‍❤️‍👩🏻",
     /** 👩🏽‍❤️‍👩🏼 Couple With Heart Woman Woman Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_woman_medium_skin_tone_medium_light_skin_tone":
-        "👩🏽‍❤️‍👩🏼",
+    "couple_with_heart_woman_woman_medium_skin_tone_medium_light_skin_tone": "👩🏽‍❤️‍👩🏼",
     /** 👩🏽‍❤️‍👩🏽 Couple With Heart Woman Woman Medium Skin Tone */
     "couple_with_heart_woman_woman_medium_skin_tone": "👩🏽‍❤️‍👩🏽",
     /** 👩🏽‍❤️‍👩🏾 Couple With Heart Woman Woman Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_woman_medium_skin_tone_medium_dark_skin_tone":
-        "👩🏽‍❤️‍👩🏾",
+    "couple_with_heart_woman_woman_medium_skin_tone_medium_dark_skin_tone": "👩🏽‍❤️‍👩🏾",
     /** 👩🏽‍❤️‍👩🏿 Couple With Heart Woman Woman Medium Skin Tone Dark Skin Tone */
     "couple_with_heart_woman_woman_medium_skin_tone_dark_skin_tone": "👩🏽‍❤️‍👩🏿",
     /** 👩🏾‍❤️‍👩🏻 Couple With Heart Woman Woman Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_woman_medium_dark_skin_tone_light_skin_tone":
-        "👩🏾‍❤️‍👩🏻",
+    "couple_with_heart_woman_woman_medium_dark_skin_tone_light_skin_tone": "👩🏾‍❤️‍👩🏻",
     /** 👩🏾‍❤️‍👩🏼 Couple With Heart Woman Woman Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍❤️‍👩🏼",
+    "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_light_skin_tone": "👩🏾‍❤️‍👩🏼",
     /** 👩🏾‍❤️‍👩🏽 Couple With Heart Woman Woman Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_skin_tone":
-        "👩🏾‍❤️‍👩🏽",
+    "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍❤️‍👩🏽",
     /** 👩🏾‍❤️‍👩🏾 Couple With Heart Woman Woman Medium Dark Skin Tone */
     "couple_with_heart_woman_woman_medium_dark_skin_tone": "👩🏾‍❤️‍👩🏾",
     /** 👩🏾‍❤️‍👩🏿 Couple With Heart Woman Woman Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_woman_medium_dark_skin_tone_dark_skin_tone":
-        "👩🏾‍❤️‍👩🏿",
+    "couple_with_heart_woman_woman_medium_dark_skin_tone_dark_skin_tone": "👩🏾‍❤️‍👩🏿",
     /** 👩🏿‍❤️‍👩🏻 Couple With Heart Woman Woman Dark Skin Tone Light Skin Tone */
     "couple_with_heart_woman_woman_dark_skin_tone_light_skin_tone": "👩🏿‍❤️‍👩🏻",
     /** 👩🏿‍❤️‍👩🏼 Couple With Heart Woman Woman Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_woman_dark_skin_tone_medium_light_skin_tone":
-        "👩🏿‍❤️‍👩🏼",
+    "couple_with_heart_woman_woman_dark_skin_tone_medium_light_skin_tone": "👩🏿‍❤️‍👩🏼",
     /** 👩🏿‍❤️‍👩🏽 Couple With Heart Woman Woman Dark Skin Tone Medium Skin Tone */
     "couple_with_heart_woman_woman_dark_skin_tone_medium_skin_tone": "👩🏿‍❤️‍👩🏽",
     /** 👩🏿‍❤️‍👩🏾 Couple With Heart Woman Woman Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_woman_dark_skin_tone_medium_dark_skin_tone":
-        "👩🏿‍❤️‍👩🏾",
+    "couple_with_heart_woman_woman_dark_skin_tone_medium_dark_skin_tone": "👩🏿‍❤️‍👩🏾",
     /** 👩🏿‍❤️‍👩🏿 Couple With Heart Woman Woman Dark Skin Tone */
     "couple_with_heart_woman_woman_dark_skin_tone": "👩🏿‍❤️‍👩🏿",
     /** 👪 Family */
@@ -4601,24 +4627,6 @@ export default {
     "people_hugging": "🫂",
     /** 👣 Footprints */
     "footprints": "👣",
-    /** 🏻 Light Skin Tone */
-    "light_skin_tone": "🏻",
-    /** 🏼 Medium Light Skin Tone */
-    "medium_light_skin_tone": "🏼",
-    /** 🏽 Medium Skin Tone */
-    "medium_skin_tone": "🏽",
-    /** 🏾 Medium Dark Skin Tone */
-    "medium_dark_skin_tone": "🏾",
-    /** 🏿 Dark Skin Tone */
-    "dark_skin_tone": "🏿",
-    /** 🦰 Red Hair */
-    "red_hair": "🦰",
-    /** 🦱 Curly Hair */
-    "curly_hair": "🦱",
-    /** 🦳 White Hair */
-    "white_hair": "🦳",
-    /** 🦲 Bald */
-    "bald": "🦲",
     /** 🐵 Monkey Face */
     "monkey_face": "🐵",
     /** 🐒 Monkey */
@@ -4659,6 +4667,10 @@ export default {
     "leopard": "🐆",
     /** 🐴 Horse Face */
     "horse_face": "🐴",
+    /** 🫎 Moose */
+    "moose": "🫎",
+    /** 🫏 Donkey */
+    "donkey": "🫏",
     /** 🐎 Horse */
     "horse": "🐎",
     /** 🦄 Unicorn */
@@ -4783,6 +4795,12 @@ export default {
     "peacock": "🦚",
     /** 🦜 Parrot */
     "parrot": "🦜",
+    /** 🪽 Wing */
+    "wing": "🪽",
+    /** 🐦‍⬛ Black Bird */
+    "black_bird": "🐦‍⬛",
+    /** 🪿 Goose */
+    "goose": "🪿",
     /** 🐸 Frog */
     "frog": "🐸",
     /** 🐊 Crocodile */
@@ -4821,6 +4839,10 @@ export default {
     "octopus": "🐙",
     /** 🐚 Spiral Shell */
     "spiral_shell": "🐚",
+    /** 🪸 Coral */
+    "coral": "🪸",
+    /** 🪼 Jellyfish */
+    "jellyfish": "🪼",
     /** 🐌 Snail */
     "snail": "🐌",
     /** 🦋 Butterfly */
@@ -4859,6 +4881,8 @@ export default {
     "cherry_blossom": "🌸",
     /** 💮 White Flower */
     "white_flower": "💮",
+    /** 🪷 Lotus */
+    "lotus": "🪷",
     /** 🏵️ Rosette */
     "rosette": "🏵️",
     /** 🌹 Rose */
@@ -4873,6 +4897,8 @@ export default {
     "blossom": "🌼",
     /** 🌷 Tulip */
     "tulip": "🌷",
+    /** 🪻 Hyacinth */
+    "hyacinth": "🪻",
     /** 🌱 Seedling */
     "seedling": "🌱",
     /** 🪴 Potted Plant */
@@ -4899,6 +4925,12 @@ export default {
     "fallen_leaf": "🍂",
     /** 🍃 Leaf Fluttering In Wind */
     "leaf_fluttering_in_wind": "🍃",
+    /** 🪹 Empty Nest */
+    "empty_nest": "🪹",
+    /** 🪺 Nest With Eggs */
+    "nest_with_eggs": "🪺",
+    /** 🍄 Mushroom */
+    "mushroom": "🍄",
     /** 🍇 Grapes */
     "grapes": "🍇",
     /** 🍈 Melon */
@@ -4961,12 +4993,16 @@ export default {
     "garlic": "🧄",
     /** 🧅 Onion */
     "onion": "🧅",
-    /** 🍄 Mushroom */
-    "mushroom": "🍄",
     /** 🥜 Peanuts */
     "peanuts": "🥜",
+    /** 🫘 Beans */
+    "beans": "🫘",
     /** 🌰 Chestnut */
     "chestnut": "🌰",
+    /** 🫚 Ginger Root */
+    "ginger_root": "🫚",
+    /** 🫛 Pea Pod */
+    "pea_pod": "🫛",
     /** 🍞 Bread */
     "bread": "🍞",
     /** 🥐 Croissant */
@@ -5135,6 +5171,8 @@ export default {
     "clinking_glasses": "🥂",
     /** 🥃 Tumbler Glass */
     "tumbler_glass": "🥃",
+    /** 🫗 Pouring Liquid */
+    "pouring_liquid": "🫗",
     /** 🥤 Cup With Straw */
     "cup_with_straw": "🥤",
     /** 🧋 Bubble Tea */
@@ -5155,6 +5193,8 @@ export default {
     "spoon": "🥄",
     /** 🔪 Kitchen Knife */
     "kitchen_knife": "🔪",
+    /** 🫙 Jar */
+    "jar": "🫙",
     /** 🏺 Amphora */
     "amphora": "🏺",
     /** 🌍 Globe Showing Europe Africa */
@@ -5279,6 +5319,8 @@ export default {
     "hot_springs": "♨️",
     /** 🎠 Carousel Horse */
     "carousel_horse": "🎠",
+    /** 🛝 Playground Slide */
+    "playground_slide": "🛝",
     /** 🎡 Ferris Wheel */
     "ferris_wheel": "🎡",
     /** 🎢 Roller Coaster */
@@ -5375,6 +5417,8 @@ export default {
     "oil_drum": "🛢️",
     /** ⛽ Fuel Pump */
     "fuel_pump": "⛽",
+    /** 🛞 Wheel */
+    "wheel": "🛞",
     /** 🚨 Police Car Light */
     "police_car_light": "🚨",
     /** 🚥 Horizontal Traffic Light */
@@ -5387,6 +5431,8 @@ export default {
     "construction": "🚧",
     /** ⚓ Anchor */
     "anchor": "⚓",
+    /** 🛟 Ring Buoy */
+    "ring_buoy": "🛟",
     /** ⛵ Sailboat */
     "sailboat": "⛵",
     /** 🛶 Canoe */
@@ -5635,11 +5681,11 @@ export default {
     "trophy": "🏆",
     /** 🏅 Sports Medal */
     "sports_medal": "🏅",
-    /** 🥇 1st Place Medal */
+    /** 🥇 1St Place Medal */
     "1st_place_medal": "🥇",
-    /** 🥈 2nd Place Medal */
+    /** 🥈 2Nd Place Medal */
     "2nd_place_medal": "🥈",
-    /** 🥉 3rd Place Medal */
+    /** 🥉 3Rd Place Medal */
     "3rd_place_medal": "🥉",
     /** ⚽ Soccer Ball */
     "soccer_ball": "⚽",
@@ -5695,20 +5741,20 @@ export default {
     "sled": "🛷",
     /** 🥌 Curling Stone */
     "curling_stone": "🥌",
-    /** 🎯 Direct Hit */
-    "direct_hit": "🎯",
+    /** 🎯 Bullseye */
+    "bullseye": "🎯",
     /** 🪀 Yo Yo */
     "yo_yo": "🪀",
     /** 🪁 Kite */
     "kite": "🪁",
+    /** 🔫 Water Pistol */
+    "water_pistol": "🔫",
     /** 🎱 Pool 8 Ball */
     "pool_8_ball": "🎱",
     /** 🔮 Crystal Ball */
     "crystal_ball": "🔮",
     /** 🪄 Magic Wand */
     "magic_wand": "🪄",
-    /** 🧿 Nazar Amulet */
-    "nazar_amulet": "🧿",
     /** 🎮 Video Game */
     "video_game": "🎮",
     /** 🕹️ Joystick */
@@ -5723,6 +5769,8 @@ export default {
     "teddy_bear": "🧸",
     /** 🪅 Pinata */
     "pinata": "🪅",
+    /** 🪩 Mirror Ball */
+    "mirror_ball": "🪩",
     /** 🪆 Nesting Dolls */
     "nesting_dolls": "🪆",
     /** ♠️ Spade Suit */
@@ -5795,6 +5843,8 @@ export default {
     "bikini": "👙",
     /** 👚 Womans Clothes */
     "womans_clothes": "👚",
+    /** 🪭 Folding Hand Fan */
+    "folding_hand_fan": "🪭",
     /** 👛 Purse */
     "purse": "👛",
     /** 👜 Handbag */
@@ -5823,6 +5873,8 @@ export default {
     "ballet_shoes": "🩰",
     /** 👢 Womans Boot */
     "womans_boot": "👢",
+    /** 🪮 Hair Pick */
+    "hair_pick": "🪮",
     /** 👑 Crown */
     "crown": "👑",
     /** 👒 Womans Hat */
@@ -5899,6 +5951,10 @@ export default {
     "drum": "🥁",
     /** 🪘 Long Drum */
     "long_drum": "🪘",
+    /** 🪇 Maracas */
+    "maracas": "🪇",
+    /** 🪈 Flute */
+    "flute": "🪈",
     /** 📱 Mobile Phone */
     "mobile_phone": "📱",
     /** 📲 Mobile Phone With Arrow */
@@ -5913,6 +5969,8 @@ export default {
     "fax_machine": "📠",
     /** 🔋 Battery */
     "battery": "🔋",
+    /** 🪫 Low Battery */
+    "low_battery": "🪫",
     /** 🔌 Electric Plug */
     "electric_plug": "🔌",
     /** 💻 Laptop */
@@ -6135,8 +6193,8 @@ export default {
     "dagger": "🗡️",
     /** ⚔️ Crossed Swords */
     "crossed_swords": "⚔️",
-    /** 🔫 Pistol */
-    "pistol": "🔫",
+    /** 💣 Bomb */
+    "bomb": "💣",
     /** 🪃 Boomerang */
     "boomerang": "🪃",
     /** 🏹 Bow And Arrow */
@@ -6193,8 +6251,12 @@ export default {
     "pill": "💊",
     /** 🩹 Adhesive Bandage */
     "adhesive_bandage": "🩹",
+    /** 🩼 Crutch */
+    "crutch": "🩼",
     /** 🩺 Stethoscope */
     "stethoscope": "🩺",
+    /** 🩻 X Ray */
+    "x_ray": "🩻",
     /** 🚪 Door */
     "door": "🚪",
     /** 🛗 Elevator */
@@ -6235,6 +6297,8 @@ export default {
     "bucket": "🪣",
     /** 🧼 Soap */
     "soap": "🧼",
+    /** 🫧 Bubbles */
+    "bubbles": "🫧",
     /** 🪥 Toothbrush */
     "toothbrush": "🪥",
     /** 🧽 Sponge */
@@ -6251,10 +6315,16 @@ export default {
     "headstone": "🪦",
     /** ⚱️ Funeral Urn */
     "funeral_urn": "⚱️",
+    /** 🧿 Nazar Amulet */
+    "nazar_amulet": "🧿",
+    /** 🪬 Hamsa */
+    "hamsa": "🪬",
     /** 🗿 Moai */
     "moai": "🗿",
     /** 🪧 Placard */
     "placard": "🪧",
+    /** 🪪 Identification Card */
+    "identification_card": "🪪",
     /** 🏧 Atm Sign */
     "atm_sign": "🏧",
     /** 🚮 Litter In Bin Sign */
@@ -6373,6 +6443,8 @@ export default {
     "menorah": "🕎",
     /** 🔯 Dotted Six Pointed Star */
     "dotted_six_pointed_star": "🔯",
+    /** 🪯 Khanda */
+    "khanda": "🪯",
     /** ♈ Aries */
     "aries": "♈",
     /** ♉ Taurus */
@@ -6443,10 +6515,16 @@ export default {
     "bright_button": "🔆",
     /** 📶 Antenna Bars */
     "antenna_bars": "📶",
+    /** 🛜 Wireless */
+    "wireless": "🛜",
     /** 📳 Vibration Mode */
     "vibration_mode": "📳",
     /** 📴 Mobile Phone Off */
     "mobile_phone_off": "📴",
+    /** ♀️ Female Sign */
+    "female_sign": "♀️",
+    /** ♂️ Male Sign */
+    "male_sign": "♂️",
     /** ⚧️ Transgender Symbol */
     "transgender_symbol": "⚧️",
     /** ✖️ Multiply */
@@ -6457,26 +6535,30 @@ export default {
     "minus": "➖",
     /** ➗ Divide */
     "divide": "➗",
+    /** 🟰 Heavy Equals Sign */
+    "heavy_equals_sign": "🟰",
     /** ♾️ Infinity */
     "infinity": "♾️",
     /** ‼️ Double Exclamation Mark */
     "double_exclamation_mark": "‼️",
     /** ⁉️ Exclamation Question Mark */
     "exclamation_question_mark": "⁉️",
-    /** ❓ Question Mark */
-    "question_mark": "❓",
+    /** ❓ Red Question Mark */
+    "red_question_mark": "❓",
     /** ❔ White Question Mark */
     "white_question_mark": "❔",
     /** ❕ White Exclamation Mark */
     "white_exclamation_mark": "❕",
-    /** ❗ Exclamation Mark */
-    "exclamation_mark": "❗",
+    /** ❗ Red Exclamation Mark */
+    "red_exclamation_mark": "❗",
     /** 〰️ Wavy Dash */
     "wavy_dash": "〰️",
     /** 💱 Currency Exchange */
     "currency_exchange": "💱",
     /** 💲 Heavy Dollar Sign */
     "heavy_dollar_sign": "💲",
+    /** ⚕️ Medical Symbol */
+    "medical_symbol": "⚕️",
     /** ♻️ Recycling Symbol */
     "recycling_symbol": "♻️",
     /** ⚜️ Fleur De Lis */
@@ -6517,30 +6599,30 @@ export default {
     "registered": "®️",
     /** ™️ Trade Mark */
     "trade_mark": "™️",
-    /** #️⃣ Keycap Number Sign */
-    "keycap_number_sign": "#️⃣",
-    /** *️⃣ Keycap Asterisk */
-    "keycap_asterisk": "*️⃣",
-    /** 0️⃣ Keycap Digit Zero */
-    "keycap_digit_zero": "0️⃣",
-    /** 1️⃣ Keycap Digit One */
-    "keycap_digit_one": "1️⃣",
-    /** 2️⃣ Keycap Digit Two */
-    "keycap_digit_two": "2️⃣",
-    /** 3️⃣ Keycap Digit Three */
-    "keycap_digit_three": "3️⃣",
-    /** 4️⃣ Keycap Digit Four */
-    "keycap_digit_four": "4️⃣",
-    /** 5️⃣ Keycap Digit Five */
-    "keycap_digit_five": "5️⃣",
-    /** 6️⃣ Keycap Digit Six */
-    "keycap_digit_six": "6️⃣",
-    /** 7️⃣ Keycap Digit Seven */
-    "keycap_digit_seven": "7️⃣",
-    /** 8️⃣ Keycap Digit Eight */
-    "keycap_digit_eight": "8️⃣",
-    /** 9️⃣ Keycap Digit Nine */
-    "keycap_digit_nine": "9️⃣",
+    /** #️⃣ Keycap # */
+    "keycap_#": "#️⃣",
+    /** *️⃣ Keycap * */
+    "keycap_*": "*️⃣",
+    /** 0️⃣ Keycap 0 */
+    "keycap_0": "0️⃣",
+    /** 1️⃣ Keycap 1 */
+    "keycap_1": "1️⃣",
+    /** 2️⃣ Keycap 2 */
+    "keycap_2": "2️⃣",
+    /** 3️⃣ Keycap 3 */
+    "keycap_3": "3️⃣",
+    /** 4️⃣ Keycap 4 */
+    "keycap_4": "4️⃣",
+    /** 5️⃣ Keycap 5 */
+    "keycap_5": "5️⃣",
+    /** 6️⃣ Keycap 6 */
+    "keycap_6": "6️⃣",
+    /** 7️⃣ Keycap 7 */
+    "keycap_7": "7️⃣",
+    /** 8️⃣ Keycap 8 */
+    "keycap_8": "8️⃣",
+    /** 9️⃣ Keycap 9 */
+    "keycap_9": "9️⃣",
     /** 🔟 Keycap 10 */
     "keycap_10": "🔟",
     /** 🔠 Input Latin Uppercase */
@@ -6621,38 +6703,38 @@ export default {
     "japanese_open_for_business_button": "🈺",
     /** 🈵 Japanese No Vacancy Button */
     "japanese_no_vacancy_button": "🈵",
-    /** 🔴 Large Red Circle */
-    "large_red_circle": "🔴",
-    /** 🟠 Large Orange Circle */
-    "large_orange_circle": "🟠",
-    /** 🟡 Large Yellow Circle */
-    "large_yellow_circle": "🟡",
-    /** 🟢 Large Green Circle */
-    "large_green_circle": "🟢",
-    /** 🔵 Large Blue Circle */
-    "large_blue_circle": "🔵",
-    /** 🟣 Large Purple Circle */
-    "large_purple_circle": "🟣",
-    /** 🟤 Large Brown Circle */
-    "large_brown_circle": "🟤",
+    /** 🔴 Red Circle */
+    "red_circle": "🔴",
+    /** 🟠 Orange Circle */
+    "orange_circle": "🟠",
+    /** 🟡 Yellow Circle */
+    "yellow_circle": "🟡",
+    /** 🟢 Green Circle */
+    "green_circle": "🟢",
+    /** 🔵 Blue Circle */
+    "blue_circle": "🔵",
+    /** 🟣 Purple Circle */
+    "purple_circle": "🟣",
+    /** 🟤 Brown Circle */
+    "brown_circle": "🟤",
     /** ⚫ Black Circle */
     "black_circle": "⚫",
     /** ⚪ White Circle */
     "white_circle": "⚪",
-    /** 🟥 Large Red Square */
-    "large_red_square": "🟥",
-    /** 🟧 Large Orange Square */
-    "large_orange_square": "🟧",
-    /** 🟨 Large Yellow Square */
-    "large_yellow_square": "🟨",
-    /** 🟩 Large Green Square */
-    "large_green_square": "🟩",
-    /** 🟦 Large Blue Square */
-    "large_blue_square": "🟦",
-    /** 🟪 Large Purple Square */
-    "large_purple_square": "🟪",
-    /** 🟫 Large Brown Square */
-    "large_brown_square": "🟫",
+    /** 🟥 Red Square */
+    "red_square": "🟥",
+    /** 🟧 Orange Square */
+    "orange_square": "🟧",
+    /** 🟨 Yellow Square */
+    "yellow_square": "🟨",
+    /** 🟩 Green Square */
+    "green_square": "🟩",
+    /** 🟦 Blue Square */
+    "blue_square": "🟦",
+    /** 🟪 Purple Square */
+    "purple_square": "🟪",
+    /** 🟫 Brown Square */
+    "brown_square": "🟫",
     /** ⬛ Black Large Square */
     "black_large_square": "⬛",
     /** ⬜ White Large Square */
@@ -7227,901 +7309,4 @@ export default {
     "flag_scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     /** 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Flag Wales */
     "flag_wales": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-    /** 👨🏿‍❤️‍💋‍👩 Kiss Man Dark Skin Tone Woman No Skin Tone */
-    "kiss_man_dark_skin_tone_woman_no_skin_tone": "👨🏿‍❤️‍💋‍👩",
-    /** 👩🏽‍❤️‍🧑🏿 Couple With Heart Woman Person Medium Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone_dark_skin_tone":
-        "👩🏽‍❤️‍🧑🏿",
-    /** 🧑‍❤️‍👩🏻 Couple With Heart Person Woman No Skin Tone Light Skin Tone */
-    "couple_with_heart_person_woman_no_skin_tone_light_skin_tone": "🧑‍❤️‍👩🏻",
-    /** 👩🏻‍❤️‍💋‍🧑🏻 Kiss Woman Person Light Skin Tone */
-    "kiss_woman_person_light_skin_tone": "👩🏻‍❤️‍💋‍🧑🏻",
-    /** 🧑🏼‍❤️‍💋‍👩🏼 Kiss Person Woman Medium Light Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone": "🧑🏼‍❤️‍💋‍👩🏼",
-    /** 👨🏾‍❤️‍💋‍👩🏻 Kiss Man Medium Dark Skin Tone Woman Light Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_light_skin_tone": "👨🏾‍❤️‍💋‍👩🏻",
-    /** 🧑🏼‍❤️‍👨🏾 Couple With Heart Person Man Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍👨🏾",
-    /** 🧑🏽‍❤️‍👩🏼 Couple With Heart Person Woman Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone_medium_light_skin_tone":
-        "🧑🏽‍❤️‍👩🏼",
-    /** 🧑🏿‍❤️‍👨🏻 Couple With Heart Person Man Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone_light_skin_tone": "🧑🏿‍❤️‍👨🏻",
-    /** 🧑🏽‍❤️‍🧑🏽 Couple With Heart Person Person Medium Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone": "🧑🏽‍❤️‍🧑🏽",
-    /** 👨🏼‍❤️‍🧑🏿 Couple With Heart Man Person Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone_dark_skin_tone":
-        "👨🏼‍❤️‍🧑🏿",
-    /** 🧑🏽‍❤️‍👩 Couple With Heart Person Woman Medium Skin Tone No Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍👩",
-    /** 👩🏼‍❤️‍💋‍🧑🏽 Kiss Woman Person Medium Light Skin Tone Medium Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone_medium_skin_tone": "👩🏼‍❤️‍💋‍🧑🏽",
-    /** 👩🏽‍❤️‍💋‍🧑🏻 Kiss Woman Person Medium Skin Tone Light Skin Tone */
-    "kiss_woman_person_medium_skin_tone_light_skin_tone": "👩🏽‍❤️‍💋‍🧑🏻",
-    /** 👩‍❤️‍🧑🏻 Couple With Heart Woman Person No Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_person_no_skin_tone_light_skin_tone": "👩‍❤️‍🧑🏻",
-    /** 👨‍❤️‍💋‍👩🏼 Kiss Man No Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_no_skin_tone_woman_medium_light_skin_tone": "👨‍❤️‍💋‍👩🏼",
-    /** 👩🏽‍❤️‍💋‍🧑🏽 Kiss Woman Person Medium Skin Tone */
-    "kiss_woman_person_medium_skin_tone": "👩🏽‍❤️‍💋‍🧑🏽",
-    /** 👨🏽‍❤️‍💋‍🧑🏽 Kiss Man Person Medium Skin Tone */
-    "kiss_man_person_medium_skin_tone": "👨🏽‍❤️‍💋‍🧑🏽",
-    /** 👨🏾‍❤️‍🧑🏼 Couple With Heart Man Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "👨🏾‍❤️‍🧑🏼",
-    /** 🧑🏾‍❤️‍🧑🏾 Couple With Heart Person Person Medium Dark Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone": "🧑🏾‍❤️‍🧑🏾",
-    /** 👩🏼‍❤️‍🧑🏾 Couple With Heart Woman Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍❤️‍🧑🏾",
-    /** 🧑🏿‍❤️‍🧑🏿 Couple With Heart Person Person Dark Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone": "🧑🏿‍❤️‍🧑🏿",
-    /** 🧑‍❤️‍👩🏼 Couple With Heart Person Woman No Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_woman_no_skin_tone_medium_light_skin_tone":
-        "🧑‍❤️‍👩🏼",
-    /** 🧑🏻‍❤️‍💋‍👨🏿 Kiss Person Man Light Skin Tone Dark Skin Tone */
-    "kiss_person_man_light_skin_tone_dark_skin_tone": "🧑🏻‍❤️‍💋‍👨🏿",
-    /** 👨🏿‍❤️‍💋‍👩🏻 Kiss Man Dark Skin Tone Woman Light Skin Tone */
-    "kiss_man_dark_skin_tone_woman_light_skin_tone": "👨🏿‍❤️‍💋‍👩🏻",
-    /** 🧑🏿‍❤️‍💋‍🧑 Kiss Person Person Dark Skin Tone No Skin Tone */
-    "kiss_person_person_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍💋‍🧑",
-    /** 🧑🏽‍❤️‍👨🏼 Couple With Heart Person Man Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone_medium_light_skin_tone":
-        "🧑🏽‍❤️‍👨🏼",
-    /** 🧑🏿‍❤️‍🧑 Couple With Heart Person Person Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_person_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍🧑",
-    /** 🧑‍❤️‍👨 Couple With Heart Person Man */
-    "couple_with_heart_person_man": "🧑‍❤️‍👨",
-    /** 🧑🏽‍❤️‍👨 Couple With Heart Person Man Medium Skin Tone No Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍👨",
-    /** 🧑‍❤️‍💋‍👩🏾 Kiss Person Woman No Skin Tone Medium Dark Skin Tone */
-    "kiss_person_woman_no_skin_tone_medium_dark_skin_tone": "🧑‍❤️‍💋‍👩🏾",
-    /** 👩🏽‍❤️‍🧑🏾 Couple With Heart Woman Person Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone_medium_dark_skin_tone":
-        "👩🏽‍❤️‍🧑🏾",
-    /** 👨‍❤️‍🧑🏾 Couple With Heart Man Person No Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_person_no_skin_tone_medium_dark_skin_tone":
-        "👨‍❤️‍🧑🏾",
-    /** 👨‍❤️‍💋‍👩 Kiss Man Woman */
-    "kiss_man_woman": "👨‍❤️‍💋‍👩",
-    /** 👨🏾‍❤️‍🧑🏿 Couple With Heart Man Person Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone_dark_skin_tone":
-        "👨🏾‍❤️‍🧑🏿",
-    /** 👨🏼‍❤️‍🧑🏾 Couple With Heart Man Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "👨🏼‍❤️‍🧑🏾",
-    /** 🧑‍❤️‍💋‍👩🏼 Kiss Person Woman No Skin Tone Medium Light Skin Tone */
-    "kiss_person_woman_no_skin_tone_medium_light_skin_tone": "🧑‍❤️‍💋‍👩🏼",
-    /** 👩🏿‍❤️‍💋‍🧑🏽 Kiss Woman Person Dark Skin Tone Medium Skin Tone */
-    "kiss_woman_person_dark_skin_tone_medium_skin_tone": "👩🏿‍❤️‍💋‍🧑🏽",
-    /** 👨🏿‍❤️‍💋‍🧑 Kiss Man Person Dark Skin Tone No Skin Tone */
-    "kiss_man_person_dark_skin_tone_no_skin_tone": "👨🏿‍❤️‍💋‍🧑",
-    /** 👩🏽‍❤️‍🧑🏼 Couple With Heart Woman Person Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone_medium_light_skin_tone":
-        "👩🏽‍❤️‍🧑🏼",
-    /** 👨🏾‍❤️‍💋‍🧑🏽 Kiss Man Person Medium Dark Skin Tone Medium Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone_medium_skin_tone": "👨🏾‍❤️‍💋‍🧑🏽",
-    /** 👨🏽‍❤️‍🧑🏿 Couple With Heart Man Person Medium Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone_dark_skin_tone": "👨🏽‍❤️‍🧑🏿",
-    /** 👨🏾‍❤️‍💋‍🧑 Kiss Man Person Medium Dark Skin Tone No Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone_no_skin_tone": "👨🏾‍❤️‍💋‍🧑",
-    /** 👨🏼‍❤️‍💋‍🧑🏿 Kiss Man Person Medium Light Skin Tone Dark Skin Tone */
-    "kiss_man_person_medium_light_skin_tone_dark_skin_tone": "👨🏼‍❤️‍💋‍🧑🏿",
-    /** 👩🏾‍❤️‍🧑 Couple With Heart Woman Person Medium Dark Skin Tone No Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone_no_skin_tone":
-        "👩🏾‍❤️‍🧑",
-    /** 👩🏾‍❤️‍🧑🏿 Couple With Heart Woman Person Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone_dark_skin_tone":
-        "👩🏾‍❤️‍🧑🏿",
-    /** 🧑🏿‍❤️‍💋‍👨🏻 Kiss Person Man Dark Skin Tone Light Skin Tone */
-    "kiss_person_man_dark_skin_tone_light_skin_tone": "🧑🏿‍❤️‍💋‍👨🏻",
-    /** 🧑🏼‍❤️‍👩🏻 Couple With Heart Person Woman Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone_light_skin_tone":
-        "🧑🏼‍❤️‍👩🏻",
-    /** 👨‍❤️‍🧑🏽 Couple With Heart Man Person No Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_person_no_skin_tone_medium_skin_tone": "👨‍❤️‍🧑🏽",
-    /** 🧑🏼‍❤️‍👨🏿 Couple With Heart Person Man Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone_dark_skin_tone":
-        "🧑🏼‍❤️‍👨🏿",
-    /** 👩🏿‍❤️‍💋‍🧑🏼 Kiss Woman Person Dark Skin Tone Medium Light Skin Tone */
-    "kiss_woman_person_dark_skin_tone_medium_light_skin_tone": "👩🏿‍❤️‍💋‍🧑🏼",
-    /** 👨🏻‍❤️‍👩 Couple With Heart Man Light Skin Tone Woman No Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_no_skin_tone": "👨🏻‍❤️‍👩",
-    /** 🧑🏻‍❤️‍👩🏻 Couple With Heart Person Woman Light Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone": "🧑🏻‍❤️‍👩🏻",
-    /** 🧑🏿‍❤️‍👨 Couple With Heart Person Man Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍👨",
-    /** 🧑🏿‍❤️‍👩🏼 Couple With Heart Person Woman Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏿‍❤️‍👩🏼",
-    /** 🧑🏾‍❤️‍💋‍🧑 Kiss Person Person Medium Dark Skin Tone No Skin Tone */
-    "kiss_person_person_medium_dark_skin_tone_no_skin_tone": "🧑🏾‍❤️‍💋‍🧑",
-    /** 🧑🏿‍❤️‍👨🏽 Couple With Heart Person Man Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone_medium_skin_tone": "🧑🏿‍❤️‍👨🏽",
-    /** 👩🏾‍❤️‍💋‍🧑🏼 Kiss Woman Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍❤️‍💋‍🧑🏼",
-    /** 👩🏻‍❤️‍🧑🏻 Couple With Heart Woman Person Light Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone": "👩🏻‍❤️‍🧑🏻",
-    /** 👨🏻‍❤️‍🧑🏾 Couple With Heart Man Person Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone_medium_dark_skin_tone":
-        "👨🏻‍❤️‍🧑🏾",
-    /** 🧑‍❤️‍💋‍🧑🏼 Kiss Person Person No Skin Tone Medium Light Skin Tone */
-    "kiss_person_person_no_skin_tone_medium_light_skin_tone": "🧑‍❤️‍💋‍🧑🏼",
-    /** 🧑🏼‍❤️‍🧑 Couple With Heart Person Person Medium Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone_no_skin_tone":
-        "🧑🏼‍❤️‍🧑",
-    /** 🧑🏾‍❤️‍💋‍👩 Kiss Person Woman Medium Dark Skin Tone No Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone_no_skin_tone": "🧑🏾‍❤️‍💋‍👩",
-    /** 👨🏼‍❤️‍🧑🏼 Couple With Heart Man Person Medium Light Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone": "👨🏼‍❤️‍🧑🏼",
-    /** 👩🏻‍❤️‍💋‍🧑🏾 Kiss Woman Person Light Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_person_light_skin_tone_medium_dark_skin_tone": "👩🏻‍❤️‍💋‍🧑🏾",
-    /** 👩🏾‍❤️‍💋‍🧑 Kiss Woman Person Medium Dark Skin Tone No Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone_no_skin_tone": "👩🏾‍❤️‍💋‍🧑",
-    /** 🧑🏾‍❤️‍👩🏻 Couple With Heart Person Woman Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone_light_skin_tone":
-        "🧑🏾‍❤️‍👩🏻",
-    /** ️ Variation Selector 16 */
-    "variation_selector_16": "️",
-    /** 👨🏻‍❤️‍💋‍🧑 Kiss Man Person Light Skin Tone No Skin Tone */
-    "kiss_man_person_light_skin_tone_no_skin_tone": "👨🏻‍❤️‍💋‍🧑",
-    /** 👨🏼‍❤️‍💋‍🧑 Kiss Man Person Medium Light Skin Tone No Skin Tone */
-    "kiss_man_person_medium_light_skin_tone_no_skin_tone": "👨🏼‍❤️‍💋‍🧑",
-    /** 🧑🏾‍❤️‍👨 Couple With Heart Person Man Medium Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone_no_skin_tone":
-        "🧑🏾‍❤️‍👨",
-    /** 🧑🏻‍❤️‍🧑🏻 Couple With Heart Person Person Light Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone": "🧑🏻‍❤️‍🧑🏻",
-    /** 🧑🏽‍❤️‍👩🏻 Couple With Heart Person Woman Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone_light_skin_tone":
-        "🧑🏽‍❤️‍👩🏻",
-    /** 👨🏿‍❤️‍👩🏻 Couple With Heart Man Dark Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_light_skin_tone": "👨🏿‍❤️‍👩🏻",
-    /** 👨🏽‍❤️‍💋‍🧑🏻 Kiss Man Person Medium Skin Tone Light Skin Tone */
-    "kiss_man_person_medium_skin_tone_light_skin_tone": "👨🏽‍❤️‍💋‍🧑🏻",
-    /** 👩🏽‍❤️‍💋‍🧑🏼 Kiss Woman Person Medium Skin Tone Medium Light Skin Tone */
-    "kiss_woman_person_medium_skin_tone_medium_light_skin_tone": "👩🏽‍❤️‍💋‍🧑🏼",
-    /** 👩🏻‍❤️‍🧑🏾 Couple With Heart Woman Person Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone_medium_dark_skin_tone":
-        "👩🏻‍❤️‍🧑🏾",
-    /** 🧑‍❤️‍👨🏿 Couple With Heart Person Man No Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_man_no_skin_tone_dark_skin_tone": "🧑‍❤️‍👨🏿",
-    /** 🧑🏻‍❤️‍💋‍🧑🏻 Kiss Person Person Light Skin Tone */
-    "kiss_person_person_light_skin_tone": "🧑🏻‍❤️‍💋‍🧑🏻",
-    /** 🧑🏿‍❤️‍👩🏻 Couple With Heart Person Woman Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone_light_skin_tone": "🧑🏿‍❤️‍👩🏻",
-    /** 👨‍❤️‍💋‍🧑🏼 Kiss Man Person No Skin Tone Medium Light Skin Tone */
-    "kiss_man_person_no_skin_tone_medium_light_skin_tone": "👨‍❤️‍💋‍🧑🏼",
-    /** 👨🏾‍❤️‍🧑🏾 Couple With Heart Man Person Medium Dark Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone": "👨🏾‍❤️‍🧑🏾",
-    /** 👩🏾‍❤️‍🧑🏾 Couple With Heart Woman Person Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone": "👩🏾‍❤️‍🧑🏾",
-    /** 🧑🏾‍❤️‍💋‍👨🏿 Kiss Person Man Medium Dark Skin Tone Dark Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone_dark_skin_tone": "🧑🏾‍❤️‍💋‍👨🏿",
-    /** 👨‍❤️‍💋‍🧑🏿 Kiss Man Person No Skin Tone Dark Skin Tone */
-    "kiss_man_person_no_skin_tone_dark_skin_tone": "👨‍❤️‍💋‍🧑🏿",
-    /** 🧑🏻‍❤️‍💋‍👨🏾 Kiss Person Man Light Skin Tone Medium Dark Skin Tone */
-    "kiss_person_man_light_skin_tone_medium_dark_skin_tone": "🧑🏻‍❤️‍💋‍👨🏾",
-    /** 🧑🏼‍❤️‍💋‍🧑🏼 Kiss Person Person Medium Light Skin Tone */
-    "kiss_person_person_medium_light_skin_tone": "🧑🏼‍❤️‍💋‍🧑🏼",
-    /** 👨🏽‍❤️‍🧑🏻 Couple With Heart Man Person Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone_light_skin_tone": "👨🏽‍❤️‍🧑🏻",
-    /** 🧑‍❤️‍💋‍🧑 Kiss Person Person */
-    "kiss_person_person": "🧑‍❤️‍💋‍🧑",
-    /** 🧑🏼‍❤️‍💋‍👨🏽 Kiss Person Man Medium Light Skin Tone Medium Skin Tone */
-    "kiss_person_man_medium_light_skin_tone_medium_skin_tone": "🧑🏼‍❤️‍💋‍👨🏽",
-    /** 👩‍❤️‍💋‍🧑🏽 Kiss Woman Person No Skin Tone Medium Skin Tone */
-    "kiss_woman_person_no_skin_tone_medium_skin_tone": "👩‍❤️‍💋‍🧑🏽",
-    /** 🧑🏻‍❤️‍👩🏿 Couple With Heart Person Woman Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone_dark_skin_tone": "🧑🏻‍❤️‍👩🏿",
-    /** 👩🏻‍❤️‍🧑🏽 Couple With Heart Woman Person Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone_medium_skin_tone":
-        "👩🏻‍❤️‍🧑🏽",
-    /** 👩🏿‍❤️‍🧑🏾 Couple With Heart Woman Person Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone_medium_dark_skin_tone":
-        "👩🏿‍❤️‍🧑🏾",
-    /** 🧑🏼‍❤️‍💋‍👩🏽 Kiss Person Woman Medium Light Skin Tone Medium Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone_medium_skin_tone": "🧑🏼‍❤️‍💋‍👩🏽",
-    /** 🧑‍❤️‍💋‍👨🏽 Kiss Person Man No Skin Tone Medium Skin Tone */
-    "kiss_person_man_no_skin_tone_medium_skin_tone": "🧑‍❤️‍💋‍👨🏽",
-    /** 👨🏼‍❤️‍🧑🏽 Couple With Heart Man Person Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone_medium_skin_tone":
-        "👨🏼‍❤️‍🧑🏽",
-    /** 👨🏾‍❤️‍💋‍👩🏿 Kiss Man Medium Dark Skin Tone Woman Dark Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_dark_skin_tone": "👨🏾‍❤️‍💋‍👩🏿",
-    /** 🧑🏻‍❤️‍💋‍👩🏻 Kiss Person Woman Light Skin Tone */
-    "kiss_person_woman_light_skin_tone": "🧑🏻‍❤️‍💋‍👩🏻",
-    /** 👩🏼‍❤️‍🧑 Couple With Heart Woman Person Medium Light Skin Tone No Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone_no_skin_tone":
-        "👩🏼‍❤️‍🧑",
-    /** 👨🏽‍❤️‍💋‍👩🏽 Kiss Man Medium Skin Tone Woman Medium Skin Tone */
-    "kiss_man_medium_skin_tone_woman_medium_skin_tone": "👨🏽‍❤️‍💋‍👩🏽",
-    /** 🧑🏿‍❤️‍💋‍👩🏽 Kiss Person Woman Dark Skin Tone Medium Skin Tone */
-    "kiss_person_woman_dark_skin_tone_medium_skin_tone": "🧑🏿‍❤️‍💋‍👩🏽",
-    /** 👨🏾‍❤️‍💋‍🧑🏻 Kiss Man Person Medium Dark Skin Tone Light Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone_light_skin_tone": "👨🏾‍❤️‍💋‍🧑🏻",
-    /** 🧑🏾‍❤️‍💋‍👨🏽 Kiss Person Man Medium Dark Skin Tone Medium Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone_medium_skin_tone": "🧑🏾‍❤️‍💋‍👨🏽",
-    /** 🧑🏼‍❤️‍💋‍👩 Kiss Person Woman Medium Light Skin Tone No Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone_no_skin_tone": "🧑🏼‍❤️‍💋‍👩",
-    /** 👨🏿‍❤️‍💋‍🧑🏽 Kiss Man Person Dark Skin Tone Medium Skin Tone */
-    "kiss_man_person_dark_skin_tone_medium_skin_tone": "👨🏿‍❤️‍💋‍🧑🏽",
-    /** 👩🏾‍❤️‍💋‍🧑🏽 Kiss Woman Person Medium Dark Skin Tone Medium Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone_medium_skin_tone": "👩🏾‍❤️‍💋‍🧑🏽",
-    /** 🧑🏾‍❤️‍👨🏻 Couple With Heart Person Man Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone_light_skin_tone":
-        "🧑🏾‍❤️‍👨🏻",
-    /** 👨🏻‍❤️‍💋‍🧑🏾 Kiss Man Person Light Skin Tone Medium Dark Skin Tone */
-    "kiss_man_person_light_skin_tone_medium_dark_skin_tone": "👨🏻‍❤️‍💋‍🧑🏾",
-    /** 🧑‍❤️‍👩 Couple With Heart Person Woman */
-    "couple_with_heart_person_woman": "🧑‍❤️‍👩",
-    /** 👩🏿‍❤️‍💋‍🧑🏻 Kiss Woman Person Dark Skin Tone Light Skin Tone */
-    "kiss_woman_person_dark_skin_tone_light_skin_tone": "👩🏿‍❤️‍💋‍🧑🏻",
-    /** 👨🏾‍❤️‍💋‍🧑🏿 Kiss Man Person Medium Dark Skin Tone Dark Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone_dark_skin_tone": "👨🏾‍❤️‍💋‍🧑🏿",
-    /** 🧑🏽‍❤️‍💋‍👩🏼 Kiss Person Woman Medium Skin Tone Medium Light Skin Tone */
-    "kiss_person_woman_medium_skin_tone_medium_light_skin_tone": "🧑🏽‍❤️‍💋‍👩🏼",
-    /** 👨🏾‍❤️‍💋‍👩 Kiss Man Medium Dark Skin Tone Woman No Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_no_skin_tone": "👨🏾‍❤️‍💋‍👩",
-    /** 👩🏿‍❤️‍🧑🏿 Couple With Heart Woman Person Dark Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone": "👩🏿‍❤️‍🧑🏿",
-    /** 🧑🏿‍❤️‍👨🏼 Couple With Heart Person Man Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏿‍❤️‍👨🏼",
-    /** 🧑🏻‍❤️‍💋‍🧑 Kiss Person Person Light Skin Tone No Skin Tone */
-    "kiss_person_person_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍💋‍🧑",
-    /** 🧑🏿‍❤️‍💋‍👩🏻 Kiss Person Woman Dark Skin Tone Light Skin Tone */
-    "kiss_person_woman_dark_skin_tone_light_skin_tone": "🧑🏿‍❤️‍💋‍👩🏻",
-    /** 👩‍❤️‍💋‍🧑🏻 Kiss Woman Person No Skin Tone Light Skin Tone */
-    "kiss_woman_person_no_skin_tone_light_skin_tone": "👩‍❤️‍💋‍🧑🏻",
-    /** 👩🏼‍❤️‍💋‍🧑🏻 Kiss Woman Person Medium Light Skin Tone Light Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone_light_skin_tone": "👩🏼‍❤️‍💋‍🧑🏻",
-    /** 👨🏾‍❤️‍💋‍🧑🏼 Kiss Man Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "👨🏾‍❤️‍💋‍🧑🏼",
-    /** 🧑🏾‍❤️‍👨🏿 Couple With Heart Person Man Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone_dark_skin_tone":
-        "🧑🏾‍❤️‍👨🏿",
-    /** 👩🏻‍❤️‍💋‍🧑🏽 Kiss Woman Person Light Skin Tone Medium Skin Tone */
-    "kiss_woman_person_light_skin_tone_medium_skin_tone": "👩🏻‍❤️‍💋‍🧑🏽",
-    /** 👩🏿‍❤️‍💋‍🧑🏿 Kiss Woman Person Dark Skin Tone */
-    "kiss_woman_person_dark_skin_tone": "👩🏿‍❤️‍💋‍🧑🏿",
-    /** 👩🏽‍❤️‍💋‍🧑🏾 Kiss Woman Person Medium Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_person_medium_skin_tone_medium_dark_skin_tone": "👩🏽‍❤️‍💋‍🧑🏾",
-    /** 👨🏽‍❤️‍👩 Couple With Heart Man Medium Skin Tone Woman No Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_no_skin_tone": "👨🏽‍❤️‍👩",
-    /** 👨🏻‍❤️‍👩🏼 Couple With Heart Man Light Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_medium_light_skin_tone":
-        "👨🏻‍❤️‍👩🏼",
-    /** 👩‍❤️‍🧑🏽 Couple With Heart Woman Person No Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_person_no_skin_tone_medium_skin_tone": "👩‍❤️‍🧑🏽",
-    /** 🧑🏽‍❤️‍🧑 Couple With Heart Person Person Medium Skin Tone No Skin Tone */
-    "couple_with_heart_person_person_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍🧑",
-    /** 🧑🏻‍❤️‍👨 Couple With Heart Person Man Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍👨",
-    /** 👨🏻‍❤️‍🧑🏻 Couple With Heart Man Person Light Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone": "👨🏻‍❤️‍🧑🏻",
-    /** 🧑🏿‍❤️‍💋‍👩 Kiss Person Woman Dark Skin Tone No Skin Tone */
-    "kiss_person_woman_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍💋‍👩",
-    /** 👨🏻‍❤️‍👩🏾 Couple With Heart Man Light Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_medium_dark_skin_tone":
-        "👨🏻‍❤️‍👩🏾",
-    /** 🧑🏻‍❤️‍💋‍👩🏾 Kiss Person Woman Light Skin Tone Medium Dark Skin Tone */
-    "kiss_person_woman_light_skin_tone_medium_dark_skin_tone": "🧑🏻‍❤️‍💋‍👩🏾",
-    /** 🧑‍❤️‍💋‍👨🏼 Kiss Person Man No Skin Tone Medium Light Skin Tone */
-    "kiss_person_man_no_skin_tone_medium_light_skin_tone": "🧑‍❤️‍💋‍👨🏼",
-    /** 🧑🏻‍❤️‍👨🏽 Couple With Heart Person Man Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone_medium_skin_tone": "🧑🏻‍❤️‍👨🏽",
-    /** 🧑🏾‍❤️‍💋‍🧑🏾 Kiss Person Person Medium Dark Skin Tone */
-    "kiss_person_person_medium_dark_skin_tone": "🧑🏾‍❤️‍💋‍🧑🏾",
-    /** 👨🏾‍❤️‍👩🏼 Couple With Heart Man Medium Dark Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_medium_light_skin_tone":
-        "👨🏾‍❤️‍👩🏼",
-    /** 👨🏾‍❤️‍💋‍👩🏾 Kiss Man Medium Dark Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_medium_dark_skin_tone": "👨🏾‍❤️‍💋‍👩🏾",
-    /** 👨🏼‍❤️‍👩🏻 Couple With Heart Man Medium Light Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_light_skin_tone":
-        "👨🏼‍❤️‍👩🏻",
-    /** 👨🏾‍❤️‍💋‍👩🏼 Kiss Man Medium Dark Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_medium_light_skin_tone": "👨🏾‍❤️‍💋‍👩🏼",
-    /** 👨🏻‍❤️‍💋‍🧑🏻 Kiss Man Person Light Skin Tone */
-    "kiss_man_person_light_skin_tone": "👨🏻‍❤️‍💋‍🧑🏻",
-    /** 👩‍❤️‍🧑🏼 Couple With Heart Woman Person No Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_person_no_skin_tone_medium_light_skin_tone":
-        "👩‍❤️‍🧑🏼",
-    /** 🧑🏼‍❤️‍💋‍👩🏿 Kiss Person Woman Medium Light Skin Tone Dark Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone_dark_skin_tone": "🧑🏼‍❤️‍💋‍👩🏿",
-    /** 👩🏿‍❤️‍🧑🏽 Couple With Heart Woman Person Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone_medium_skin_tone":
-        "👩🏿‍❤️‍🧑🏽",
-    /** 🧑🏽‍❤️‍💋‍👨🏻 Kiss Person Man Medium Skin Tone Light Skin Tone */
-    "kiss_person_man_medium_skin_tone_light_skin_tone": "🧑🏽‍❤️‍💋‍👨🏻",
-    /** 🧑🏽‍❤️‍💋‍👩 Kiss Person Woman Medium Skin Tone No Skin Tone */
-    "kiss_person_woman_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍💋‍👩",
-    /** 🧑‍❤️‍🧑🏻 Couple With Heart Person Person No Skin Tone Light Skin Tone */
-    "couple_with_heart_person_person_no_skin_tone_light_skin_tone": "🧑‍❤️‍🧑🏻",
-    /** 👨🏿‍❤️‍💋‍🧑🏿 Kiss Man Person Dark Skin Tone */
-    "kiss_man_person_dark_skin_tone": "👨🏿‍❤️‍💋‍🧑🏿",
-    /** 👩🏼‍❤️‍🧑🏿 Couple With Heart Woman Person Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone_dark_skin_tone":
-        "👩🏼‍❤️‍🧑🏿",
-    /** 🧑🏼‍❤️‍💋‍👨🏿 Kiss Person Man Medium Light Skin Tone Dark Skin Tone */
-    "kiss_person_man_medium_light_skin_tone_dark_skin_tone": "🧑🏼‍❤️‍💋‍👨🏿",
-    /** 🧑🏽‍❤️‍💋‍🧑🏽 Kiss Person Person Medium Skin Tone */
-    "kiss_person_person_medium_skin_tone": "🧑🏽‍❤️‍💋‍🧑🏽",
-    /** 🧑🏼‍❤️‍👨 Couple With Heart Person Man Medium Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone_no_skin_tone":
-        "🧑🏼‍❤️‍👨",
-    /** 🧑🏾‍❤️‍🧑 Couple With Heart Person Person Medium Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_person_medium_dark_skin_tone_no_skin_tone":
-        "🧑🏾‍❤️‍🧑",
-    /** 🧑🏿‍❤️‍💋‍👩🏾 Kiss Person Woman Dark Skin Tone Medium Dark Skin Tone */
-    "kiss_person_woman_dark_skin_tone_medium_dark_skin_tone": "🧑🏿‍❤️‍💋‍👩🏾",
-    /** 🧑🏾‍❤️‍👨🏽 Couple With Heart Person Man Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone_medium_skin_tone":
-        "🧑🏾‍❤️‍👨🏽",
-    /** 🧑🏻‍❤️‍👩🏼 Couple With Heart Person Woman Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone_medium_light_skin_tone":
-        "🧑🏻‍❤️‍👩🏼",
-    /** 🧑‍❤️‍🧑 Couple With Heart Person Person */
-    "couple_with_heart_person_person": "🧑‍❤️‍🧑",
-    /** 🧑🏾‍❤️‍💋‍👨 Kiss Person Man Medium Dark Skin Tone No Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone_no_skin_tone": "🧑🏾‍❤️‍💋‍👨",
-    /** 👨🏼‍❤️‍💋‍🧑🏽 Kiss Man Person Medium Light Skin Tone Medium Skin Tone */
-    "kiss_man_person_medium_light_skin_tone_medium_skin_tone": "👨🏼‍❤️‍💋‍🧑🏽",
-    /** 🧑🏻‍❤️‍🧑 Couple With Heart Person Person Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_person_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍🧑",
-    /** 👨🏾‍❤️‍🧑 Couple With Heart Man Person Medium Dark Skin Tone No Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone_no_skin_tone":
-        "👨🏾‍❤️‍🧑",
-    /** 🧑‍❤️‍💋‍🧑🏾 Kiss Person Person No Skin Tone Medium Dark Skin Tone */
-    "kiss_person_person_no_skin_tone_medium_dark_skin_tone": "🧑‍❤️‍💋‍🧑🏾",
-    /** 👨🏾‍❤️‍🧑🏻 Couple With Heart Man Person Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone_light_skin_tone":
-        "👨🏾‍❤️‍🧑🏻",
-    /** 🧑🏾‍❤️‍👩 Couple With Heart Person Woman Medium Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone_no_skin_tone":
-        "🧑🏾‍❤️‍👩",
-    /** 🧑🏼‍❤️‍💋‍👩🏾 Kiss Person Woman Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍💋‍👩🏾",
-    /** 🧑🏾‍❤️‍👨🏼 Couple With Heart Person Man Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍👨🏼",
-    /** 👨‍❤️‍🧑🏿 Couple With Heart Man Person No Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_person_no_skin_tone_dark_skin_tone": "👨‍❤️‍🧑🏿",
-    /** 🧑‍❤️‍💋‍👨🏿 Kiss Person Man No Skin Tone Dark Skin Tone */
-    "kiss_person_man_no_skin_tone_dark_skin_tone": "🧑‍❤️‍💋‍👨🏿",
-    /** 🧑‍❤️‍👨🏻 Couple With Heart Person Man No Skin Tone Light Skin Tone */
-    "couple_with_heart_person_man_no_skin_tone_light_skin_tone": "🧑‍❤️‍👨🏻",
-    /** 👨🏾‍❤️‍👩🏿 Couple With Heart Man Medium Dark Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_dark_skin_tone":
-        "👨🏾‍❤️‍👩🏿",
-    /** 🧑🏾‍❤️‍👨🏾 Couple With Heart Person Man Medium Dark Skin Tone */
-    "couple_with_heart_person_man_medium_dark_skin_tone": "🧑🏾‍❤️‍👨🏾",
-    /** 🧑🏻‍❤️‍👨🏿 Couple With Heart Person Man Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone_dark_skin_tone": "🧑🏻‍❤️‍👨🏿",
-    /** 👨🏿‍❤️‍💋‍👩🏽 Kiss Man Dark Skin Tone Woman Medium Skin Tone */
-    "kiss_man_dark_skin_tone_woman_medium_skin_tone": "👨🏿‍❤️‍💋‍👩🏽",
-    /** 👨🏿‍❤️‍💋‍👩🏼 Kiss Man Dark Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_dark_skin_tone_woman_medium_light_skin_tone": "👨🏿‍❤️‍💋‍👩🏼",
-    /** 🧑🏼‍❤️‍👩🏼 Couple With Heart Person Woman Medium Light Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone": "🧑🏼‍❤️‍👩🏼",
-    /** 🧑🏾‍❤️‍💋‍👨🏻 Kiss Person Man Medium Dark Skin Tone Light Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone_light_skin_tone": "🧑🏾‍❤️‍💋‍👨🏻",
-    /** 👨🏼‍❤️‍🧑 Couple With Heart Man Person Medium Light Skin Tone No Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone_no_skin_tone":
-        "👨🏼‍❤️‍🧑",
-    /** 👩🏾‍❤️‍💋‍🧑🏿 Kiss Woman Person Medium Dark Skin Tone Dark Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone_dark_skin_tone": "👩🏾‍❤️‍💋‍🧑🏿",
-    /** 🧑🏼‍❤️‍🧑🏼 Couple With Heart Person Person Medium Light Skin Tone */
-    "couple_with_heart_person_person_medium_light_skin_tone": "🧑🏼‍❤️‍🧑🏼",
-    /** 👨🏿‍❤️‍💋‍🧑🏻 Kiss Man Person Dark Skin Tone Light Skin Tone */
-    "kiss_man_person_dark_skin_tone_light_skin_tone": "👨🏿‍❤️‍💋‍🧑🏻",
-    /** 👩🏿‍❤️‍💋‍🧑🏾 Kiss Woman Person Dark Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_person_dark_skin_tone_medium_dark_skin_tone": "👩🏿‍❤️‍💋‍🧑🏾",
-    /** 👨🏼‍❤️‍👩🏼 Couple With Heart Man Medium Light Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_medium_light_skin_tone":
-        "👨🏼‍❤️‍👩🏼",
-    /** 👨🏻‍❤️‍👩🏿 Couple With Heart Man Light Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_dark_skin_tone": "👨🏻‍❤️‍👩🏿",
-    /** 👩🏾‍❤️‍🧑🏻 Couple With Heart Woman Person Medium Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone_light_skin_tone":
-        "👩🏾‍❤️‍🧑🏻",
-    /** 👨🏼‍❤️‍💋‍👩🏾 Kiss Man Medium Light Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_medium_dark_skin_tone": "👨🏼‍❤️‍💋‍👩🏾",
-    /** 🧑🏽‍❤️‍👩🏽 Couple With Heart Person Woman Medium Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone": "🧑🏽‍❤️‍👩🏽",
-    /** 👨🏽‍❤️‍👩🏿 Couple With Heart Man Medium Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_dark_skin_tone": "👨🏽‍❤️‍👩🏿",
-    /** 🧑‍❤️‍💋‍👨🏻 Kiss Person Man No Skin Tone Light Skin Tone */
-    "kiss_person_man_no_skin_tone_light_skin_tone": "🧑‍❤️‍💋‍👨🏻",
-    /** 👩🏻‍❤️‍🧑🏿 Couple With Heart Woman Person Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone_dark_skin_tone": "👩🏻‍❤️‍🧑🏿",
-    /** 👩🏽‍❤️‍🧑🏽 Couple With Heart Woman Person Medium Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone": "👩🏽‍❤️‍🧑🏽",
-    /** 👩🏿‍❤️‍🧑 Couple With Heart Woman Person Dark Skin Tone No Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone_no_skin_tone": "👩🏿‍❤️‍🧑",
-    /** 👨🏻‍❤️‍👩🏽 Couple With Heart Man Light Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_medium_skin_tone": "👨🏻‍❤️‍👩🏽",
-    /** 👨🏿‍❤️‍👩🏾 Couple With Heart Man Dark Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_medium_dark_skin_tone":
-        "👨🏿‍❤️‍👩🏾",
-    /** 👩‍❤️‍💋‍🧑🏿 Kiss Woman Person No Skin Tone Dark Skin Tone */
-    "kiss_woman_person_no_skin_tone_dark_skin_tone": "👩‍❤️‍💋‍🧑🏿",
-    /** 🧑🏽‍❤️‍💋‍👩🏾 Kiss Person Woman Medium Skin Tone Medium Dark Skin Tone */
-    "kiss_person_woman_medium_skin_tone_medium_dark_skin_tone": "🧑🏽‍❤️‍💋‍👩🏾",
-    /** 👩🏽‍❤️‍🧑🏻 Couple With Heart Woman Person Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone_light_skin_tone":
-        "👩🏽‍❤️‍🧑🏻",
-    /** 👨🏻‍❤️‍👩🏻 Couple With Heart Man Light Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_light_skin_tone_woman_light_skin_tone": "👨🏻‍❤️‍👩🏻",
-    /** 👨🏾‍❤️‍👩🏽 Couple With Heart Man Medium Dark Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_medium_skin_tone":
-        "👨🏾‍❤️‍👩🏽",
-    /** 🧑🏼‍❤️‍👨🏼 Couple With Heart Person Man Medium Light Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone": "🧑🏼‍❤️‍👨🏼",
-    /** 👨🏽‍❤️‍💋‍🧑🏼 Kiss Man Person Medium Skin Tone Medium Light Skin Tone */
-    "kiss_man_person_medium_skin_tone_medium_light_skin_tone": "👨🏽‍❤️‍💋‍🧑🏼",
-    /** 👨‍❤️‍🧑🏼 Couple With Heart Man Person No Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_person_no_skin_tone_medium_light_skin_tone":
-        "👨‍❤️‍🧑🏼",
-    /** 🧑‍❤️‍💋‍🧑🏿 Kiss Person Person No Skin Tone Dark Skin Tone */
-    "kiss_person_person_no_skin_tone_dark_skin_tone": "🧑‍❤️‍💋‍🧑🏿",
-    /** 🧑🏽‍❤️‍👨🏾 Couple With Heart Person Man Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone_medium_dark_skin_tone":
-        "🧑🏽‍❤️‍👨🏾",
-    /** 🧑‍❤️‍💋‍🧑🏽 Kiss Person Person No Skin Tone Medium Skin Tone */
-    "kiss_person_person_no_skin_tone_medium_skin_tone": "🧑‍❤️‍💋‍🧑🏽",
-    /** 👩🏼‍❤️‍💋‍🧑🏿 Kiss Woman Person Medium Light Skin Tone Dark Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone_dark_skin_tone": "👩🏼‍❤️‍💋‍🧑🏿",
-    /** 🧑🏾‍❤️‍👩🏾 Couple With Heart Person Woman Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone": "🧑🏾‍❤️‍👩🏾",
-    /** 👨‍❤️‍💋‍🧑 Kiss Man Person */
-    "kiss_man_person": "👨‍❤️‍💋‍🧑",
-    /** 👩🏿‍❤️‍🧑🏼 Couple With Heart Woman Person Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone_medium_light_skin_tone":
-        "👩🏿‍❤️‍🧑🏼",
-    /** 👨🏻‍❤️‍💋‍👩🏽 Kiss Man Light Skin Tone Woman Medium Skin Tone */
-    "kiss_man_light_skin_tone_woman_medium_skin_tone": "👨🏻‍❤️‍💋‍👩🏽",
-    /** 👨🏼‍❤️‍🧑🏻 Couple With Heart Man Person Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_man_person_medium_light_skin_tone_light_skin_tone":
-        "👨🏼‍❤️‍🧑🏻",
-    /** 🧑‍❤️‍👨🏼 Couple With Heart Person Man No Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_man_no_skin_tone_medium_light_skin_tone":
-        "🧑‍❤️‍👨🏼",
-    /** 👨‍❤️‍👩🏼 Couple With Heart Man No Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_no_skin_tone_woman_medium_light_skin_tone":
-        "👨‍❤️‍👩🏼",
-    /** 👨🏻‍❤️‍💋‍🧑🏽 Kiss Man Person Light Skin Tone Medium Skin Tone */
-    "kiss_man_person_light_skin_tone_medium_skin_tone": "👨🏻‍❤️‍💋‍🧑🏽",
-    /** 👩🏻‍❤️‍💋‍🧑 Kiss Woman Person Light Skin Tone No Skin Tone */
-    "kiss_woman_person_light_skin_tone_no_skin_tone": "👩🏻‍❤️‍💋‍🧑",
-    /** 👩🏾‍❤️‍💋‍🧑🏾 Kiss Woman Person Medium Dark Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone": "👩🏾‍❤️‍💋‍🧑🏾",
-    /** 👩🏻‍❤️‍💋‍🧑🏼 Kiss Woman Person Light Skin Tone Medium Light Skin Tone */
-    "kiss_woman_person_light_skin_tone_medium_light_skin_tone": "👩🏻‍❤️‍💋‍🧑🏼",
-    /** 👩🏽‍❤️‍🧑 Couple With Heart Woman Person Medium Skin Tone No Skin Tone */
-    "couple_with_heart_woman_person_medium_skin_tone_no_skin_tone": "👩🏽‍❤️‍🧑",
-    /** 🧑🏻‍❤️‍💋‍👨🏻 Kiss Person Man Light Skin Tone */
-    "kiss_person_man_light_skin_tone": "🧑🏻‍❤️‍💋‍👨🏻",
-    /** 👩🏼‍❤️‍🧑🏻 Couple With Heart Woman Person Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone_light_skin_tone":
-        "👩🏼‍❤️‍🧑🏻",
-    /** 👨🏼‍❤️‍💋‍🧑🏻 Kiss Man Person Medium Light Skin Tone Light Skin Tone */
-    "kiss_man_person_medium_light_skin_tone_light_skin_tone": "👨🏼‍❤️‍💋‍🧑🏻",
-    /** 👨🏼‍❤️‍💋‍👩🏿 Kiss Man Medium Light Skin Tone Woman Dark Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_dark_skin_tone": "👨🏼‍❤️‍💋‍👩🏿",
-    /** 🧑🏿‍❤️‍👩 Couple With Heart Person Woman Dark Skin Tone No Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍👩",
-    /** 🧑🏻‍❤️‍💋‍👨 Kiss Person Man Light Skin Tone No Skin Tone */
-    "kiss_person_man_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍💋‍👨",
-    /** 🧑‍❤️‍💋‍🧑🏻 Kiss Person Person No Skin Tone Light Skin Tone */
-    "kiss_person_person_no_skin_tone_light_skin_tone": "🧑‍❤️‍💋‍🧑🏻",
-    /** 👩‍❤️‍💋‍🧑🏾 Kiss Woman Person No Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_person_no_skin_tone_medium_dark_skin_tone": "👩‍❤️‍💋‍🧑🏾",
-    /** 🧑🏻‍❤️‍💋‍👩🏽 Kiss Person Woman Light Skin Tone Medium Skin Tone */
-    "kiss_person_woman_light_skin_tone_medium_skin_tone": "🧑🏻‍❤️‍💋‍👩🏽",
-    /** 🧑🏾‍❤️‍💋‍👩🏾 Kiss Person Woman Medium Dark Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone": "🧑🏾‍❤️‍💋‍👩🏾",
-    /** 🧑🏿‍❤️‍💋‍👩🏿 Kiss Person Woman Dark Skin Tone */
-    "kiss_person_woman_dark_skin_tone": "🧑🏿‍❤️‍💋‍👩🏿",
-    /** 🧑🏾‍❤️‍👩🏼 Couple With Heart Person Woman Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍👩🏼",
-    /** 🧑‍❤️‍💋‍👩🏻 Kiss Person Woman No Skin Tone Light Skin Tone */
-    "kiss_person_woman_no_skin_tone_light_skin_tone": "🧑‍❤️‍💋‍👩🏻",
-    /** 👨🏿‍❤️‍🧑 Couple With Heart Man Person Dark Skin Tone No Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone_no_skin_tone": "👨🏿‍❤️‍🧑",
-    /** 👨🏽‍❤️‍💋‍🧑 Kiss Man Person Medium Skin Tone No Skin Tone */
-    "kiss_man_person_medium_skin_tone_no_skin_tone": "👨🏽‍❤️‍💋‍🧑",
-    /** 🧑🏽‍❤️‍👨🏽 Couple With Heart Person Man Medium Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone": "🧑🏽‍❤️‍👨🏽",
-    /** 🧑🏻‍❤️‍👩 Couple With Heart Person Woman Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍👩",
-    /** 👨‍❤️‍💋‍🧑🏾 Kiss Man Person No Skin Tone Medium Dark Skin Tone */
-    "kiss_man_person_no_skin_tone_medium_dark_skin_tone": "👨‍❤️‍💋‍🧑🏾",
-    /** 🧑🏻‍❤️‍💋‍👨🏼 Kiss Person Man Light Skin Tone Medium Light Skin Tone */
-    "kiss_person_man_light_skin_tone_medium_light_skin_tone": "🧑🏻‍❤️‍💋‍👨🏼",
-    /** 👨🏽‍❤️‍💋‍👩🏿 Kiss Man Medium Skin Tone Woman Dark Skin Tone */
-    "kiss_man_medium_skin_tone_woman_dark_skin_tone": "👨🏽‍❤️‍💋‍👩🏿",
-    /** 👩🏻‍❤️‍🧑🏼 Couple With Heart Woman Person Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone_medium_light_skin_tone":
-        "👩🏻‍❤️‍🧑🏼",
-    /** 🧑‍❤️‍💋‍👨🏾 Kiss Person Man No Skin Tone Medium Dark Skin Tone */
-    "kiss_person_man_no_skin_tone_medium_dark_skin_tone": "🧑‍❤️‍💋‍👨🏾",
-    /** 🧑🏾‍❤️‍💋‍👩🏽 Kiss Person Woman Medium Dark Skin Tone Medium Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone_medium_skin_tone": "🧑🏾‍❤️‍💋‍👩🏽",
-    /** 🧑🏻‍❤️‍💋‍👩🏿 Kiss Person Woman Light Skin Tone Dark Skin Tone */
-    "kiss_person_woman_light_skin_tone_dark_skin_tone": "🧑🏻‍❤️‍💋‍👩🏿",
-    /** 🧑🏿‍❤️‍👩🏾 Couple With Heart Person Woman Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone_medium_dark_skin_tone":
-        "🧑🏿‍❤️‍👩🏾",
-    /** 👩‍❤️‍💋‍🧑🏼 Kiss Woman Person No Skin Tone Medium Light Skin Tone */
-    "kiss_woman_person_no_skin_tone_medium_light_skin_tone": "👩‍❤️‍💋‍🧑🏼",
-    /** 👩🏾‍❤️‍💋‍🧑🏻 Kiss Woman Person Medium Dark Skin Tone Light Skin Tone */
-    "kiss_woman_person_medium_dark_skin_tone_light_skin_tone": "👩🏾‍❤️‍💋‍🧑🏻",
-    /** 🧑🏽‍❤️‍👩🏾 Couple With Heart Person Woman Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone_medium_dark_skin_tone":
-        "🧑🏽‍❤️‍👩🏾",
-    /** 🧑🏿‍❤️‍💋‍👨🏿 Kiss Person Man Dark Skin Tone */
-    "kiss_person_man_dark_skin_tone": "🧑🏿‍❤️‍💋‍👨🏿",
-    /** 🧑🏽‍❤️‍💋‍👨🏽 Kiss Person Man Medium Skin Tone */
-    "kiss_person_man_medium_skin_tone": "🧑🏽‍❤️‍💋‍👨🏽",
-    /** 👨🏾‍❤️‍💋‍🧑🏾 Kiss Man Person Medium Dark Skin Tone */
-    "kiss_man_person_medium_dark_skin_tone": "👨🏾‍❤️‍💋‍🧑🏾",
-    /** 🧑🏻‍❤️‍👨🏻 Couple With Heart Person Man Light Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone": "🧑🏻‍❤️‍👨🏻",
-    /** 👨🏻‍❤️‍💋‍👩 Kiss Man Light Skin Tone Woman No Skin Tone */
-    "kiss_man_light_skin_tone_woman_no_skin_tone": "👨🏻‍❤️‍💋‍👩",
-    /** 🧑🏿‍❤️‍👨🏿 Couple With Heart Person Man Dark Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone": "🧑🏿‍❤️‍👨🏿",
-    /** 🧑‍❤️‍👨🏾 Couple With Heart Person Man No Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_man_no_skin_tone_medium_dark_skin_tone":
-        "🧑‍❤️‍👨🏾",
-    /** 👨🏽‍❤️‍🧑 Couple With Heart Man Person Medium Skin Tone No Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone_no_skin_tone": "👨🏽‍❤️‍🧑",
-    /** 🧑🏼‍❤️‍💋‍👨🏾 Kiss Person Man Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_person_man_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍💋‍👨🏾",
-    /** 🧑🏽‍❤️‍💋‍👩🏻 Kiss Person Woman Medium Skin Tone Light Skin Tone */
-    "kiss_person_woman_medium_skin_tone_light_skin_tone": "🧑🏽‍❤️‍💋‍👩🏻",
-    /** 👩‍❤️‍🧑🏾 Couple With Heart Woman Person No Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_woman_person_no_skin_tone_medium_dark_skin_tone":
-        "👩‍❤️‍🧑🏾",
-    /** 👨🏿‍❤️‍🧑🏿 Couple With Heart Man Person Dark Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone": "👨🏿‍❤️‍🧑🏿",
-    /** 👨🏿‍❤️‍🧑🏾 Couple With Heart Man Person Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone_medium_dark_skin_tone":
-        "👨🏿‍❤️‍🧑🏾",
-    /** 🧑🏻‍❤️‍💋‍👩🏼 Kiss Person Woman Light Skin Tone Medium Light Skin Tone */
-    "kiss_person_woman_light_skin_tone_medium_light_skin_tone": "🧑🏻‍❤️‍💋‍👩🏼",
-    /** 👨🏻‍❤️‍💋‍🧑🏿 Kiss Man Person Light Skin Tone Dark Skin Tone */
-    "kiss_man_person_light_skin_tone_dark_skin_tone": "👨🏻‍❤️‍💋‍🧑🏿",
-    /** 👨🏽‍❤️‍🧑🏾 Couple With Heart Man Person Medium Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone_medium_dark_skin_tone":
-        "👨🏽‍❤️‍🧑🏾",
-    /** 👨🏽‍❤️‍🧑🏼 Couple With Heart Man Person Medium Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone_medium_light_skin_tone":
-        "👨🏽‍❤️‍🧑🏼",
-    /** 👨‍❤️‍🧑 Couple With Heart Man Person */
-    "couple_with_heart_man_person": "👨‍❤️‍🧑",
-    /** 🧑🏼‍❤️‍👩🏿 Couple With Heart Person Woman Medium Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone_dark_skin_tone":
-        "🧑🏼‍❤️‍👩🏿",
-    /** 🧑‍❤️‍🧑🏽 Couple With Heart Person Person No Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_person_no_skin_tone_medium_skin_tone": "🧑‍❤️‍🧑🏽",
-    /** 🧑🏼‍❤️‍👨🏻 Couple With Heart Person Man Medium Light Skin Tone Light Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone_light_skin_tone":
-        "🧑🏼‍❤️‍👨🏻",
-    /** 👨‍❤️‍🧑🏻 Couple With Heart Man Person No Skin Tone Light Skin Tone */
-    "couple_with_heart_man_person_no_skin_tone_light_skin_tone": "👨‍❤️‍🧑🏻",
-    /** 🧑🏼‍❤️‍👨🏽 Couple With Heart Person Man Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_man_medium_light_skin_tone_medium_skin_tone":
-        "🧑🏼‍❤️‍👨🏽",
-    /** 👨🏿‍❤️‍👩🏼 Couple With Heart Man Dark Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_medium_light_skin_tone":
-        "👨🏿‍❤️‍👩🏼",
-    /** 🧑🏽‍❤️‍👨🏻 Couple With Heart Person Man Medium Skin Tone Light Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone_light_skin_tone": "🧑🏽‍❤️‍👨🏻",
-    /** 👨‍❤️‍👩🏿 Couple With Heart Man No Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_no_skin_tone_woman_dark_skin_tone": "👨‍❤️‍👩🏿",
-    /** 👨🏽‍❤️‍💋‍🧑🏿 Kiss Man Person Medium Skin Tone Dark Skin Tone */
-    "kiss_man_person_medium_skin_tone_dark_skin_tone": "👨🏽‍❤️‍💋‍🧑🏿",
-    /** 🧑🏻‍❤️‍👨🏼 Couple With Heart Person Man Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone_medium_light_skin_tone":
-        "🧑🏻‍❤️‍👨🏼",
-    /** 🧑‍❤️‍👨🏽 Couple With Heart Person Man No Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_man_no_skin_tone_medium_skin_tone": "🧑‍❤️‍👨🏽",
-    /** 👩‍❤️‍🧑🏿 Couple With Heart Woman Person No Skin Tone Dark Skin Tone */
-    "couple_with_heart_woman_person_no_skin_tone_dark_skin_tone": "👩‍❤️‍🧑🏿",
-    /** 👨🏻‍❤️‍🧑🏿 Couple With Heart Man Person Light Skin Tone Dark Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone_dark_skin_tone": "👨🏻‍❤️‍🧑🏿",
-    /** 👨🏽‍❤️‍🧑🏽 Couple With Heart Man Person Medium Skin Tone */
-    "couple_with_heart_man_person_medium_skin_tone": "👨🏽‍❤️‍🧑🏽",
-    /** 🧑🏿‍❤️‍👨🏾 Couple With Heart Person Man Dark Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_man_dark_skin_tone_medium_dark_skin_tone":
-        "🧑🏿‍❤️‍👨🏾",
-    /** 🧑‍❤️‍🧑🏾 Couple With Heart Person Person No Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_person_no_skin_tone_medium_dark_skin_tone":
-        "🧑‍❤️‍🧑🏾",
-    /** 👨🏻‍❤️‍🧑🏼 Couple With Heart Man Person Light Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone_medium_light_skin_tone":
-        "👨🏻‍❤️‍🧑🏼",
-    /** 👨🏾‍❤️‍👩 Couple With Heart Man Medium Dark Skin Tone Woman No Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_no_skin_tone": "👨🏾‍❤️‍👩",
-    /** 🧑🏽‍❤️‍👨🏿 Couple With Heart Person Man Medium Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_man_medium_skin_tone_dark_skin_tone": "🧑🏽‍❤️‍👨🏿",
-    /** 👨🏻‍❤️‍🧑 Couple With Heart Man Person Light Skin Tone No Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone_no_skin_tone": "👨🏻‍❤️‍🧑",
-    /** 👨🏿‍❤️‍🧑🏼 Couple With Heart Man Person Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone_medium_light_skin_tone":
-        "👨🏿‍❤️‍🧑🏼",
-    /** 👨🏻‍❤️‍🧑🏽 Couple With Heart Man Person Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_person_light_skin_tone_medium_skin_tone": "👨🏻‍❤️‍🧑🏽",
-    /** 👨🏿‍❤️‍🧑🏻 Couple With Heart Man Person Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone_light_skin_tone": "👨🏿‍❤️‍🧑🏻",
-    /** 👨🏼‍❤️‍💋‍🧑🏼 Kiss Man Person Medium Light Skin Tone */
-    "kiss_man_person_medium_light_skin_tone": "👨🏼‍❤️‍💋‍🧑🏼",
-    /** 🧑‍❤️‍👩🏿 Couple With Heart Person Woman No Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_woman_no_skin_tone_dark_skin_tone": "🧑‍❤️‍👩🏿",
-    /** 👨🏿‍❤️‍🧑🏽 Couple With Heart Man Person Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_person_dark_skin_tone_medium_skin_tone": "👨🏿‍❤️‍🧑🏽",
-    /** 🧑🏾‍❤️‍👩🏽 Couple With Heart Person Woman Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone_medium_skin_tone":
-        "🧑🏾‍❤️‍👩🏽",
-    /** 👨🏿‍❤️‍💋‍👩🏾 Kiss Man Dark Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_dark_skin_tone_woman_medium_dark_skin_tone": "👨🏿‍❤️‍💋‍👩🏾",
-    /** 🧑🏾‍❤️‍👩🏿 Couple With Heart Person Woman Medium Dark Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_dark_skin_tone_dark_skin_tone":
-        "🧑🏾‍❤️‍👩🏿",
-    /** 🧑🏽‍❤️‍💋‍👨🏾 Kiss Person Man Medium Skin Tone Medium Dark Skin Tone */
-    "kiss_person_man_medium_skin_tone_medium_dark_skin_tone": "🧑🏽‍❤️‍💋‍👨🏾",
-    /** 🧑🏼‍❤️‍👩🏾 Couple With Heart Person Woman Medium Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏼‍❤️‍👩🏾",
-    /** 🧑🏿‍❤️‍👩🏽 Couple With Heart Person Woman Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone_medium_skin_tone":
-        "🧑🏿‍❤️‍👩🏽",
-    /** 🧑🏻‍❤️‍👩🏾 Couple With Heart Person Woman Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏻‍❤️‍👩🏾",
-    /** 👩🏿‍❤️‍🧑🏻 Couple With Heart Woman Person Dark Skin Tone Light Skin Tone */
-    "couple_with_heart_woman_person_dark_skin_tone_light_skin_tone": "👩🏿‍❤️‍🧑🏻",
-    /** 👨🏿‍❤️‍👩 Couple With Heart Man Dark Skin Tone Woman No Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_no_skin_tone": "👨🏿‍❤️‍👩",
-    /** 👩🏼‍❤️‍🧑🏽 Couple With Heart Woman Person Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone_medium_skin_tone":
-        "👩🏼‍❤️‍🧑🏽",
-    /** 🧑‍❤️‍💋‍👨 Kiss Person Man */
-    "kiss_person_man": "🧑‍❤️‍💋‍👨",
-    /** 👩🏾‍❤️‍🧑🏽 Couple With Heart Woman Person Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone_medium_skin_tone":
-        "👩🏾‍❤️‍🧑🏽",
-    /** 👩🏽‍❤️‍💋‍🧑🏿 Kiss Woman Person Medium Skin Tone Dark Skin Tone */
-    "kiss_woman_person_medium_skin_tone_dark_skin_tone": "👩🏽‍❤️‍💋‍🧑🏿",
-    /** 👩🏼‍❤️‍🧑🏼 Couple With Heart Woman Person Medium Light Skin Tone */
-    "couple_with_heart_woman_person_medium_light_skin_tone": "👩🏼‍❤️‍🧑🏼",
-    /** 🧑🏽‍❤️‍💋‍👨🏼 Kiss Person Man Medium Skin Tone Medium Light Skin Tone */
-    "kiss_person_man_medium_skin_tone_medium_light_skin_tone": "🧑🏽‍❤️‍💋‍👨🏼",
-    /** 🧑🏼‍❤️‍👩🏽 Couple With Heart Person Woman Medium Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone_medium_skin_tone":
-        "🧑🏼‍❤️‍👩🏽",
-    /** 🧑🏿‍❤️‍💋‍👨 Kiss Person Man Dark Skin Tone No Skin Tone */
-    "kiss_person_man_dark_skin_tone_no_skin_tone": "🧑🏿‍❤️‍💋‍👨",
-    /** 🧑🏽‍❤️‍👩🏿 Couple With Heart Person Woman Medium Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_woman_medium_skin_tone_dark_skin_tone":
-        "🧑🏽‍❤️‍👩🏿",
-    /** 🧑🏼‍❤️‍💋‍👩🏻 Kiss Person Woman Medium Light Skin Tone Light Skin Tone */
-    "kiss_person_woman_medium_light_skin_tone_light_skin_tone": "🧑🏼‍❤️‍💋‍👩🏻",
-    /** 🧑🏽‍❤️‍💋‍👨🏿 Kiss Person Man Medium Skin Tone Dark Skin Tone */
-    "kiss_person_man_medium_skin_tone_dark_skin_tone": "🧑🏽‍❤️‍💋‍👨🏿",
-    /** 🧑🏼‍❤️‍💋‍🧑 Kiss Person Person Medium Light Skin Tone No Skin Tone */
-    "kiss_person_person_medium_light_skin_tone_no_skin_tone": "🧑🏼‍❤️‍💋‍🧑",
-    /** 👨‍❤️‍👩 Couple With Heart Man Woman */
-    "couple_with_heart_man_woman": "👨‍❤️‍👩",
-    /** 🧑🏻‍❤️‍👨🏾 Couple With Heart Person Man Light Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_man_light_skin_tone_medium_dark_skin_tone":
-        "🧑🏻‍❤️‍👨🏾",
-    /** 🧑‍❤️‍💋‍👩🏽 Kiss Person Woman No Skin Tone Medium Skin Tone */
-    "kiss_person_woman_no_skin_tone_medium_skin_tone": "🧑‍❤️‍💋‍👩🏽",
-    /** 🧑🏼‍❤️‍👩 Couple With Heart Person Woman Medium Light Skin Tone No Skin Tone */
-    "couple_with_heart_person_woman_medium_light_skin_tone_no_skin_tone":
-        "🧑🏼‍❤️‍👩",
-    /** 👨🏾‍❤️‍💋‍👩🏽 Kiss Man Medium Dark Skin Tone Woman Medium Skin Tone */
-    "kiss_man_medium_dark_skin_tone_woman_medium_skin_tone": "👨🏾‍❤️‍💋‍👩🏽",
-    /** 👨🏼‍❤️‍💋‍🧑🏾 Kiss Man Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_man_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "👨🏼‍❤️‍💋‍🧑🏾",
-    /** 👩🏻‍❤️‍🧑 Couple With Heart Woman Person Light Skin Tone No Skin Tone */
-    "couple_with_heart_woman_person_light_skin_tone_no_skin_tone": "👩🏻‍❤️‍🧑",
-    /** 🧑🏿‍❤️‍💋‍👨🏽 Kiss Person Man Dark Skin Tone Medium Skin Tone */
-    "kiss_person_man_dark_skin_tone_medium_skin_tone": "🧑🏿‍❤️‍💋‍👨🏽",
-    /** 🧑‍❤️‍👩🏽 Couple With Heart Person Woman No Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_woman_no_skin_tone_medium_skin_tone": "🧑‍❤️‍👩🏽",
-    /** 🧑‍❤️‍🧑🏿 Couple With Heart Person Person No Skin Tone Dark Skin Tone */
-    "couple_with_heart_person_person_no_skin_tone_dark_skin_tone": "🧑‍❤️‍🧑🏿",
-    /** 👩🏻‍❤️‍💋‍🧑🏿 Kiss Woman Person Light Skin Tone Dark Skin Tone */
-    "kiss_woman_person_light_skin_tone_dark_skin_tone": "👩🏻‍❤️‍💋‍🧑🏿",
-    /** 🧑🏿‍❤️‍👩🏿 Couple With Heart Person Woman Dark Skin Tone */
-    "couple_with_heart_person_woman_dark_skin_tone": "🧑🏿‍❤️‍👩🏿",
-    /** 🧑🏽‍❤️‍💋‍👩🏽 Kiss Person Woman Medium Skin Tone */
-    "kiss_person_woman_medium_skin_tone": "🧑🏽‍❤️‍💋‍👩🏽",
-    /** 👨🏼‍❤️‍👩🏾 Couple With Heart Man Medium Light Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_medium_dark_skin_tone":
-        "👨🏼‍❤️‍👩🏾",
-    /** 👨🏼‍❤️‍👩 Couple With Heart Man Medium Light Skin Tone Woman No Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_no_skin_tone":
-        "👨🏼‍❤️‍👩",
-    /** 👨🏾‍❤️‍🧑🏽 Couple With Heart Man Person Medium Dark Skin Tone Medium Skin Tone */
-    "couple_with_heart_man_person_medium_dark_skin_tone_medium_skin_tone":
-        "👨🏾‍❤️‍🧑🏽",
-    /** 👨🏽‍❤️‍💋‍👩🏾 Kiss Man Medium Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_medium_skin_tone_woman_medium_dark_skin_tone": "👨🏽‍❤️‍💋‍👩🏾",
-    /** 👨🏿‍❤️‍💋‍👩🏿 Kiss Man Dark Skin Tone Woman Dark Skin Tone */
-    "kiss_man_dark_skin_tone_woman_dark_skin_tone": "👨🏿‍❤️‍💋‍👩🏿",
-    /** 🧑‍❤️‍💋‍👩 Kiss Person Woman */
-    "kiss_person_woman": "🧑‍❤️‍💋‍👩",
-    /** 👨🏻‍❤️‍💋‍👩🏼 Kiss Man Light Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_light_skin_tone_woman_medium_light_skin_tone": "👨🏻‍❤️‍💋‍👩🏼",
-    /** 👨🏿‍❤️‍💋‍🧑🏼 Kiss Man Person Dark Skin Tone Medium Light Skin Tone */
-    "kiss_man_person_dark_skin_tone_medium_light_skin_tone": "👨🏿‍❤️‍💋‍🧑🏼",
-    /** 👨🏻‍❤️‍💋‍🧑🏼 Kiss Man Person Light Skin Tone Medium Light Skin Tone */
-    "kiss_man_person_light_skin_tone_medium_light_skin_tone": "👨🏻‍❤️‍💋‍🧑🏼",
-    /** 🧑🏽‍❤️‍💋‍👩🏿 Kiss Person Woman Medium Skin Tone Dark Skin Tone */
-    "kiss_person_woman_medium_skin_tone_dark_skin_tone": "🧑🏽‍❤️‍💋‍👩🏿",
-    /** 🧑🏻‍❤️‍👩🏽 Couple With Heart Person Woman Light Skin Tone Medium Skin Tone */
-    "couple_with_heart_person_woman_light_skin_tone_medium_skin_tone":
-        "🧑🏻‍❤️‍👩🏽",
-    /** 👩‍❤️‍🧑 Couple With Heart Woman Person */
-    "couple_with_heart_woman_person": "👩‍❤️‍🧑",
-    /** 👨🏿‍❤️‍💋‍🧑🏾 Kiss Man Person Dark Skin Tone Medium Dark Skin Tone */
-    "kiss_man_person_dark_skin_tone_medium_dark_skin_tone": "👨🏿‍❤️‍💋‍🧑🏾",
-    /** 👨‍❤️‍💋‍👩🏾 Kiss Man No Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_no_skin_tone_woman_medium_dark_skin_tone": "👨‍❤️‍💋‍👩🏾",
-    /** 🧑🏻‍❤️‍💋‍👩 Kiss Person Woman Light Skin Tone No Skin Tone */
-    "kiss_person_woman_light_skin_tone_no_skin_tone": "🧑🏻‍❤️‍💋‍👩",
-    /** 👩🏼‍❤️‍💋‍🧑🏾 Kiss Woman Person Medium Light Skin Tone Medium Dark Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone_medium_dark_skin_tone":
-        "👩🏼‍❤️‍💋‍🧑🏾",
-    /** 👨‍❤️‍💋‍🧑🏻 Kiss Man Person No Skin Tone Light Skin Tone */
-    "kiss_man_person_no_skin_tone_light_skin_tone": "👨‍❤️‍💋‍🧑🏻",
-    /** 👩🏼‍❤️‍💋‍🧑🏼 Kiss Woman Person Medium Light Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone": "👩🏼‍❤️‍💋‍🧑🏼",
-    /** 🧑‍❤️‍🧑🏼 Couple With Heart Person Person No Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_person_person_no_skin_tone_medium_light_skin_tone":
-        "🧑‍❤️‍🧑🏼",
-    /** 🧑🏿‍❤️‍💋‍👨🏼 Kiss Person Man Dark Skin Tone Medium Light Skin Tone */
-    "kiss_person_man_dark_skin_tone_medium_light_skin_tone": "🧑🏿‍❤️‍💋‍👨🏼",
-    /** 🧑🏽‍❤️‍💋‍👨 Kiss Person Man Medium Skin Tone No Skin Tone */
-    "kiss_person_man_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍💋‍👨",
-    /** 👨🏽‍❤️‍💋‍🧑🏾 Kiss Man Person Medium Skin Tone Medium Dark Skin Tone */
-    "kiss_man_person_medium_skin_tone_medium_dark_skin_tone": "👨🏽‍❤️‍💋‍🧑🏾",
-    /** 👨🏿‍❤️‍👩🏿 Couple With Heart Man Dark Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_dark_skin_tone": "👨🏿‍❤️‍👩🏿",
-    /** 🧑🏻‍❤️‍💋‍👨🏽 Kiss Person Man Light Skin Tone Medium Skin Tone */
-    "kiss_person_man_light_skin_tone_medium_skin_tone": "🧑🏻‍❤️‍💋‍👨🏽",
-    /** 👨🏿‍❤️‍👩🏽 Couple With Heart Man Dark Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_dark_skin_tone_woman_medium_skin_tone": "👨🏿‍❤️‍👩🏽",
-    /** 🧑🏼‍❤️‍💋‍👨🏻 Kiss Person Man Medium Light Skin Tone Light Skin Tone */
-    "kiss_person_man_medium_light_skin_tone_light_skin_tone": "🧑🏼‍❤️‍💋‍👨🏻",
-    /** 👨‍❤️‍👩🏾 Couple With Heart Man No Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_no_skin_tone_woman_medium_dark_skin_tone": "👨‍❤️‍👩🏾",
-    /** 🧑🏾‍❤️‍💋‍👨🏼 Kiss Person Man Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍💋‍👨🏼",
-    /** 🧑🏼‍❤️‍💋‍👨🏼 Kiss Person Man Medium Light Skin Tone */
-    "kiss_person_man_medium_light_skin_tone": "🧑🏼‍❤️‍💋‍👨🏼",
-    /** 👨🏾‍❤️‍👩🏻 Couple With Heart Man Medium Dark Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_light_skin_tone":
-        "👨🏾‍❤️‍👩🏻",
-    /** 👨🏽‍❤️‍👩🏼 Couple With Heart Man Medium Skin Tone Woman Medium Light Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_medium_light_skin_tone":
-        "👨🏽‍❤️‍👩🏼",
-    /** 🧑🏿‍❤️‍💋‍🧑🏿 Kiss Person Person Dark Skin Tone */
-    "kiss_person_person_dark_skin_tone": "🧑🏿‍❤️‍💋‍🧑🏿",
-    /** 🧑🏾‍❤️‍💋‍👩🏻 Kiss Person Woman Medium Dark Skin Tone Light Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone_light_skin_tone": "🧑🏾‍❤️‍💋‍👩🏻",
-    /** 🧑🏽‍❤️‍💋‍🧑 Kiss Person Person Medium Skin Tone No Skin Tone */
-    "kiss_person_person_medium_skin_tone_no_skin_tone": "🧑🏽‍❤️‍💋‍🧑",
-    /** 👨‍❤️‍💋‍🧑🏽 Kiss Man Person No Skin Tone Medium Skin Tone */
-    "kiss_man_person_no_skin_tone_medium_skin_tone": "👨‍❤️‍💋‍🧑🏽",
-    /** 🧑🏾‍❤️‍💋‍👩🏿 Kiss Person Woman Medium Dark Skin Tone Dark Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone_dark_skin_tone": "🧑🏾‍❤️‍💋‍👩🏿",
-    /** 👨🏻‍❤️‍💋‍👩🏻 Kiss Man Light Skin Tone Woman Light Skin Tone */
-    "kiss_man_light_skin_tone_woman_light_skin_tone": "👨🏻‍❤️‍💋‍👩🏻",
-    /** 👩🏽‍❤️‍💋‍🧑 Kiss Woman Person Medium Skin Tone No Skin Tone */
-    "kiss_woman_person_medium_skin_tone_no_skin_tone": "👩🏽‍❤️‍💋‍🧑",
-    /** 🧑🏿‍❤️‍💋‍👩🏼 Kiss Person Woman Dark Skin Tone Medium Light Skin Tone */
-    "kiss_person_woman_dark_skin_tone_medium_light_skin_tone": "🧑🏿‍❤️‍💋‍👩🏼",
-    /** 👨🏻‍❤️‍💋‍👩🏿 Kiss Man Light Skin Tone Woman Dark Skin Tone */
-    "kiss_man_light_skin_tone_woman_dark_skin_tone": "👨🏻‍❤️‍💋‍👩🏿",
-    /** 👩🏿‍❤️‍💋‍🧑 Kiss Woman Person Dark Skin Tone No Skin Tone */
-    "kiss_woman_person_dark_skin_tone_no_skin_tone": "👩🏿‍❤️‍💋‍🧑",
-    /** 👩‍❤️‍💋‍🧑 Kiss Woman Person */
-    "kiss_woman_person": "👩‍❤️‍💋‍🧑",
-    /** 👨🏼‍❤️‍💋‍👩 Kiss Man Medium Light Skin Tone Woman No Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_no_skin_tone": "👨🏼‍❤️‍💋‍👩",
-    /** 👩🏼‍❤️‍💋‍🧑 Kiss Woman Person Medium Light Skin Tone No Skin Tone */
-    "kiss_woman_person_medium_light_skin_tone_no_skin_tone": "👩🏼‍❤️‍💋‍🧑",
-    /** 🧑‍❤️‍👩🏾 Couple With Heart Person Woman No Skin Tone Medium Dark Skin Tone */
-    "couple_with_heart_person_woman_no_skin_tone_medium_dark_skin_tone":
-        "🧑‍❤️‍👩🏾",
-    /** 🧑🏿‍❤️‍💋‍👨🏾 Kiss Person Man Dark Skin Tone Medium Dark Skin Tone */
-    "kiss_person_man_dark_skin_tone_medium_dark_skin_tone": "🧑🏿‍❤️‍💋‍👨🏾",
-    /** 🧑🏾‍❤️‍💋‍👨🏾 Kiss Person Man Medium Dark Skin Tone */
-    "kiss_person_man_medium_dark_skin_tone": "🧑🏾‍❤️‍💋‍👨🏾",
-    /** 🧑🏾‍❤️‍💋‍👩🏼 Kiss Person Woman Medium Dark Skin Tone Medium Light Skin Tone */
-    "kiss_person_woman_medium_dark_skin_tone_medium_light_skin_tone":
-        "🧑🏾‍❤️‍💋‍👩🏼",
-    /** 👨‍❤️‍💋‍👩🏽 Kiss Man No Skin Tone Woman Medium Skin Tone */
-    "kiss_man_no_skin_tone_woman_medium_skin_tone": "👨‍❤️‍💋‍👩🏽",
-    /** 🧑‍❤️‍💋‍👩🏿 Kiss Person Woman No Skin Tone Dark Skin Tone */
-    "kiss_person_woman_no_skin_tone_dark_skin_tone": "🧑‍❤️‍💋‍👩🏿",
-    /** 👩🏾‍❤️‍🧑🏼 Couple With Heart Woman Person Medium Dark Skin Tone Medium Light Skin Tone */
-    "couple_with_heart_woman_person_medium_dark_skin_tone_medium_light_skin_tone":
-        "👩🏾‍❤️‍🧑🏼",
-    /** 🧑🏼‍❤️‍💋‍👨 Kiss Person Man Medium Light Skin Tone No Skin Tone */
-    "kiss_person_man_medium_light_skin_tone_no_skin_tone": "🧑🏼‍❤️‍💋‍👨",
-    /** 👨🏼‍❤️‍💋‍👩🏽 Kiss Man Medium Light Skin Tone Woman Medium Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_medium_skin_tone": "👨🏼‍❤️‍💋‍👩🏽",
-    /** 👨🏽‍❤️‍💋‍👩🏻 Kiss Man Medium Skin Tone Woman Light Skin Tone */
-    "kiss_man_medium_skin_tone_woman_light_skin_tone": "👨🏽‍❤️‍💋‍👩🏻",
-    /** 👨‍❤️‍💋‍👩🏿 Kiss Man No Skin Tone Woman Dark Skin Tone */
-    "kiss_man_no_skin_tone_woman_dark_skin_tone": "👨‍❤️‍💋‍👩🏿",
-    /** 👨🏼‍❤️‍👩🏿 Couple With Heart Man Medium Light Skin Tone Woman Dark Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_dark_skin_tone":
-        "👨🏼‍❤️‍👩🏿",
-    /** 👨🏽‍❤️‍💋‍👩🏼 Kiss Man Medium Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_medium_skin_tone_woman_medium_light_skin_tone": "👨🏽‍❤️‍💋‍👩🏼",
-    /** 👨🏼‍❤️‍👩🏽 Couple With Heart Man Medium Light Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_medium_light_skin_tone_woman_medium_skin_tone":
-        "👨🏼‍❤️‍👩🏽",
-    /** 👨🏽‍❤️‍👩🏻 Couple With Heart Man Medium Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_light_skin_tone": "👨🏽‍❤️‍👩🏻",
-    /** 👨🏽‍❤️‍💋‍👩 Kiss Man Medium Skin Tone Woman No Skin Tone */
-    "kiss_man_medium_skin_tone_woman_no_skin_tone": "👨🏽‍❤️‍💋‍👩",
-    /** 👨‍❤️‍👩🏽 Couple With Heart Man No Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_no_skin_tone_woman_medium_skin_tone": "👨‍❤️‍👩🏽",
-    /** 👨🏾‍❤️‍👩🏾 Couple With Heart Man Medium Dark Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_medium_dark_skin_tone_woman_medium_dark_skin_tone":
-        "👨🏾‍❤️‍👩🏾",
-    /** 👨‍❤️‍💋‍👩🏻 Kiss Man No Skin Tone Woman Light Skin Tone */
-    "kiss_man_no_skin_tone_woman_light_skin_tone": "👨‍❤️‍💋‍👩🏻",
-    /** 👨🏽‍❤️‍👩🏽 Couple With Heart Man Medium Skin Tone Woman Medium Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_medium_skin_tone": "👨🏽‍❤️‍👩🏽",
-    /** 👨‍❤️‍👩🏻 Couple With Heart Man No Skin Tone Woman Light Skin Tone */
-    "couple_with_heart_man_no_skin_tone_woman_light_skin_tone": "👨‍❤️‍👩🏻",
-    /** 👨🏽‍❤️‍👩🏾 Couple With Heart Man Medium Skin Tone Woman Medium Dark Skin Tone */
-    "couple_with_heart_man_medium_skin_tone_woman_medium_dark_skin_tone":
-        "👨🏽‍❤️‍👩🏾",
-    /** 👨🏼‍❤️‍💋‍👩🏼 Kiss Man Medium Light Skin Tone Woman Medium Light Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_medium_light_skin_tone":
-        "👨🏼‍❤️‍💋‍👩🏼",
-    /** 👨🏻‍❤️‍💋‍👩🏾 Kiss Man Light Skin Tone Woman Medium Dark Skin Tone */
-    "kiss_man_light_skin_tone_woman_medium_dark_skin_tone": "👨🏻‍❤️‍💋‍👩🏾",
-    /** 👨🏼‍❤️‍💋‍👩🏻 Kiss Man Medium Light Skin Tone Woman Light Skin Tone */
-    "kiss_man_medium_light_skin_tone_woman_light_skin_tone": "👨🏼‍❤️‍💋‍👩🏻",
 };
