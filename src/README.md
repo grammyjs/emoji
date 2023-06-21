@@ -1,11 +1,12 @@
 # grammY Emoji
 
-Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
+Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY).
+Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
 
 ## Installation
 
 ```ts
-import {...} from "https://deno.land/x/grammy_emoji/mod.ts";
+import {/* ... */} from "https://deno.land/x/grammy_emoji/mod.ts";
 ```
 
 ## Example Usage

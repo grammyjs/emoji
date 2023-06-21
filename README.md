@@ -1,6 +1,7 @@
 # grammY Emoji
 
-Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
+Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY).
+Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
 
 ## Installation
 
@@ -19,7 +20,7 @@ yarn add @grammyjs/emoji
 Using Deno:
 
 ```ts
-import {...} from "https://github.com/grammyjs/emoji/src/mod.ts";
+import {/* ... */} from "https://deno.land/x/grammy_emoji/mod.ts";
 ```
 
 ## Example Usage
