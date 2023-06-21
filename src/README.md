@@ -20,7 +20,8 @@ bot.command("ping", async (ctx) => {
 });
 
 bot.command("start", async (ctx) => {
-    await ctx.replyWithEmoji`Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
+    await ctx
+        .replyWithEmoji`Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
     // > Welcome to my bot! 😀
 });
 ```
