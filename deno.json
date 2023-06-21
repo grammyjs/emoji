@@ -1,26 +1,20 @@
 {
     "fmt": {
-        "options": {
-            "indentWidth": 4,
-            "proseWrap": "preserve"
-        },
-        "files": {
-            "exclude": [
-                "./node_modules/",
-                "./out/",
-                "./package-lock.json",
-                "./bundling/bundles"
-            ]
-        }
+        "indentWidth": 4,
+        "proseWrap": "preserve",
+        "exclude": [
+            "./node_modules/",
+            "./out/",
+            "./package-lock.json",
+            "./bundling/bundles"
+        ]
     },
     "lint": {
-        "files": {
-            "exclude": [
-                "./node_modules/",
-                "./out/",
-                "./package-lock.json",
-                "./bundling/bundles"
-            ]
-        }
+        "exclude": [
+            "./node_modules/",
+            "./out/",
+            "./package-lock.json",
+            "./bundling/bundles"
+        ]
     }
 }
