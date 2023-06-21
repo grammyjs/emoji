@@ -6,11 +6,11 @@ interface Emoji {
 }
 
 type EmojiList = typeof emojis;
-type EmojiName = keyof EmojiList;
+type EmojiName = keyof EmojiList | (string & {});
 
-function getEmoji(name: EmojiName): Emoji | undefined {
-    const emoji = emojis[name];
-    return emoji ? { name, emoji } : undefined;
+function getEmoji(name: EmojiName): Emoji | string {
+    const emoji = emojis[name as keyof EmojiList];
+    return emoji ? { name, emoji } : name;
 }
 
 export default getEmoji;
