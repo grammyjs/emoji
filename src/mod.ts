@@ -34,13 +34,11 @@ export type EmojiFlavor<C extends Context = Context> = C & {
 
 function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
     return string.reduce((acc, str, index) => {
-        // ! the number of elements in `string` is 1 more than in `emojis`,
-        // ! so we will look for `undefined` emoji, which does not make sense,
-        // ! so we exit the loop early.
+        // The number of elements in `string` is 1 more than in `emojis`, therefore
+        // we will be looking for an `undefined` emoji, which does not make sense,
+        // so we exit the loop early.
         if (index === string.length - 1) return acc + str;
         const emoji = getEmoji(emojis[index]);
-        // ! `emoji` can be a string type if it's a custom value
-        // ! or an object if it's an emoji
         return acc + str + (typeof emoji === "string" ? emoji : emoji.emoji);
     }, "");
 }
@@ -58,7 +56,6 @@ export function emojiParser<C extends EmojiFlavor>() {
 
 export function emoji(name: EmojiName): string {
     const emoji = getEmoji(name);
-    // ! `emoji` can be a string type if it's a custom value
-    // ! or an object if it's an emoji
+    // `emoji` will be `name` if an emoji with that name doesn't exist.
     return typeof emoji === "string" ? emoji : emoji.emoji;
 }
