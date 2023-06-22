@@ -1,11 +1,12 @@
 # grammY Emoji
 
-Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY). Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
+Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY).
+Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
 
 ## Installation
 
 ```ts
-import {...} from "https://deno.land/x/grammy_emoji/mod.ts";
+import {/* ... */} from "https://deno.land/x/grammy_emoji/mod.ts";
 ```
 
 ## Example Usage
@@ -20,7 +21,8 @@ bot.command("ping", async (ctx) => {
 });
 
 bot.command("start", async (ctx) => {
-    await ctx.replyWithEmoji`Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
+    await ctx
+        .replyWithEmoji`Welcome to my bot! ${"grinning_face_with_big_eyes"}`;
     // > Welcome to my bot! 😀
 });
 ```

@@ -6,6 +6,7 @@ interface Emoji {
 }
 
 type EmojiList = typeof emojis;
+// deno-lint-ignore ban-types
 type EmojiName = keyof EmojiList | (string & {});
 
 function getEmoji(name: EmojiName): Emoji | string {
