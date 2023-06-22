@@ -1,6 +1,8 @@
 import { Context, NextFunction } from "./deps.deno.ts";
-import getEmoji from "./emoji.ts";
-import type { EmojiName } from "./emoji.ts";
+import emojis from "./emojidata.ts";
+
+type EmojiList = typeof emojis;
+type EmojiName = keyof EmojiList | (string & Record<never, never>);
 
 export type EmojiFlavor<C extends Context = Context> = C & {
     /**
@@ -32,14 +34,15 @@ export type EmojiFlavor<C extends Context = Context> = C & {
     ) => ReturnType<C["reply"]>;
 };
 
-function withEmoji(string: TemplateStringsArray, ...emojis: EmojiName[]) {
-    return string.reduce((acc, str, index) => {
-        // The number of elements in `string` is 1 more than in `emojis`, therefore
-        // we will be looking for an `undefined` emoji, which does not make sense,
-        // so we exit the loop early.
-        if (index === string.length - 1) return acc + str;
-        const emoji = getEmoji(emojis[index]);
-        return acc + str + (typeof emoji === "string" ? emoji : emoji.emoji);
+function getEmoji(name: EmojiName) {
+    const emoji = emojis[name as keyof EmojiList];
+    return emoji || name;
+}
+
+function withEmoji(text: TemplateStringsArray, ...emojis: EmojiName[]) {
+    return text.reduce((acc, str, idx) => {
+        const emoji = getEmoji(emojis[idx] || "");
+        return acc + str + emoji;
     }, "");
 }
 
@@ -55,7 +58,5 @@ export function emojiParser<C extends EmojiFlavor>() {
 }
 
 export function emoji(name: EmojiName): string {
-    const emoji = getEmoji(name);
-    // `emoji` will be `name` if an emoji with that name doesn't exist.
-    return typeof emoji === "string" ? emoji : emoji.emoji;
+    return getEmoji(name);
 }
