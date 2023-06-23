@@ -34,15 +34,13 @@ export type EmojiFlavor<C extends Context = Context> = C & {
     ) => ReturnType<C["reply"]>;
 };
 
-function getEmoji(name: EmojiName) {
-    const emoji = emojis[name as keyof EmojiList];
-    return emoji || name;
+export function emoji(name: EmojiName) {
+    return emojis[name as keyof EmojiList] ?? name;
 }
 
 function withEmoji(text: TemplateStringsArray, ...emojis: EmojiName[]) {
     return text.reduce((acc, str, idx) => {
-        const emoji = getEmoji(emojis[idx] || "");
-        return acc + str + emoji;
+        return acc + str + emoji(emojis[idx] ?? "");
     }, "");
 }
 
@@ -55,8 +53,4 @@ export function emojiParser<C extends EmojiFlavor>() {
         ) => ctx.reply(withEmoji(text, ...emojis));
         await next();
     };
-}
-
-export function emoji(name: EmojiName): string {
-    return getEmoji(name);
 }
