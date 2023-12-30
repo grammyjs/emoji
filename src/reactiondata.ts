@@ -71,5 +71,5 @@ export default {
     man_shrugging: "🤷‍♂",
     person_shrugging: "🤷",
     woman_shrugging: "🤷‍♀",
-    pouting_face: "😡",
+    enraged_face: "😡",
 } as const;
