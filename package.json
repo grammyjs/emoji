@@ -6,7 +6,8 @@
     "main": "./out/mod.js",
     "type": "commonjs",
     "scripts": {
-        "build": "deno2node tsconfig.json"
+        "build": "deno2node tsconfig.json",
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
