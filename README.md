@@ -1,11 +1,11 @@
-# grammY Emoji
+# grammY emoji
 
 Adds emoji parsing for [grammY](https://github.com/grammyjs/grammY).
 Check out the [official documentation](https://grammy.dev/plugins/emoji.html) to learn more about this plugin.
 
 ## Installation
 
-Using NPM:
+Using npm:
 
 ```bash
 npm install @grammyjs/emoji
@@ -23,7 +23,7 @@ Using Deno:
 import {/* ... */} from "https://deno.land/x/grammy_emoji/mod.ts";
 ```
 
-## Example Usage
+## Usage
 
 ```ts
 import { Bot, Context } from "grammy";
@@ -51,6 +51,6 @@ bot.command("start", async (ctx) => {
 bot.start();
 ```
 
-## Pull Requests
+## Contribute
 
 Contributions are more than welcome! Just make sure if there is already a similar PR, so you can contribute from there.
