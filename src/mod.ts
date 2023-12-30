@@ -54,3 +54,5 @@ export function emojiParser<C extends EmojiFlavor>() {
         await next();
     };
 }
+
+export { default as Reactions } from "./reactiondata.ts";
